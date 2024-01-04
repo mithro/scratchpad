@@ -1,0 +1,25 @@
+Warning: bazel-out/k8-fastbuild/bin/external/com_google_skywater_pdk_sky130_fd_sc_hd/timing/sky130_fd_sc_hd__ff_100C_1v95.lib line 23, default_fanout_load is 0.0.
+Startpoint: mod.b0_$_DFF_P__Q (rising edge-triggered flip-flop)
+Endpoint: x7_$_DFF_P__Q (rising edge-triggered flip-flop)
+Path Group: unconstrained
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ mod.b0_$_DFF_P__Q/CLK (sky130_fd_sc_hd__dfxtp_1)
+   0.31    0.31 ^ mod.b0_$_DFF_P__Q/Q (sky130_fd_sc_hd__dfxtp_1)
+   0.05    0.36 v mod.x[3]_sky130_fd_sc_hd__nor2_1_Y_B_sky130_fd_sc_hd__nor2_1_Y_B_sky130_fd_sc_hd__xnor3_1_X_C_sky130_fd_sc_hd__xor3_1_X_C_sky130_fd_sc_hd__nand2_2_Y/Y (sky130_fd_sc_hd__nand2_2)
+   0.20    0.56 v mod.x[3]_sky130_fd_sc_hd__nor2_1_Y_B_sky130_fd_sc_hd__nor2_1_Y_B_sky130_fd_sc_hd__xnor3_1_X_C_sky130_fd_sc_hd__xor3_1_X_A_sky130_fd_sc_hd__maj3_4_A/X (sky130_fd_sc_hd__maj3_4)
+   0.19    0.75 v mod.a[5]_sky130_fd_sc_hd__nand2_1_B_1_Y_sky130_fd_sc_hd__xor3_1_A_X_sky130_fd_sc_hd__xnor3_2_B_X_sky130_fd_sc_hd__xor2_2_A_B_sky130_fd_sc_hd__a211oi_2_Y_A2_sky130_fd_sc_hd__maj3_2_X/X (sky130_fd_sc_hd__maj3_2)
+   0.17    0.92 ^ mod.a[5]_sky130_fd_sc_hd__nand2_1_B_1_Y_sky130_fd_sc_hd__xor3_1_A_X_sky130_fd_sc_hd__xnor3_2_B_X_sky130_fd_sc_hd__xor2_2_A_B_sky130_fd_sc_hd__a211oi_2_Y/Y (sky130_fd_sc_hd__a211oi_2)
+   0.17    1.09 ^ mod.a[5]_sky130_fd_sc_hd__nand2_1_B_1_Y_sky130_fd_sc_hd__xor3_1_A_X_sky130_fd_sc_hd__xnor3_2_B_X_sky130_fd_sc_hd__xor2_2_A/X (sky130_fd_sc_hd__xor2_2)
+   0.13    1.22 ^ mod.x[7]_sky130_fd_sc_hd__xnor2_1_Y_A_sky130_fd_sc_hd__nor4_2_Y_A_sky130_fd_sc_hd__nand4_1_Y_A_sky130_fd_sc_hd__a311o_2_X/X (sky130_fd_sc_hd__a311o_2)
+   0.06    1.27 v mod.x[7]_sky130_fd_sc_hd__xnor2_1_Y_A_sky130_fd_sc_hd__nor4_2_Y_A_sky130_fd_sc_hd__nand4_1_Y/Y (sky130_fd_sc_hd__nand4_1)
+   0.18    1.45 ^ mod.x[7]_sky130_fd_sc_hd__xnor2_1_Y_A_sky130_fd_sc_hd__nor4_2_Y/Y (sky130_fd_sc_hd__nor4_2)
+   0.08    1.53 ^ mod.x[7]_sky130_fd_sc_hd__xnor2_1_Y/Y (sky130_fd_sc_hd__xnor2_1)
+   0.00    1.53 ^ x7_$_DFF_P__Q/D (sky130_fd_sc_hd__dfxtp_1)
+           1.53   data arrival time
+---------------------------------------------------------
+(Path is unconstrained)
+
+

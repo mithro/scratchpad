@@ -1,0 +1,38 @@
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-nofa_SS.lib line 2847013, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-nofa_SS.lib line 2847489, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-nofa_SS.lib line 2847965, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-nofa_SS.lib line 2848441, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-nofa_SS.lib line 2848917, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-nofa_SS.lib line 2850333, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-nofa_SS.lib line 2846532, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-nofa_SS.lib line 2847008, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-nofa_SS.lib line 2847484, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-nofa_SS.lib line 2847960, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-nofa_SS.lib line 2848436, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-nofa_SS.lib line 2848912, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-nofa_SS.lib line 2849388, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-nofa_SS.lib line 2857776, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-nofa_SS.lib line 2859192, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-nofa_SS.lib line 2857295, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-nofa_SS.lib line 2857771, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-nofa_SS.lib line 2858247, timing group from output port.
+Startpoint: mod.b2_$_DFF_P__Q (rising edge-triggered flip-flop)
+Endpoint: x7_$_DFF_P__Q (rising edge-triggered flip-flop)
+Path Group: unconstrained
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ mod.b2_$_DFF_P__Q/CLK (DFFHQNx1_ASAP7_75t_L)
+  63.45   63.45 ^ mod.b2_$_DFF_P__Q/QN (DFFHQNx1_ASAP7_75t_L)
+  44.86  108.31 v mod.a2_$_DFF_P__Q_QN_XNOR2x2_ASAP7_75t_L_A/Y (XNOR2x2_ASAP7_75t_L)
+  32.71  141.01 v mod.x[3]_XOR2x2_ASAP7_75t_L_Y_A_OR2x2_ASAP7_75t_L_A/Y (OR2x2_ASAP7_75t_L)
+  37.50  178.52 v mod.b3_$_DFF_P__Q_QN_AND2x2_ASAP7_75t_L_A_Y_OA22x2_ASAP7_75t_L_A1/Y (OA22x2_ASAP7_75t_L)
+  42.14  220.66 v mod.x[7]_OR4x2_ASAP7_75t_L_Y_A_OA221x2_ASAP7_75t_L_Y/Y (OA221x2_ASAP7_75t_L)
+  44.12  264.77 v mod.x[7]_OR4x2_ASAP7_75t_L_Y/Y (OR4x2_ASAP7_75t_L)
+   0.00  264.77 v x7_$_DFF_P__Q/D (DFFHQNx1_ASAP7_75t_L)
+         264.77   data arrival time
+---------------------------------------------------------
+(Path is unconstrained)
+
+

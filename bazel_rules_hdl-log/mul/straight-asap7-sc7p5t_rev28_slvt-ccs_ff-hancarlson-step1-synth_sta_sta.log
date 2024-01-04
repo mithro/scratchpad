@@ -1,0 +1,47 @@
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ff-hancarlson_FF.lib line 2847013, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ff-hancarlson_FF.lib line 2847489, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ff-hancarlson_FF.lib line 2847965, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ff-hancarlson_FF.lib line 2848441, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ff-hancarlson_FF.lib line 2848917, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ff-hancarlson_FF.lib line 2850333, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ff-hancarlson_FF.lib line 2846532, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ff-hancarlson_FF.lib line 2847008, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ff-hancarlson_FF.lib line 2847484, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ff-hancarlson_FF.lib line 2847960, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ff-hancarlson_FF.lib line 2848436, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ff-hancarlson_FF.lib line 2848912, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ff-hancarlson_FF.lib line 2849388, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ff-hancarlson_FF.lib line 2857776, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ff-hancarlson_FF.lib line 2859192, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ff-hancarlson_FF.lib line 2857295, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ff-hancarlson_FF.lib line 2857771, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ff-hancarlson_FF.lib line 2858247, timing group from output port.
+Startpoint: mod.b0_$_DFF_P__Q (rising edge-triggered flip-flop)
+Endpoint: x7_$_DFF_P__Q (rising edge-triggered flip-flop)
+Path Group: unconstrained
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ mod.b0_$_DFF_P__Q/CLK (DFFHQNx1_ASAP7_75t_SL)
+  45.75   45.75 ^ mod.b0_$_DFF_P__Q/QN (DFFHQNx1_ASAP7_75t_SL)
+  12.50   58.25 v mod.x6_$_XNOR__Y_B_$_XOR__Y_B_$_XOR__Y_B_$_XNOR__Y_B_$_XOR__Y_B_$_XOR__Y_B_$_XOR__Y_A_$_ANDNOT__Y_A_HAxp5_ASAP7_75t_SL_CON_B_NOR2x2_ASAP7_75t_SL_Y/Y (NOR2x2_ASAP7_75t_SL)
+  45.92  104.17 ^ mod.x5_$_XOR__Y_B_$_XOR__Y_B_$_XOR__Y_A_$_XOR__Y_B_$_XNOR__Y_A_$_XOR__Y_B_FAx1_ASAP7_75t_SL_SN/SN (FAx1_ASAP7_75t_SL)
+  46.03  150.20 v mod.x6_$_XNOR__Y_B_$_XOR__Y_B_$_XOR__Y_B_$_XNOR__Y_B_$_XOR__Y_A_FAx1_ASAP7_75t_SL_CON/SN (FAx1_ASAP7_75t_SL)
+  10.02  160.22 ^ mod.x5_$_XOR__Y_B_$_XOR__Y_B_$_XOR__Y_A_$_XOR__Y_B_INVx2_ASAP7_75t_SL_A/Y (INVx2_ASAP7_75t_SL)
+  25.66  185.88 v mod.x6_$_XNOR__Y_B_$_XOR__Y_B_HAxp5_ASAP7_75t_SL_SN_B_FAx1_ASAP7_75t_SL_CON/SN (FAx1_ASAP7_75t_SL)
+  26.06  211.94 v mod.x6_$_XNOR__Y_B_$_XOR__Y_A_HAxp5_ASAP7_75t_SL_CON/SN (HAxp5_ASAP7_75t_SL)
+   7.37  219.32 ^ mod.x6_$_XNOR__Y_B_$_XOR__Y_A_HAxp5_ASAP7_75t_SL_CON_SN_INVx2_ASAP7_75t_SL_A/Y (INVx2_ASAP7_75t_SL)
+   9.29  228.61 v mod.x6_$_XNOR__Y_A_HAxp5_ASAP7_75t_SL_CON/CON (HAxp5_ASAP7_75t_SL)
+   8.97  237.58 ^ mod.x6_$_XNOR__Y_A_INVx2_ASAP7_75t_SL_A/Y (INVx2_ASAP7_75t_SL)
+  11.90  249.49 v mod.x[6]_FAx1_ASAP7_75t_SL_SN/CON (FAx1_ASAP7_75t_SL)
+  17.11  266.60 ^ mod.x7_$_XOR__Y_A_XNOR2x2_ASAP7_75t_SL_B/Y (XNOR2x2_ASAP7_75t_SL)
+  17.79  284.39 v mod.x7_$_XOR__Y_A_XNOR2x2_ASAP7_75t_SL_B_Y_XNOR2x2_ASAP7_75t_SL_B/Y (XNOR2x2_ASAP7_75t_SL)
+  14.83  299.23 ^ mod.x[7]_XNOR2x2_ASAP7_75t_SL_Y_B_XNOR2x2_ASAP7_75t_SL_Y/Y (XNOR2x2_ASAP7_75t_SL)
+  17.02  316.24 v mod.x[7]_XNOR2x2_ASAP7_75t_SL_Y/Y (XNOR2x2_ASAP7_75t_SL)
+   0.00  316.24 v x7_$_DFF_P__Q/D (DFFHQNx1_ASAP7_75t_SL)
+         316.24   data arrival time
+---------------------------------------------------------
+(Path is unconstrained)
+
+

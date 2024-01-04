@@ -1,0 +1,34 @@
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ss-hancarlson_SS.lib line 2847013, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ss-hancarlson_SS.lib line 2847489, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ss-hancarlson_SS.lib line 2847965, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ss-hancarlson_SS.lib line 2848441, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ss-hancarlson_SS.lib line 2848917, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ss-hancarlson_SS.lib line 2850333, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ss-hancarlson_SS.lib line 2846532, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ss-hancarlson_SS.lib line 2847008, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ss-hancarlson_SS.lib line 2847484, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ss-hancarlson_SS.lib line 2847960, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ss-hancarlson_SS.lib line 2848436, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ss-hancarlson_SS.lib line 2848912, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ss-hancarlson_SS.lib line 2849388, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ss-hancarlson_SS.lib line 2857776, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ss-hancarlson_SS.lib line 2859192, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ss-hancarlson_SS.lib line 2857295, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ss-hancarlson_SS.lib line 2857771, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_ss-hancarlson_SS.lib line 2858247, timing group from output port.
+Startpoint: mod.b0_$_DFF_P__Q (rising edge-triggered flip-flop)
+Endpoint: x0_$_DFF_P__Q (rising edge-triggered flip-flop)
+Path Group: unconstrained
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ mod.b0_$_DFF_P__Q/CLK (DFFHQNx1_ASAP7_75t_SL)
+  48.23   48.23 ^ mod.b0_$_DFF_P__Q/QN (DFFHQNx1_ASAP7_75t_SL)
+  11.15   59.38 v mod.x[0]_NOR2x2_ASAP7_75t_SL_Y/Y (NOR2x2_ASAP7_75t_SL)
+   0.00   59.38 v x0_$_DFF_P__Q/D (DFFHQNx1_ASAP7_75t_SL)
+          59.38   data arrival time
+---------------------------------------------------------
+(Path is unconstrained)
+
+

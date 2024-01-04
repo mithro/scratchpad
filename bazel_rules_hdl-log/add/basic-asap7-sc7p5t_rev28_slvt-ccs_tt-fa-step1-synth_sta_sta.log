@@ -1,0 +1,40 @@
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_tt-fa_TT.lib line 2847109, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_tt-fa_TT.lib line 2847585, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_tt-fa_TT.lib line 2848061, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_tt-fa_TT.lib line 2848537, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_tt-fa_TT.lib line 2849013, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_tt-fa_TT.lib line 2850429, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_tt-fa_TT.lib line 2846628, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_tt-fa_TT.lib line 2847104, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_tt-fa_TT.lib line 2847580, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_tt-fa_TT.lib line 2848056, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_tt-fa_TT.lib line 2848532, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_tt-fa_TT.lib line 2849008, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_tt-fa_TT.lib line 2849484, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_tt-fa_TT.lib line 2857874, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_tt-fa_TT.lib line 2859290, when attribute inside table model.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_tt-fa_TT.lib line 2857393, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_tt-fa_TT.lib line 2857869, timing group from output port.
+Warning: bazel-out/k8-fastbuild/bin/external/org_theopenroadproject_asap7sc7p5t_28/asap7-sc7p5t_rev28_slvt-ccs_tt-fa_TT.lib line 2858345, timing group from output port.
+Startpoint: mod.a3_$_DFF_P__Q (rising edge-triggered flip-flop)
+Endpoint: x7_$_DFF_P__Q (rising edge-triggered flip-flop)
+Path Group: unconstrained
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ mod.a3_$_DFF_P__Q/CLK (DFFHQNx1_ASAP7_75t_SL)
+  30.06   30.06 v mod.a3_$_DFF_P__Q/QN (DFFHQNx1_ASAP7_75t_SL)
+   5.76   35.83 ^ mod.a[3]_INVx2_ASAP7_75t_SL_Y/Y (INVx2_ASAP7_75t_SL)
+  49.13   84.96 ^ mod.b[3]_HAxp5_ASAP7_75t_SL_A/SN (HAxp5_ASAP7_75t_SL)
+  10.97   95.92 v mod.x2_$_XNOR__Y_B_NOR2x2_ASAP7_75t_SL_B/Y (NOR2x2_ASAP7_75t_SL)
+  29.44  125.36 v mod.x2_$_XNOR__Y_A_AO221x2_ASAP7_75t_SL_B1/Y (AO221x2_ASAP7_75t_SL)
+  21.35  146.71 v mod.x4_$_XOR__Y_B_NOR2x2_ASAP7_75t_SL_B_Y_AO21x2_ASAP7_75t_SL_A2/Y (AO21x2_ASAP7_75t_SL)
+  16.57  163.28 ^ mod.x[6]_FAx1_ASAP7_75t_SL_SN/CON (FAx1_ASAP7_75t_SL)
+  24.72  188.00 v mod.x[7]_XNOR2x2_ASAP7_75t_SL_Y/Y (XNOR2x2_ASAP7_75t_SL)
+   0.00  188.00 v x7_$_DFF_P__Q/D (DFFHQNx1_ASAP7_75t_SL)
+         188.00   data arrival time
+---------------------------------------------------------
+(Path is unconstrained)
+
+

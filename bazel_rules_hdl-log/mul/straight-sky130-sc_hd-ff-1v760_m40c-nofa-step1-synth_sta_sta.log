@@ -1,0 +1,25 @@
+Warning: bazel-out/k8-fastbuild/bin/external/com_google_skywater_pdk_sky130_fd_sc_hd/timing/sky130_fd_sc_hd__ff_n40C_1v76.lib line 23, default_fanout_load is 0.0.
+Startpoint: mod.b0_$_DFF_P__Q (rising edge-triggered flip-flop)
+Endpoint: x7_$_DFF_P__Q (rising edge-triggered flip-flop)
+Path Group: unconstrained
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ mod.b0_$_DFF_P__Q/CLK (sky130_fd_sc_hd__dfxtp_1)
+   0.33    0.33 ^ mod.b0_$_DFF_P__Q/Q (sky130_fd_sc_hd__dfxtp_1)
+   0.06    0.39 v mod.x[0]_sky130_fd_sc_hd__o21ai_0_B1_A1_sky130_fd_sc_hd__xnor3_2_C_A_sky130_fd_sc_hd__nand2_1_Y/Y (sky130_fd_sc_hd__nand2_1)
+   0.32    0.71 v mod.x[0]_sky130_fd_sc_hd__o21ai_0_B1_A1_sky130_fd_sc_hd__xnor3_2_C/X (sky130_fd_sc_hd__xnor3_2)
+   0.32    1.04 ^ mod.x[4]_sky130_fd_sc_hd__xnor2_1_Y_B_sky130_fd_sc_hd__xnor2_1_Y_B_sky130_fd_sc_hd__xor3_2_X/X (sky130_fd_sc_hd__xor3_2)
+   0.04    1.07 v mod.x[3]_sky130_fd_sc_hd__nor2_1_Y_A_sky130_fd_sc_hd__a21o_1_A1_A2_sky130_fd_sc_hd__nand2_1_Y/Y (sky130_fd_sc_hd__nand2_1)
+   0.18    1.25 v mod.x[3]_sky130_fd_sc_hd__nor2_1_Y_A_sky130_fd_sc_hd__a21o_1_A1/X (sky130_fd_sc_hd__a21o_1)
+   0.18    1.43 v mod.x[7]_sky130_fd_sc_hd__xnor2_1_Y_A_sky130_fd_sc_hd__nor4_2_Y_B_sky130_fd_sc_hd__and3_1_X_C_sky130_fd_sc_hd__a21o_2_X/X (sky130_fd_sc_hd__a21o_2)
+   0.14    1.57 v mod.x[7]_sky130_fd_sc_hd__xnor2_1_Y_A_sky130_fd_sc_hd__nor4_2_Y_B_sky130_fd_sc_hd__and3_1_X/X (sky130_fd_sc_hd__and3_1)
+   0.21    1.78 ^ mod.x[7]_sky130_fd_sc_hd__xnor2_1_Y_A_sky130_fd_sc_hd__nor4_2_Y/Y (sky130_fd_sc_hd__nor4_2)
+   0.09    1.88 ^ mod.x[7]_sky130_fd_sc_hd__xnor2_1_Y/Y (sky130_fd_sc_hd__xnor2_1)
+   0.00    1.88 ^ x7_$_DFF_P__Q/D (sky130_fd_sc_hd__dfxtp_1)
+           1.88   data arrival time
+---------------------------------------------------------
+(Path is unconstrained)
+
+
