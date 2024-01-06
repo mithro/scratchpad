@@ -1,0 +1,177 @@
+[INFO ORD-0030] Using 256 thread(s).
+[WARNING STA-0130] blaze-out/k8-fastbuild/bin/third_party/hardware/Asu_asap7/asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-opt_SS.lib line 2847013, when attribute inside table model.
+[WARNING STA-0130] blaze-out/k8-fastbuild/bin/third_party/hardware/Asu_asap7/asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-opt_SS.lib line 2847489, when attribute inside table model.
+[WARNING STA-0130] blaze-out/k8-fastbuild/bin/third_party/hardware/Asu_asap7/asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-opt_SS.lib line 2847965, when attribute inside table model.
+[WARNING STA-0130] blaze-out/k8-fastbuild/bin/third_party/hardware/Asu_asap7/asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-opt_SS.lib line 2848441, when attribute inside table model.
+[WARNING STA-0130] blaze-out/k8-fastbuild/bin/third_party/hardware/Asu_asap7/asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-opt_SS.lib line 2848917, when attribute inside table model.
+[WARNING STA-0130] blaze-out/k8-fastbuild/bin/third_party/hardware/Asu_asap7/asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-opt_SS.lib line 2850333, when attribute inside table model.
+[WARNING STA-0164] blaze-out/k8-fastbuild/bin/third_party/hardware/Asu_asap7/asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-opt_SS.lib line 2846532, timing group from output port.
+[WARNING STA-0164] blaze-out/k8-fastbuild/bin/third_party/hardware/Asu_asap7/asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-opt_SS.lib line 2847008, timing group from output port.
+[WARNING STA-0164] blaze-out/k8-fastbuild/bin/third_party/hardware/Asu_asap7/asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-opt_SS.lib line 2847484, timing group from output port.
+[WARNING STA-0164] blaze-out/k8-fastbuild/bin/third_party/hardware/Asu_asap7/asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-opt_SS.lib line 2847960, timing group from output port.
+[WARNING STA-0164] blaze-out/k8-fastbuild/bin/third_party/hardware/Asu_asap7/asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-opt_SS.lib line 2848436, timing group from output port.
+[WARNING STA-0164] blaze-out/k8-fastbuild/bin/third_party/hardware/Asu_asap7/asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-opt_SS.lib line 2848912, timing group from output port.
+[WARNING STA-0164] blaze-out/k8-fastbuild/bin/third_party/hardware/Asu_asap7/asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-opt_SS.lib line 2849388, timing group from output port.
+[WARNING STA-0130] blaze-out/k8-fastbuild/bin/third_party/hardware/Asu_asap7/asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-opt_SS.lib line 2857776, when attribute inside table model.
+[WARNING STA-0130] blaze-out/k8-fastbuild/bin/third_party/hardware/Asu_asap7/asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-opt_SS.lib line 2859192, when attribute inside table model.
+[WARNING STA-0164] blaze-out/k8-fastbuild/bin/third_party/hardware/Asu_asap7/asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-opt_SS.lib line 2857295, timing group from output port.
+[WARNING STA-0164] blaze-out/k8-fastbuild/bin/third_party/hardware/Asu_asap7/asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-opt_SS.lib line 2857771, timing group from output port.
+[WARNING STA-0164] blaze-out/k8-fastbuild/bin/third_party/hardware/Asu_asap7/asap7sc7p5t_28/asap7-sc7p5t_rev28_lvt-ccs_ss-opt_SS.lib line 2858247, timing group from output port.
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: 54 270
+[INFO GPL-0004] CoreAreaLxLy: 2052 2160
+[INFO GPL-0005] CoreAreaUxUy: 397980 397980
+[INFO GPL-0006] NumInstances: 11086
+[INFO GPL-0007] NumPlaceInstances: 76
+[INFO GPL-0008] NumFixedInstances: 11010
+[INFO GPL-0009] NumDummyInstances: 0
+[INFO GPL-0010] NumNets: 106
+[INFO GPL-0011] NumPins: 245
+[INFO GPL-0012] DieAreaLxLy: 0 0
+[INFO GPL-0013] DieAreaUxUy: 400000 400000
+[INFO GPL-0014] CoreAreaLxLy: 2052 2160
+[INFO GPL-0015] CoreAreaUxUy: 397980 397980
+[INFO GPL-0016] CoreArea: 156716220960
+[INFO GPL-0017] NonPlaceInstsArea: 321051600
+[INFO GPL-0018] PlaceInstsArea: 16475400
+[INFO GPL-0019] Util(%): 0.01
+[INFO GPL-0020] StdInstsArea: 16475400
+[INFO GPL-0021] MacroInstsArea: 0
+[InitialPlace]  Iter: 1 CG residual: 0.00000008 HPWL: 5091006
+[InitialPlace]  Iter: 2 CG residual: 0.00000009 HPWL: 120605
+[InitialPlace]  Iter: 3 CG residual: 0.00000009 HPWL: 119878
+[InitialPlace]  Iter: 4 CG residual: 0.00000010 HPWL: 120208
+[InitialPlace]  Iter: 5 CG residual: 0.00000012 HPWL: 119924
+[INFO GPL-0031] FillerInit: NumGCells: 476589
+[INFO GPL-0032] FillerInit: NumGNets: 106
+[INFO GPL-0033] FillerInit: NumGPins: 245
+[INFO GPL-0023] TargetDensity: 0.65
+[INFO GPL-0024] AveragePlaceInstArea: 216781
+[INFO GPL-0025] IdealBinArea: 333509
+[INFO GPL-0026] IdealBinCnt: 469901
+[INFO GPL-0027] TotalBinArea: 156716220960
+[INFO GPL-0028] BinCnt: 512 512
+[INFO GPL-0029] BinSize: 774 774
+[INFO GPL-0030] NumBins: 262144
+[NesterovSolve] Iter: 1 overflow: 0.810095 HPWL: 105867
+[NesterovSolve] Iter: 10 overflow: 0.820085 HPWL: 94304
+[NesterovSolve] Iter: 20 overflow: 0.824678 HPWL: 94422
+[NesterovSolve] Iter: 30 overflow: 0.824542 HPWL: 94428
+[NesterovSolve] Iter: 40 overflow: 0.823795 HPWL: 94389
+[NesterovSolve] Iter: 50 overflow: 0.823964 HPWL: 94393
+[NesterovSolve] Iter: 60 overflow: 0.824244 HPWL: 94406
+[NesterovSolve] Iter: 70 overflow: 0.824184 HPWL: 94401
+[NesterovSolve] Iter: 80 overflow: 0.82404 HPWL: 94394
+[NesterovSolve] Iter: 90 overflow: 0.824048 HPWL: 94394
+[NesterovSolve] Iter: 100 overflow: 0.824148 HPWL: 94408
+[NesterovSolve] Iter: 110 overflow: 0.824116 HPWL: 94389
+[NesterovSolve] Iter: 120 overflow: 0.824049 HPWL: 94394
+[NesterovSolve] Iter: 130 overflow: 0.824061 HPWL: 94398
+[NesterovSolve] Iter: 140 overflow: 0.823857 HPWL: 94528
+[NesterovSolve] Iter: 150 overflow: 0.823485 HPWL: 94733
+[NesterovSolve] Iter: 160 overflow: 0.822665 HPWL: 95065
+[NesterovSolve] Iter: 170 overflow: 0.821235 HPWL: 96105
+[NesterovSolve] Iter: 180 overflow: 0.818858 HPWL: 98153
+[NesterovSolve] Iter: 190 overflow: 0.813889 HPWL: 102188
+[NesterovSolve] Iter: 200 overflow: 0.801569 HPWL: 109133
+[INFO GPL-0100] worst slack -3.04e-10
+[INFO GPL-0103] Weighted 10 nets.
+[NesterovSolve] Iter: 210 overflow: 0.778504 HPWL: 120376
+[NesterovSolve] Iter: 220 overflow: 0.795292 HPWL: 119905
+[NesterovSolve] Iter: 230 overflow: 0.789534 HPWL: 125225
+[NesterovSolve] Iter: 240 overflow: 0.788708 HPWL: 125518
+[NesterovSolve] Iter: 250 overflow: 0.799224 HPWL: 116162
+[NesterovSolve] Iter: 260 overflow: 0.805464 HPWL: 111486
+[NesterovSolve] Iter: 270 overflow: 0.781437 HPWL: 134318
+[NesterovSolve] Iter: 280 overflow: 0.799579 HPWL: 120572
+[NesterovSolve] Iter: 290 overflow: 0.740121 HPWL: 139027
+[NesterovSolve] Iter: 300 overflow: 0.736917 HPWL: 129545
+[NesterovSolve] Iter: 310 overflow: 0.704755 HPWL: 138381
+[NesterovSolve] Iter: 320 overflow: 0.654693 HPWL: 147752
+[INFO GPL-0100] worst slack -3.17e-10
+[INFO GPL-0103] Weighted 10 nets.
+[NesterovSolve] Iter: 330 overflow: 0.603386 HPWL: 154877
+[NesterovSolve] Snapshot saved at iter = 331
+[NesterovSolve] Iter: 340 overflow: 0.555621 HPWL: 160538
+[NesterovSolve] Iter: 350 overflow: 0.505209 HPWL: 171158
+[INFO GPL-0100] worst slack -3.2e-10
+[INFO GPL-0103] Weighted 9 nets.
+[NesterovSolve] Iter: 360 overflow: 0.458005 HPWL: 184316
+[NesterovSolve] Iter: 370 overflow: 0.407794 HPWL: 209822
+[NesterovSolve] Iter: 380 overflow: 0.352861 HPWL: 251919
+[INFO GPL-0100] worst slack -3.57e-10
+[INFO GPL-0103] Weighted 9 nets.
+[NesterovSolve] Iter: 390 overflow: 0.271344 HPWL: 310902
+[NesterovSolve] Iter: 400 overflow: 0.291479 HPWL: 196700
+[NesterovSolve] Iter: 410 overflow: 0.237336 HPWL: 175036
+[INFO GPL-0100] worst slack -3.09e-10
+[INFO GPL-0103] Weighted 8 nets.
+[NesterovSolve] Iter: 420 overflow: 0.199044 HPWL: 171478
+[INFO GPL-0075] Routability numCall: 1 inflationIterCnt: 1 bloatIterCnt: 0
+[INFO GPL-0036] TileLxLy: 0 0
+[INFO GPL-0037] TileSize: 540 540
+[INFO GPL-0038] TileCnt: 740 740
+[INFO GPL-0039] numRoutingLayers: 10
+[INFO GPL-0040] NumTiles: 547600
+[INFO GPL-0063] TotalRouteOverflowH2: 0
+[INFO GPL-0064] TotalRouteOverflowV2: 0
+[INFO GPL-0065] OverflowTileCnt2: 0
+[INFO GPL-0066] 0.5%RC: 0.6834907193557065
+[INFO GPL-0067] 1.0%RC: 0.6293435713865326
+[INFO GPL-0068] 2.0%RC: 0.45867265697286264
+[INFO GPL-0069] 5.0%RC: 0.32193018325998385
+[INFO GPL-0070] 0.5rcK: 1
+[INFO GPL-0071] 1.0rcK: 1
+[INFO GPL-0072] 2.0rcK: 0
+[INFO GPL-0073] 5.0rcK: 0
+[INFO GPL-0074] FinalRC: 0.65641713
+[NesterovSolve] Iter: 430 overflow: 0.171052 HPWL: 171804
+[INFO GPL-0100] worst slack -3.09e-10
+[INFO GPL-0103] Weighted 10 nets.
+[NesterovSolve] Iter: 440 overflow: 0.13935 HPWL: 173312
+[NesterovSolve] Iter: 450 overflow: 0.104921 HPWL: 174877
+[NesterovSolve] Iter: 460 overflow: 0.107324 HPWL: 175871
+[NesterovSolve] Finished with Overflow: 0.099524
+
+CoreArea ((2052,2160) (397980,397980)) (395928 x 395820)
+
+
+DFF size is 1080 x 270
+
+
+
+ * Inputs  A on left edge
+ * Inputs  B on top edge
+ * Outputs X on right edge
+Placed on left edge mod.a0_$_DFF_P__Q @ (2052 61533)
+Placed on right x0_$_DFF_P__Q @ (396900 61533)
+Placed on top edge mod.b0_$_DFF_P__Q @ (61440 2160)
+
+Placed on left edge mod.a1_$_DFF_P__Q @ (2052 101115)
+Placed on right x1_$_DFF_P__Q @ (396900 101115)
+Placed on top edge mod.b1_$_DFF_P__Q @ (101032 2160)
+
+Placed on left edge mod.a2_$_DFF_P__Q @ (2052 140697)
+Placed on right x2_$_DFF_P__Q @ (396900 140697)
+Placed on top edge mod.b2_$_DFF_P__Q @ (140624 2160)
+
+Placed on left edge mod.a3_$_DFF_P__Q @ (2052 180279)
+Placed on right x3_$_DFF_P__Q @ (396900 180279)
+Placed on top edge mod.b3_$_DFF_P__Q @ (180216 2160)
+
+Placed on left edge mod.a4_$_DFF_P__Q @ (2052 219861)
+Placed on right x4_$_DFF_P__Q @ (396900 219861)
+Placed on top edge mod.b4_$_DFF_P__Q @ (219808 2160)
+
+Placed on left edge mod.a5_$_DFF_P__Q @ (2052 259443)
+Placed on right x5_$_DFF_P__Q @ (396900 259443)
+Placed on top edge mod.b5_$_DFF_P__Q @ (259400 2160)
+
+Placed on left edge mod.a6_$_DFF_P__Q @ (2052 299025)
+Placed on right x6_$_DFF_P__Q @ (396900 299025)
+Placed on top edge mod.b6_$_DFF_P__Q @ (298992 2160)
+
+Placed on left edge mod.a7_$_DFF_P__Q @ (2052 338607)
+Placed on right x7_$_DFF_P__Q @ (396900 338607)
+Placed on top edge mod.b7_$_DFF_P__Q @ (338584 2160)
+
