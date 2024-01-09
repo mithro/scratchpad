@@ -1,0 +1,620 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset=utf-8>
+
+  <meta name="robots" content="noindex">
+  <title>Appeared Symbol std::__1::vector<int, std::__1::allocator<int> >::__append(unsigned long, int const&)</title>
+  <link rel="stylesheet" href="../../css/elf_diff_general.css">
+  <script src="../../js/sorttable.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+<H4><span class="monospace"><a name="appeared_symbol_details_28"></a>Appeared symbol
+
+std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;::__append(unsigned long, int const&amp;)
+
+: size: 1021 bytes</span></H4>
+<span class="monospace">
+<p>
+Source:
+
+?
+
+</p>
+</span>
+<pre>
+push   %rbp
+mov    %rsp,%rbp
+push   %r15
+push   %r14
+push   %r13
+push   %r12
+push   %rbx
+sub    $0x18,%rsp
+mov    %rdx,%r15
+mov    %rsi,%r12
+mov    %rdi,%r10
+mov    0x8(%rdi),%rbx
+mov    0x10(%rdi),%r14
+mov    %r14,%rax
+sub    %rbx,%rax
+sar    $0x2,%rax
+cmp    %rsi,%rax
+jae    c4 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0xc4>
+mov    (%r10),%r11
+sub    %r11,%rbx
+mov    %rbx,%rdi
+sar    $0x2,%rdi
+lea    (%rdi,%r12,1),%rsi
+mov    %rsi,%rax
+shr    $0x3e,%rax
+jne    3eb <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x3eb>
+movabs $0x3fffffffffffffff,%rax
+sub    %r11,%r14
+mov    %r14,%rcx
+sar    $0x2,%rcx
+sar    %r14
+cmp    %rsi,%r14
+cmovb  %rsi,%r14
+movabs $0x1fffffffffffffff,%rdx
+cmp    %rdx,%rcx
+cmovae %rax,%r14
+test   %r14,%r14
+je     204 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x204>
+mov    %rdi,-0x38(%rbp)
+mov    %rsi,-0x30(%rbp)
+mov    %r11,-0x40(%rbp)
+cmp    %rax,%r14
+ja     3f3 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x3f3>
+mov    %r10,%r13
+lea    0x0(,%r14,4),%rdi
+call   b0 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0xb0>	ac: R_X86_64_PLT32	_Znwm-0x4
+mov    %r13,%r10
+mov    -0x40(%rbp),%r11
+mov    -0x30(%rbp),%rsi
+mov    -0x38(%rbp),%rdi
+jmp    206 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x206>
+test   %r12,%r12
+je     1fb <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x1fb>
+lea    (%rbx,%r12,4),%rax
+lea    -0x4(,%r12,4),%rcx
+cmp    $0x1c,%rcx
+jb     184 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x184>
+lea    0x1(%r15),%rdx
+cmp    %rbx,%rdx
+jbe    f5 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0xf5>
+cmp    %r15,%rax
+ja     184 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x184>
+shr    $0x2,%rcx
+add    $0x1,%rcx
+mov    %rcx,%r8
+and    $0xfffffffffffffff8,%r8
+lea    -0x8(%r8),%rsi
+mov    %rsi,%rdi
+shr    $0x3,%rdi
+add    $0x1,%rdi
+mov    %edi,%edx
+and    $0x1,%edx
+test   %rsi,%rsi
+je     3db <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x3db>
+movd   (%r15),%xmm0
+pshufd $0x0,%xmm0,%xmm0
+mov    %rdx,%rsi
+sub    %rdi,%rsi
+xor    %edi,%edi
+cs nopw 0x0(%rax,%rax,1)
+nopl   (%rax)
+movdqu %xmm0,(%rbx,%rdi,4)
+movdqu %xmm0,0x10(%rbx,%rdi,4)
+movdqu %xmm0,0x20(%rbx,%rdi,4)
+movdqu %xmm0,0x30(%rbx,%rdi,4)
+add    $0x10,%rdi
+add    $0x2,%rsi
+jne    140 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x140>
+test   %rdx,%rdx
+je     17b <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x17b>
+movd   (%r15),%xmm0
+pshufd $0x0,%xmm0,%xmm0
+movdqu %xmm0,(%rbx,%rdi,4)
+movdqu %xmm0,0x10(%rbx,%rdi,4)
+cmp    %r8,%rcx
+je     1f8 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x1f8>
+lea    (%rbx,%r8,4),%rbx
+mov    %rax,%rcx
+sub    %rbx,%rcx
+add    $0xfffffffffffffffc,%rcx
+mov    %ecx,%edx
+shr    $0x2,%edx
+add    $0x1,%edx
+and    $0x7,%rdx
+je     1ae <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x1ae>
+neg    %rdx
+nop
+mov    (%r15),%esi
+mov    %esi,(%rbx)
+add    $0x4,%rbx
+inc    %rdx
+jne    1a0 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x1a0>
+cmp    $0x1c,%rcx
+jb     1f8 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x1f8>
+cs nopw 0x0(%rax,%rax,1)
+xchg   %ax,%ax
+mov    (%r15),%ecx
+mov    %ecx,(%rbx)
+mov    (%r15),%ecx
+mov    %ecx,0x4(%rbx)
+mov    (%r15),%ecx
+mov    %ecx,0x8(%rbx)
+mov    (%r15),%ecx
+mov    %ecx,0xc(%rbx)
+mov    (%r15),%ecx
+mov    %ecx,0x10(%rbx)
+mov    (%r15),%ecx
+mov    %ecx,0x14(%rbx)
+mov    (%r15),%ecx
+mov    %ecx,0x18(%rbx)
+mov    (%r15),%ecx
+mov    %ecx,0x1c(%rbx)
+add    $0x20,%rbx
+cmp    %rbx,%rax
+jne    1c0 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x1c0>
+mov    %rax,%rbx
+mov    %rbx,0x8(%r10)
+jmp    3bc <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x3bc>
+xor    %eax,%eax
+lea    (%rax,%rdi,4),%r8
+lea    (%r8,%r12,4),%r13
+lea    -0x4(,%r12,4),%rcx
+cmp    $0x1c,%rcx
+jb     2ee <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x2ee>
+shr    $0x2,%rcx
+lea    0x1(%r15),%rdx
+cmp    %r8,%rdx
+jbe    242 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x242>
+lea    (%rdi,%rcx,1),%rdx
+lea    (%rax,%rdx,4),%rdx
+add    $0x4,%rdx
+cmp    %r15,%rdx
+ja     2ee <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x2ee>
+mov    %rdi,-0x38(%rbp)
+mov    %rsi,-0x30(%rbp)
+add    $0x1,%rcx
+mov    %rcx,%r12
+and    $0xfffffffffffffff8,%r12
+lea    -0x8(%r12),%rdx
+mov    %rdx,%rdi
+shr    $0x3,%rdi
+add    $0x1,%rdi
+mov    %edi,%r9d
+and    $0x1,%r9d
+test   %rdx,%rdx
+je     3cb <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x3cb>
+movd   (%r15),%xmm0
+pshufd $0x0,%xmm0,%xmm0
+mov    -0x38(%rbp),%rdx
+lea    (%rax,%rdx,4),%rdx
+add    $0x30,%rdx
+mov    %r9,%rsi
+sub    %rdi,%rsi
+xor    %edi,%edi
+cs nopw 0x0(%rax,%rax,1)
+nopl   (%rax)
+movdqu %xmm0,-0x30(%rdx,%rdi,4)
+movdqu %xmm0,-0x20(%rdx,%rdi,4)
+movdqu %xmm0,-0x10(%rdx,%rdi,4)
+movdqu %xmm0,(%rdx,%rdi,4)
+add    $0x10,%rdi
+add    $0x2,%rsi
+jne    2a0 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x2a0>
+test   %r9,%r9
+je     2dd <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x2dd>
+movd   (%r15),%xmm0
+pshufd $0x0,%xmm0,%xmm0
+movdqu %xmm0,(%r8,%rdi,4)
+movdqu %xmm0,0x10(%r8,%rdi,4)
+cmp    %r12,%rcx
+je     370 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x370>
+lea    (%r8,%r12,4),%r8
+mov    -0x30(%rbp),%rsi
+lea    (%rax,%rsi,4),%rcx
+sub    %r8,%rcx
+add    $0xfffffffffffffffc,%rcx
+mov    %ecx,%edx
+shr    $0x2,%edx
+add    $0x1,%edx
+and    $0x7,%rdx
+je     31f <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x31f>
+neg    %rdx
+nopw   0x0(%rax,%rax,1)
+mov    (%r15),%esi
+mov    %esi,(%r8)
+add    $0x4,%r8
+inc    %rdx
+jne    310 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x310>
+cmp    $0x1c,%rcx
+jb     370 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x370>
+cs nopw 0x0(%rax,%rax,1)
+nop
+mov    (%r15),%ecx
+mov    %ecx,(%r8)
+mov    (%r15),%ecx
+mov    %ecx,0x4(%r8)
+mov    (%r15),%ecx
+mov    %ecx,0x8(%r8)
+mov    (%r15),%ecx
+mov    %ecx,0xc(%r8)
+mov    (%r15),%ecx
+mov    %ecx,0x10(%r8)
+mov    (%r15),%ecx
+mov    %ecx,0x14(%r8)
+mov    (%r15),%ecx
+mov    %ecx,0x18(%r8)
+mov    (%r15),%ecx
+mov    %ecx,0x1c(%r8)
+add    $0x20,%r8
+cmp    %r8,%r13
+jne    330 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x330>
+lea    (%rax,%r14,4),%r14
+test   %rbx,%rbx
+jle    396 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x396>
+mov    %rax,%r15
+mov    %rax,%rdi
+mov    %r11,%rsi
+mov    %rbx,%rdx
+mov    %r10,%rbx
+call   38d <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x38d>	389: R_X86_64_PLT32	memcpy-0x4
+mov    %r15,%rax
+mov    %rbx,%r10
+mov    (%rbx),%r11
+mov    %rax,(%r10)
+mov    %r13,0x8(%r10)
+mov    %r14,0x10(%r10)
+test   %r11,%r11
+je     3bc <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x3bc>
+mov    %r11,%rdi
+add    $0x18,%rsp
+pop    %rbx
+pop    %r12
+pop    %r13
+pop    %r14
+pop    %r15
+pop    %rbp
+jmp    3bc <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x3bc>	3b8: R_X86_64_PLT32	_ZdlPv-0x4
+add    $0x18,%rsp
+pop    %rbx
+pop    %r12
+pop    %r13
+pop    %r14
+pop    %r15
+pop    %rbp
+ret
+xor    %edi,%edi
+test   %r9,%r9
+jne    2c6 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x2c6>
+jmp    2dd <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x2dd>
+xor    %edi,%edi
+test   %rdx,%rdx
+jne    166 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x166>
+jmp    17b <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x17b>
+mov    %r10,%rdi
+call   3f3 <_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x3f3>	3ef: R_X86_64_PLT32	_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv-0x4
+mov    $0x0,%edi	3f4: R_X86_64_32	.rodata.str1.1
+call   3fd <.LCPI5_1+0x39d>	3f9: R_X86_64_PLT32	_ZNSt3__120__throw_length_errorEPKc-0x4
+
+</pre>
+
+
+<H4>Tree Representation</H4>
+<pre>
+appeared_symbol
+├── new_symbol
+│   ├── id = &#39;28&#39; &lt;int&gt; [Unique symbol identifier]
+│   ├── instructions = &#39;push   %rbp
+mov    %rsp,%rbp
+push   %r15
+push   %r14
+push   %r13
+push   %r12
+push   %rbx
+sub    $0x18,%rsp
+mov    %rdx,%r15
+mov    %rsi,%r12
+mov    %rdi,%r10
+mov    0x8(%rdi),%rbx
+mov    0x10(%rdi),%r14
+mov    %r14,%rax
+sub    %rbx,%rax
+sar    $0x2,%rax
+cmp    %rsi,%rax
+jae    c4 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0xc4&gt;
+mov    (%r10),%r11
+sub    %r11,%rbx
+mov    %rbx,%rdi
+sar    $0x2,%rdi
+lea    (%rdi,%r12,1),%rsi
+mov    %rsi,%rax
+shr    $0x3e,%rax
+jne    3eb &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x3eb&gt;
+movabs $0x3fffffffffffffff,%rax
+sub    %r11,%r14
+mov    %r14,%rcx
+sar    $0x2,%rcx
+sar    %r14
+cmp    %rsi,%r14
+cmovb  %rsi,%r14
+movabs $0x1fffffffffffffff,%rdx
+cmp    %rdx,%rcx
+cmovae %rax,%r14
+test   %r14,%r14
+je     204 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x204&gt;
+mov    %rdi,-0x38(%rbp)
+mov    %rsi,-0x30(%rbp)
+mov    %r11,-0x40(%rbp)
+cmp    %rax,%r14
+ja     3f3 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x3f3&gt;
+mov    %r10,%r13
+lea    0x0(,%r14,4),%rdi
+call   b0 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0xb0&gt;	ac: R_X86_64_PLT32	_Znwm-0x4
+mov    %r13,%r10
+mov    -0x40(%rbp),%r11
+mov    -0x30(%rbp),%rsi
+mov    -0x38(%rbp),%rdi
+jmp    206 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x206&gt;
+test   %r12,%r12
+je     1fb &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x1fb&gt;
+lea    (%rbx,%r12,4),%rax
+lea    -0x4(,%r12,4),%rcx
+cmp    $0x1c,%rcx
+jb     184 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x184&gt;
+lea    0x1(%r15),%rdx
+cmp    %rbx,%rdx
+jbe    f5 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0xf5&gt;
+cmp    %r15,%rax
+ja     184 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x184&gt;
+shr    $0x2,%rcx
+add    $0x1,%rcx
+mov    %rcx,%r8
+and    $0xfffffffffffffff8,%r8
+lea    -0x8(%r8),%rsi
+mov    %rsi,%rdi
+shr    $0x3,%rdi
+add    $0x1,%rdi
+mov    %edi,%edx
+and    $0x1,%edx
+test   %rsi,%rsi
+je     3db &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x3db&gt;
+movd   (%r15),%xmm0
+pshufd $0x0,%xmm0,%xmm0
+mov    %rdx,%rsi
+sub    %rdi,%rsi
+xor    %edi,%edi
+cs nopw 0x0(%rax,%rax,1)
+nopl   (%rax)
+movdqu %xmm0,(%rbx,%rdi,4)
+movdqu %xmm0,0x10(%rbx,%rdi,4)
+movdqu %xmm0,0x20(%rbx,%rdi,4)
+movdqu %xmm0,0x30(%rbx,%rdi,4)
+add    $0x10,%rdi
+add    $0x2,%rsi
+jne    140 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x140&gt;
+test   %rdx,%rdx
+je     17b &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x17b&gt;
+movd   (%r15),%xmm0
+pshufd $0x0,%xmm0,%xmm0
+movdqu %xmm0,(%rbx,%rdi,4)
+movdqu %xmm0,0x10(%rbx,%rdi,4)
+cmp    %r8,%rcx
+je     1f8 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x1f8&gt;
+lea    (%rbx,%r8,4),%rbx
+mov    %rax,%rcx
+sub    %rbx,%rcx
+add    $0xfffffffffffffffc,%rcx
+mov    %ecx,%edx
+shr    $0x2,%edx
+add    $0x1,%edx
+and    $0x7,%rdx
+je     1ae &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x1ae&gt;
+neg    %rdx
+nop
+mov    (%r15),%esi
+mov    %esi,(%rbx)
+add    $0x4,%rbx
+inc    %rdx
+jne    1a0 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x1a0&gt;
+cmp    $0x1c,%rcx
+jb     1f8 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x1f8&gt;
+cs nopw 0x0(%rax,%rax,1)
+xchg   %ax,%ax
+mov    (%r15),%ecx
+mov    %ecx,(%rbx)
+mov    (%r15),%ecx
+mov    %ecx,0x4(%rbx)
+mov    (%r15),%ecx
+mov    %ecx,0x8(%rbx)
+mov    (%r15),%ecx
+mov    %ecx,0xc(%rbx)
+mov    (%r15),%ecx
+mov    %ecx,0x10(%rbx)
+mov    (%r15),%ecx
+mov    %ecx,0x14(%rbx)
+mov    (%r15),%ecx
+mov    %ecx,0x18(%rbx)
+mov    (%r15),%ecx
+mov    %ecx,0x1c(%rbx)
+add    $0x20,%rbx
+cmp    %rbx,%rax
+jne    1c0 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x1c0&gt;
+mov    %rax,%rbx
+mov    %rbx,0x8(%r10)
+jmp    3bc &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x3bc&gt;
+xor    %eax,%eax
+lea    (%rax,%rdi,4),%r8
+lea    (%r8,%r12,4),%r13
+lea    -0x4(,%r12,4),%rcx
+cmp    $0x1c,%rcx
+jb     2ee &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x2ee&gt;
+shr    $0x2,%rcx
+lea    0x1(%r15),%rdx
+cmp    %r8,%rdx
+jbe    242 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x242&gt;
+lea    (%rdi,%rcx,1),%rdx
+lea    (%rax,%rdx,4),%rdx
+add    $0x4,%rdx
+cmp    %r15,%rdx
+ja     2ee &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x2ee&gt;
+mov    %rdi,-0x38(%rbp)
+mov    %rsi,-0x30(%rbp)
+add    $0x1,%rcx
+mov    %rcx,%r12
+and    $0xfffffffffffffff8,%r12
+lea    -0x8(%r12),%rdx
+mov    %rdx,%rdi
+shr    $0x3,%rdi
+add    $0x1,%rdi
+mov    %edi,%r9d
+and    $0x1,%r9d
+test   %rdx,%rdx
+je     3cb &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x3cb&gt;
+movd   (%r15),%xmm0
+pshufd $0x0,%xmm0,%xmm0
+mov    -0x38(%rbp),%rdx
+lea    (%rax,%rdx,4),%rdx
+add    $0x30,%rdx
+mov    %r9,%rsi
+sub    %rdi,%rsi
+xor    %edi,%edi
+cs nopw 0x0(%rax,%rax,1)
+nopl   (%rax)
+movdqu %xmm0,-0x30(%rdx,%rdi,4)
+movdqu %xmm0,-0x20(%rdx,%rdi,4)
+movdqu %xmm0,-0x10(%rdx,%rdi,4)
+movdqu %xmm0,(%rdx,%rdi,4)
+add    $0x10,%rdi
+add    $0x2,%rsi
+jne    2a0 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x2a0&gt;
+test   %r9,%r9
+je     2dd &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x2dd&gt;
+movd   (%r15),%xmm0
+pshufd $0x0,%xmm0,%xmm0
+movdqu %xmm0,(%r8,%rdi,4)
+movdqu %xmm0,0x10(%r8,%rdi,4)
+cmp    %r12,%rcx
+je     370 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x370&gt;
+lea    (%r8,%r12,4),%r8
+mov    -0x30(%rbp),%rsi
+lea    (%rax,%rsi,4),%rcx
+sub    %r8,%rcx
+add    $0xfffffffffffffffc,%rcx
+mov    %ecx,%edx
+shr    $0x2,%edx
+add    $0x1,%edx
+and    $0x7,%rdx
+je     31f &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x31f&gt;
+neg    %rdx
+nopw   0x0(%rax,%rax,1)
+mov    (%r15),%esi
+mov    %esi,(%r8)
+add    $0x4,%r8
+inc    %rdx
+jne    310 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x310&gt;
+cmp    $0x1c,%rcx
+jb     370 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x370&gt;
+cs nopw 0x0(%rax,%rax,1)
+nop
+mov    (%r15),%ecx
+mov    %ecx,(%r8)
+mov    (%r15),%ecx
+mov    %ecx,0x4(%r8)
+mov    (%r15),%ecx
+mov    %ecx,0x8(%r8)
+mov    (%r15),%ecx
+mov    %ecx,0xc(%r8)
+mov    (%r15),%ecx
+mov    %ecx,0x10(%r8)
+mov    (%r15),%ecx
+mov    %ecx,0x14(%r8)
+mov    (%r15),%ecx
+mov    %ecx,0x18(%r8)
+mov    (%r15),%ecx
+mov    %ecx,0x1c(%r8)
+add    $0x20,%r8
+cmp    %r8,%r13
+jne    330 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x330&gt;
+lea    (%rax,%r14,4),%r14
+test   %rbx,%rbx
+jle    396 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x396&gt;
+mov    %rax,%r15
+mov    %rax,%rdi
+mov    %r11,%rsi
+mov    %rbx,%rdx
+mov    %r10,%rbx
+call   38d &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x38d&gt;	389: R_X86_64_PLT32	memcpy-0x4
+mov    %r15,%rax
+mov    %rbx,%r10
+mov    (%rbx),%r11
+mov    %rax,(%r10)
+mov    %r13,0x8(%r10)
+mov    %r14,0x10(%r10)
+test   %r11,%r11
+je     3bc &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x3bc&gt;
+mov    %r11,%rdi
+add    $0x18,%rsp
+pop    %rbx
+pop    %r12
+pop    %r13
+pop    %r14
+pop    %r15
+pop    %rbp
+jmp    3bc &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x3bc&gt;	3b8: R_X86_64_PLT32	_ZdlPv-0x4
+add    $0x18,%rsp
+pop    %rbx
+pop    %r12
+pop    %r13
+pop    %r14
+pop    %r15
+pop    %rbp
+ret
+xor    %edi,%edi
+test   %r9,%r9
+jne    2c6 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x2c6&gt;
+jmp    2dd &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x2dd&gt;
+xor    %edi,%edi
+test   %rdx,%rdx
+jne    166 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x166&gt;
+jmp    17b &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x17b&gt;
+mov    %r10,%rdi
+call   3f3 &lt;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi+0x3f3&gt;	3ef: R_X86_64_PLT32	_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv-0x4
+mov    $0x0,%edi	3f4: R_X86_64_32	.rodata.str1.1
+call   3fd &lt;.LCPI5_1+0x39d&gt;	3f9: R_X86_64_PLT32	_ZNSt3__120__throw_length_errorEPKc-0x4
+&#39; &lt;str&gt; [Code instructions (assembly with possibly high level language code intermixed)]
+│   ├── is_demangled = &#39;True&#39; &lt;bool&gt; [True if the symbol name is demangled]
+│   ├── is_stored_in_program_memory = &#39;True&#39; &lt;bool&gt; [True if the symbol is stored in program memory]
+│   ├── name = &#39;std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;::__append(unsigned long, int const&amp;)&#39; &lt;str&gt; [The symbol name (demangled if supported)]
+│   ├── name_mangled = &#39;_ZNSt3__16vectorIiNS_9allocatorIiEEE8__appendEmRKi&#39; &lt;str&gt; [The mangled symbol name]
+│   ├── size = &#39;1021&#39; &lt;int&gt; [Number of bytes occupied by the symbol]
+│   ├── source
+│   │   ├── file_id = &#39;None&#39; &lt;NoneType&gt; [The id of the source file]
+│   │   └── line = &#39;None&#39; &lt;NoneType&gt; [The line number in the source file where the symbol is defined]
+│   └── type = &#39;W&#39; &lt;str&gt; [Type character matching the characters used by the nm binutils tool]
+└── display_info [Information that configures how things are displayed]
+    ├── anchor_id = &#39;28&#39; &lt;str&gt; [Unique string identifier token that can be used to generate a HTML anchor for cross references]
+    ├── display_symbol_details = &#39;True&#39; &lt;bool&gt; [True if symbol details are supposed to be displayed]
+    └── symbol_class = &#39;appeared&#39; &lt;str&gt; [The class of symbol old/new/appeared/disappeared/persisting/similar]
+</pre>
+
+</body>
+</html>

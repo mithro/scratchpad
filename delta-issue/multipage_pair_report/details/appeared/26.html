@@ -1,0 +1,106 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset=utf-8>
+
+  <meta name="robots" content="noindex">
+  <title>Appeared Symbol std::__1::__throw_length_error(char const*)</title>
+  <link rel="stylesheet" href="../../css/elf_diff_general.css">
+  <script src="../../js/sorttable.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+<H4><span class="monospace"><a name="appeared_symbol_details_26"></a>Appeared symbol
+
+std::__1::__throw_length_error(char const*)
+
+: size: 71 bytes</span></H4>
+<span class="monospace">
+<p>
+Source:
+
+?
+
+</p>
+</span>
+<pre>
+push   %rbp
+mov    %rsp,%rbp
+push   %r14
+push   %rbx
+mov    %rdi,%r14
+mov    $0x10,%edi
+call   14 <_ZNSt3__120__throw_length_errorEPKc+0x14>	10: R_X86_64_PLT32	__cxa_allocate_exception-0x4
+mov    %rax,%rbx
+mov    %rax,%rdi
+mov    %r14,%rsi
+call   22 <_ZNSt3__120__throw_length_errorEPKc+0x22>	1e: R_X86_64_PLT32	_ZNSt12length_errorC2EPKc-0x4
+mov    $0x0,%esi	23: R_X86_64_32	_ZTISt12length_error
+mov    $0x0,%edx	28: R_X86_64_32	_ZNSt12length_errorD1Ev
+mov    %rbx,%rdi
+call   34 <_ZNSt3__120__throw_length_errorEPKc+0x34>	30: R_X86_64_PLT32	__cxa_throw-0x4
+mov    %rax,%r14
+mov    %rbx,%rdi
+call   3f <_ZNSt3__120__throw_length_errorEPKc+0x3f>	3b: R_X86_64_PLT32	__cxa_free_exception-0x4
+mov    %r14,%rdi
+call   47 <GCC_except_table7+0x7>	43: R_X86_64_PLT32	_Unwind_Resume-0x4
+
+</pre>
+
+
+<H4>Tree Representation</H4>
+<pre>
+appeared_symbol
+├── new_symbol
+│   ├── id = &#39;26&#39; &lt;int&gt; [Unique symbol identifier]
+│   ├── instructions = &#39;push   %rbp
+mov    %rsp,%rbp
+push   %r14
+push   %rbx
+mov    %rdi,%r14
+mov    $0x10,%edi
+call   14 &lt;_ZNSt3__120__throw_length_errorEPKc+0x14&gt;	10: R_X86_64_PLT32	__cxa_allocate_exception-0x4
+mov    %rax,%rbx
+mov    %rax,%rdi
+mov    %r14,%rsi
+call   22 &lt;_ZNSt3__120__throw_length_errorEPKc+0x22&gt;	1e: R_X86_64_PLT32	_ZNSt12length_errorC2EPKc-0x4
+mov    $0x0,%esi	23: R_X86_64_32	_ZTISt12length_error
+mov    $0x0,%edx	28: R_X86_64_32	_ZNSt12length_errorD1Ev
+mov    %rbx,%rdi
+call   34 &lt;_ZNSt3__120__throw_length_errorEPKc+0x34&gt;	30: R_X86_64_PLT32	__cxa_throw-0x4
+mov    %rax,%r14
+mov    %rbx,%rdi
+call   3f &lt;_ZNSt3__120__throw_length_errorEPKc+0x3f&gt;	3b: R_X86_64_PLT32	__cxa_free_exception-0x4
+mov    %r14,%rdi
+call   47 &lt;GCC_except_table7+0x7&gt;	43: R_X86_64_PLT32	_Unwind_Resume-0x4
+&#39; &lt;str&gt; [Code instructions (assembly with possibly high level language code intermixed)]
+│   ├── is_demangled = &#39;True&#39; &lt;bool&gt; [True if the symbol name is demangled]
+│   ├── is_stored_in_program_memory = &#39;True&#39; &lt;bool&gt; [True if the symbol is stored in program memory]
+│   ├── name = &#39;std::__1::__throw_length_error(char const*)&#39; &lt;str&gt; [The symbol name (demangled if supported)]
+│   ├── name_mangled = &#39;_ZNSt3__120__throw_length_errorEPKc&#39; &lt;str&gt; [The mangled symbol name]
+│   ├── size = &#39;71&#39; &lt;int&gt; [Number of bytes occupied by the symbol]
+│   ├── source
+│   │   ├── file_id = &#39;None&#39; &lt;NoneType&gt; [The id of the source file]
+│   │   └── line = &#39;None&#39; &lt;NoneType&gt; [The line number in the source file where the symbol is defined]
+│   └── type = &#39;W&#39; &lt;str&gt; [Type character matching the characters used by the nm binutils tool]
+└── display_info [Information that configures how things are displayed]
+    ├── anchor_id = &#39;26&#39; &lt;str&gt; [Unique string identifier token that can be used to generate a HTML anchor for cross references]
+    ├── display_symbol_details = &#39;True&#39; &lt;bool&gt; [True if symbol details are supposed to be displayed]
+    └── symbol_class = &#39;appeared&#39; &lt;str&gt; [The class of symbol old/new/appeared/disappeared/persisting/similar]
+</pre>
+
+</body>
+</html>

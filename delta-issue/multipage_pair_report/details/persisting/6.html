@@ -1,0 +1,414 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset=utf-8>
+
+  <meta name="robots" content="noindex">
+  <title>Persisting Symbol gpl::FFT::~FFT()</title>
+  <link rel="stylesheet" href="../../css/elf_diff_general.css">
+  <script src="../../js/sorttable.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<H4><span class="monospace"><a name="persisting_symbol_details_6"></a>Persisting symbol
+
+gpl::FFT::~FFT()
+
+: old size: 401 bytes, new size: 358 bytes, delta: <span class="improvement number">-43</span> bytes</span></H4>
+<span class="monospace">
+<p>
+Old source: ?<br>
+New source: ?
+</p>
+</span>
+
+
+    <table class="diff" id="difflib_chg_to3__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Old</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">New</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to3__18"><a href="#difflib_chg_to3__0">f</a></td><td class="diff_header" id="from3_1">1</td><td nowrap="nowrap">push&nbsp;&nbsp;&nbsp;%rbp</td><td class="diff_next"><a href="#difflib_chg_to3__0">f</a></td><td class="diff_header" id="to3_1">1</td><td nowrap="nowrap">push&nbsp;&nbsp;&nbsp;%rbp</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_2">2</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rsp,%rbp</td><td class="diff_next"></td><td class="diff_header" id="to3_2">2</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rsp,%rbp</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_3">3</td><td nowrap="nowrap">push&nbsp;&nbsp;&nbsp;%r14</td><td class="diff_next"></td><td class="diff_header" id="to3_3">3</td><td nowrap="nowrap">push&nbsp;&nbsp;&nbsp;%r14</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_4">4</td><td nowrap="nowrap">push&nbsp;&nbsp;&nbsp;%rbx</td><td class="diff_next"></td><td class="diff_header" id="to3_4">4</td><td nowrap="nowrap">push&nbsp;&nbsp;&nbsp;%rbx</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3__1">n</a></td><td class="diff_header" id="from3_5">5</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rdi,%r<span class="diff_chg">bx</span></td><td class="diff_next"><a href="#difflib_chg_to3__1">n</a></td><td class="diff_header" id="to3_5">5</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rdi,%r<span class="diff_chg">14</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_6">6</td><td nowrap="nowrap">cmpl&nbsp;&nbsp;&nbsp;$0x0,0xb0(%rdi)</td><td class="diff_next"></td><td class="diff_header" id="to3_6">6</td><td nowrap="nowrap">cmpl&nbsp;&nbsp;&nbsp;$0x0,0xb0(%rdi)</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3__2">n</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to3__2">n</a></td><td class="diff_header" id="to3_7">7</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rdi),%rdi</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_7">7</td><td nowrap="nowrap">jle&nbsp;&nbsp;&nbsp;&nbsp;7<span class="diff_chg">8</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x7<span class="diff_chg">8</span>&gt;</td><td class="diff_next"></td><td class="diff_header" id="to3_8">8</td><td nowrap="nowrap">jle&nbsp;&nbsp;&nbsp;&nbsp;7<span class="diff_chg">9</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x7<span class="diff_chg">9</span>&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_8">8</td><td nowrap="nowrap"><span class="diff_sub">xor&nbsp;&nbsp;&nbsp;&nbsp;%r14d,%r14d</span></td><td class="diff_next"></td><td class="diff_header" id="to3_9">9</td><td nowrap="nowrap"><span class="diff_add">xor&nbsp;&nbsp;&nbsp;&nbsp;%ebx,%ebx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_9">9</td><td nowrap="nowrap">jmp&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">2f</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x<span class="diff_chg">2f</span>&gt;</td><td class="diff_next"></td><td class="diff_header" id="to3_10">10</td><td nowrap="nowrap">jmp&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">33</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x<span class="diff_chg">33</span>&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_10">10</td><td nowrap="nowrap">nop<span class="diff_chg">l</span>&nbsp;&nbsp;&nbsp;0x0(%rax,%rax,1)</td><td class="diff_next"></td><td class="diff_header" id="to3_11">11</td><td nowrap="nowrap">nop<span class="diff_chg">w</span>&nbsp;&nbsp;&nbsp;0x0(%rax,%rax,1)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_11">11</td><td nowrap="nowrap"><span class="diff_sub">inc&nbsp;&nbsp;&nbsp;&nbsp;%r14</span></td><td class="diff_next"></td><td class="diff_header" id="to3_12">12</td><td nowrap="nowrap"><span class="diff_add">add&nbsp;&nbsp;&nbsp;&nbsp;$0x1,%rbx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_12">12</td><td nowrap="nowrap">movslq&nbsp;0xb0(%r<span class="diff_chg">bx</span>),%rax</td><td class="diff_next"></td><td class="diff_header" id="to3_13">13</td><td nowrap="nowrap">movslq&nbsp;0xb0(%r<span class="diff_chg">14</span>),%rax</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to3_14">14</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;(%r14),%rdi</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_13">13</td><td nowrap="nowrap">cmp&nbsp;&nbsp;&nbsp;&nbsp;%rax,%r<span class="diff_chg">14</span></td><td class="diff_next"></td><td class="diff_header" id="to3_15">15</td><td nowrap="nowrap">cmp&nbsp;&nbsp;&nbsp;&nbsp;%rax,%r<span class="diff_chg">bx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_14">14</td><td nowrap="nowrap">jge&nbsp;&nbsp;&nbsp;&nbsp;7<span class="diff_chg">8</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x7<span class="diff_chg">8</span>&gt;</td><td class="diff_next"></td><td class="diff_header" id="to3_16">16</td><td nowrap="nowrap">jge&nbsp;&nbsp;&nbsp;&nbsp;7<span class="diff_chg">9</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x7<span class="diff_chg">9</span>&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_15">15</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rbx),%rax</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_16">16</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;(%r<span class="diff_chg">ax</span>,%r<span class="diff_chg">14</span>,8),%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_17">17</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;(%r<span class="diff_chg">di</span>,%r<span class="diff_chg">bx</span>,8),%rdi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_17">17</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_18">18</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3__3">n</a></td><td class="diff_header" id="from3_18">18</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4<span class="diff_chg">0</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x4<span class="diff_chg">0</span>&gt;</td><td class="diff_next"><a href="#difflib_chg_to3__3">n</a></td><td class="diff_header" id="to3_19">19</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4<span class="diff_chg">1</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x4<span class="diff_chg">1</span>&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_19">19</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;4<span class="diff_chg">0</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x4<span class="diff_chg">0</span>&gt;&nbsp;3<span class="diff_chg">c</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;&nbsp;_ZdaPv-0x4</td><td class="diff_next"></td><td class="diff_header" id="to3_20">20</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;4<span class="diff_chg">1</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x4<span class="diff_chg">1</span>&gt;&nbsp;3<span class="diff_chg">d</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;&nbsp;_ZdaPv-0x4</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_20">20</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x8(%r<span class="diff_chg">bx</span>),%rax</td><td class="diff_next"></td><td class="diff_header" id="to3_21">21</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x8(%r<span class="diff_chg">14</span>),%rax</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_21">21</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rax,%r<span class="diff_chg">14</span>,8),%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_22">22</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rax,%r<span class="diff_chg">bx</span>,8),%rdi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_22">22</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_23">23</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3__4">n</a></td><td class="diff_header" id="from3_23">23</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5<span class="diff_chg">2</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x5<span class="diff_chg">2</span>&gt;</td><td class="diff_next"><a href="#difflib_chg_to3__4">n</a></td><td class="diff_header" id="to3_24">24</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5<span class="diff_chg">3</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x5<span class="diff_chg">3</span>&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_24">24</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;5<span class="diff_chg">2</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x5<span class="diff_chg">2</span>&gt;&nbsp;4<span class="diff_chg">e</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;&nbsp;_ZdaPv-0x4</td><td class="diff_next"></td><td class="diff_header" id="to3_25">25</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;5<span class="diff_chg">3</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x5<span class="diff_chg">3</span>&gt;&nbsp;4<span class="diff_chg">f</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;&nbsp;_ZdaPv-0x4</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_25">25</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x10(%r<span class="diff_chg">bx</span>),%rax</td><td class="diff_next"></td><td class="diff_header" id="to3_26">26</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x10(%r<span class="diff_chg">14</span>),%rax</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_26">26</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rax,%r<span class="diff_chg">14</span>,8),%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_27">27</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rax,%r<span class="diff_chg">bx</span>,8),%rdi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_27">27</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_28">28</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3__5">n</a></td><td class="diff_header" id="from3_28">28</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6<span class="diff_chg">4</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x6<span class="diff_chg">4</span>&gt;</td><td class="diff_next"><a href="#difflib_chg_to3__5">n</a></td><td class="diff_header" id="to3_29">29</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6<span class="diff_chg">5</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x6<span class="diff_chg">5</span>&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_29">29</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;6<span class="diff_chg">4</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x6<span class="diff_chg">4</span>&gt;&nbsp;6<span class="diff_chg">0</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;&nbsp;_ZdaPv-0x4</td><td class="diff_next"></td><td class="diff_header" id="to3_30">30</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;6<span class="diff_chg">5</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x6<span class="diff_chg">5</span>&gt;&nbsp;6<span class="diff_chg">1</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;&nbsp;_ZdaPv-0x4</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_30">30</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x18(%r<span class="diff_chg">bx</span>),%rax</td><td class="diff_next"></td><td class="diff_header" id="to3_31">31</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x18(%r<span class="diff_chg">14</span>),%rax</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_31">31</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rax,%r<span class="diff_chg">14</span>,8),%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_32">32</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rax,%r<span class="diff_chg">bx</span>,8),%rdi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_32">32</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_33">33</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_33">33</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x20&gt;</td><td class="diff_next"></td><td class="diff_header" id="to3_34">34</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x20&gt;</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3__6">n</a></td><td class="diff_header" id="from3_34">34</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;7<span class="diff_chg">6</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x7<span class="diff_chg">6</span>&gt;&nbsp;7<span class="diff_chg">2</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;&nbsp;_ZdaPv-0x4</td><td class="diff_next"><a href="#difflib_chg_to3__6">n</a></td><td class="diff_header" id="to3_35">35</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;7<span class="diff_chg">7</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x7<span class="diff_chg">7</span>&gt;&nbsp;7<span class="diff_chg">3</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;&nbsp;_ZdaPv-0x4</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_35">35</td><td nowrap="nowrap">jmp&nbsp;&nbsp;&nbsp;&nbsp;20&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x20&gt;</td><td class="diff_next"></td><td class="diff_header" id="to3_36">36</td><td nowrap="nowrap">jmp&nbsp;&nbsp;&nbsp;&nbsp;20&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x20&gt;</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3__7">n</a></td><td class="diff_header" id="from3_36">36</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rbx),%rdi</span></td><td class="diff_next"><a href="#difflib_chg_to3__7">n</a></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_37">37</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_37">37</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3__8">n</a></td><td class="diff_header" id="from3_38">38</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8<span class="diff_chg">5</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x8<span class="diff_chg">5</span>&gt;</td><td class="diff_next"><a href="#difflib_chg_to3__8">n</a></td><td class="diff_header" id="to3_38">38</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8<span class="diff_chg">3</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x8<span class="diff_chg">3</span>&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_39">39</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;8<span class="diff_chg">5</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x8<span class="diff_chg">5</span>&gt;&nbsp;<span class="diff_chg">81</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;&nbsp;_ZdaPv-0x4</td><td class="diff_next"></td><td class="diff_header" id="to3_39">39</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;8<span class="diff_chg">3</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x8<span class="diff_chg">3</span>&gt;&nbsp;<span class="diff_chg">7f</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;&nbsp;_ZdaPv-0x4</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_40">40</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x8(%r<span class="diff_chg">bx</span>),%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_40">40</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x8(%r<span class="diff_chg">14</span>),%rdi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_41">41</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_41">41</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3__9">n</a></td><td class="diff_header" id="from3_42">42</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9<span class="diff_chg">3</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x9<span class="diff_chg">3</span>&gt;</td><td class="diff_next"><a href="#difflib_chg_to3__9">n</a></td><td class="diff_header" id="to3_42">42</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9<span class="diff_chg">1</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x9<span class="diff_chg">1</span>&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_43">43</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;9<span class="diff_chg">3</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x9<span class="diff_chg">3</span>&gt;&nbsp;8<span class="diff_chg">f</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;&nbsp;_ZdaPv-0x4</td><td class="diff_next"></td><td class="diff_header" id="to3_43">43</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;9<span class="diff_chg">1</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x9<span class="diff_chg">1</span>&gt;&nbsp;8<span class="diff_chg">d</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;&nbsp;_ZdaPv-0x4</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_44">44</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x10(%r<span class="diff_chg">bx</span>),%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_44">44</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x10(%r<span class="diff_chg">14</span>),%rdi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_45">45</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_45">45</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3__10">n</a></td><td class="diff_header" id="from3_46">46</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">a1</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x<span class="diff_chg">a1</span>&gt;</td><td class="diff_next"><a href="#difflib_chg_to3__10">n</a></td><td class="diff_header" id="to3_46">46</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">9f</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x<span class="diff_chg">9f</span>&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_47">47</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;<span class="diff_chg">a1</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x<span class="diff_chg">a1</span>&gt;&nbsp;9<span class="diff_chg">d</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;&nbsp;_ZdaPv-0x4</td><td class="diff_next"></td><td class="diff_header" id="to3_47">47</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;<span class="diff_chg">9f</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x<span class="diff_chg">9f</span>&gt;&nbsp;9<span class="diff_chg">b</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;&nbsp;_ZdaPv-0x4</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_48">48</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x18(%r<span class="diff_chg">bx</span>),%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_48">48</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x18(%r<span class="diff_chg">14</span>),%rdi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_49">49</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_49">49</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3__11">n</a></td><td class="diff_header" id="from3_50">50</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a<span class="diff_chg">f</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0xa<span class="diff_chg">f</span>&gt;</td><td class="diff_next"><a href="#difflib_chg_to3__11">n</a></td><td class="diff_header" id="to3_50">50</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a<span class="diff_chg">d</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0xa<span class="diff_chg">d</span>&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_51">51</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;a<span class="diff_chg">f</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0xa<span class="diff_chg">f</span>&gt;&nbsp;a<span class="diff_chg">b</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;&nbsp;_ZdaPv-0x4</td><td class="diff_next"></td><td class="diff_header" id="to3_51">51</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;a<span class="diff_chg">d</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0xa<span class="diff_chg">d</span>&gt;&nbsp;a<span class="diff_chg">9</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;&nbsp;_ZdaPv-0x4</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_52">52</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x20(%r<span class="diff_chg">bx</span>),%rax</td><td class="diff_next"></td><td class="diff_header" id="to3_52">52</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x20(%r<span class="diff_chg">14</span>),%rax</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_53">53</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x38(%r<span class="diff_chg">bx</span>),%rcx</td><td class="diff_next"></td><td class="diff_header" id="to3_53">53</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x38(%r<span class="diff_chg">14</span>),%rcx</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_54">54</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rax,0x28(%r<span class="diff_chg">bx</span>)</td><td class="diff_next"></td><td class="diff_header" id="to3_54">54</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rax,0x28(%r<span class="diff_chg">14</span>)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_55">55</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rcx,0x40(%r<span class="diff_chg">bx</span>)</td><td class="diff_next"></td><td class="diff_header" id="to3_55">55</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rcx,0x40(%r<span class="diff_chg">14</span>)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_56">56</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x50(%r<span class="diff_chg">bx</span>),%rax</td><td class="diff_next"></td><td class="diff_header" id="to3_56">56</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x50(%r<span class="diff_chg">14</span>),%rax</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_57">57</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rax,0x58(%r<span class="diff_chg">bx</span>)</td><td class="diff_next"></td><td class="diff_header" id="to3_57">57</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rax,0x58(%r<span class="diff_chg">14</span>)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_58">58</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x68(%r<span class="diff_chg">bx</span>),%rax</td><td class="diff_next"></td><td class="diff_header" id="to3_58">58</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x68(%r<span class="diff_chg">14</span>),%rax</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_59">59</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rax,0x70(%r<span class="diff_chg">bx</span>)</td><td class="diff_next"></td><td class="diff_header" id="to3_59">59</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rax,0x70(%r<span class="diff_chg">14</span>)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_60">60</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x80(%r<span class="diff_chg">bx</span>),%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_60">60</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x80(%r<span class="diff_chg">14</span>),%rdi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_61">61</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rdi,0x88(%r<span class="diff_chg">bx</span>)</td><td class="diff_next"></td><td class="diff_header" id="to3_61">61</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rdi,0x88(%r<span class="diff_chg">14</span>)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_62">62</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x98(%r<span class="diff_chg">bx</span>),%rax</td><td class="diff_next"></td><td class="diff_header" id="to3_62">62</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x98(%r<span class="diff_chg">14</span>),%rax</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_63">63</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rax,0xa0(%r<span class="diff_chg">bx</span>)</td><td class="diff_next"></td><td class="diff_header" id="to3_63">63</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rax,0xa0(%r<span class="diff_chg">14</span>)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_64">64</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rax,%rax</td><td class="diff_next"></td><td class="diff_header" id="to3_64">64</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rax,%rax</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3__12">n</a></td><td class="diff_header" id="from3_65">65</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10<span class="diff_chg">9</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x10<span class="diff_chg">9</span>&gt;</td><td class="diff_next"><a href="#difflib_chg_to3__12">n</a></td><td class="diff_header" id="to3_65">65</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10<span class="diff_chg">4</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x10<span class="diff_chg">4</span>&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_66">66</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;0xa8(%rbx),%rsi</span></td><td class="diff_next"></td><td class="diff_header" id="to3_66">66</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;%rax,0xa0(%r14)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_67">67</td><td nowrap="nowrap"><span class="diff_sub">sub&nbsp;&nbsp;&nbsp;&nbsp;%rax,%rsi</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_68">68</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rax,%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_67">67</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rax,%rdi</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3__13">n</a></td><td class="diff_header" id="from3_69">69</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;<span class="diff_chg">102</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x<span class="diff_chg">102</span>&gt;&nbsp;<span class="diff_sub">&nbsp;</span>f<span class="diff_chg">e</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;&nbsp;_ZdlPv<span class="diff_sub">m</span>-0x4</td><td class="diff_next"><a href="#difflib_chg_to3__13">n</a></td><td class="diff_header" id="to3_68">68</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;<span class="diff_chg">fd</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x<span class="diff_chg">fd</span>&gt;&nbsp;f<span class="diff_chg">9</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;&nbsp;_ZdlPv-0x4</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_70">70</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x80(%r<span class="diff_chg">bx</span>),%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_69">69</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x80(%r<span class="diff_chg">14</span>),%rdi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_71">71</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_70">70</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3__14">n</a></td><td class="diff_header" id="from3_72">72</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1<span class="diff_chg">24</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x1<span class="diff_chg">24</span>&gt;</td><td class="diff_next"><a href="#difflib_chg_to3__14">n</a></td><td class="diff_header" id="to3_71">71</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1<span class="diff_chg">15</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x1<span class="diff_chg">15</span>&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_73">73</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rdi,0x88(%r<span class="diff_chg">bx</span>)</td><td class="diff_next"></td><td class="diff_header" id="to3_72">72</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rdi,0x88(%r<span class="diff_chg">14</span>)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_74">74</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;0x90(%rbx),%rsi</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_75">75</td><td nowrap="nowrap"><span class="diff_sub">sub&nbsp;&nbsp;&nbsp;&nbsp;%rdi,%rsi</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_76">76</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;1<span class="diff_chg">24</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x1<span class="diff_chg">24</span>&gt;&nbsp;&nbsp;1<span class="diff_chg">20</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;_ZdlPv<span class="diff_sub">m</span>-0x4</td><td class="diff_next"></td><td class="diff_header" id="to3_73">73</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;1<span class="diff_chg">15</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x1<span class="diff_chg">15</span>&gt;&nbsp;&nbsp;1<span class="diff_chg">11</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;_ZdlPv-0x4</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_77">77</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x68(%r<span class="diff_chg">bx</span>),%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_74">74</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x68(%r<span class="diff_chg">14</span>),%rdi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_78">78</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_75">75</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3__15">n</a></td><td class="diff_header" id="from3_79">79</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1<span class="diff_chg">3d</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x1<span class="diff_chg">3d</span>&gt;</td><td class="diff_next"><a href="#difflib_chg_to3__15">n</a></td><td class="diff_header" id="to3_76">76</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1<span class="diff_chg">27</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x1<span class="diff_chg">27</span>&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_80">80</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rdi,0x70(%r<span class="diff_chg">bx</span>)</td><td class="diff_next"></td><td class="diff_header" id="to3_77">77</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rdi,0x70(%r<span class="diff_chg">14</span>)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_81">81</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;0x78(%rbx),%rsi</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_82">82</td><td nowrap="nowrap"><span class="diff_sub">sub&nbsp;&nbsp;&nbsp;&nbsp;%rdi,%rsi</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_83">83</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;1<span class="diff_chg">3d</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x13<span class="diff_sub">d&gt;&nbsp;&nbsp;139</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;_ZdlPv<span class="diff_sub">m</span>-0x4</td><td class="diff_next"></td><td class="diff_header" id="to3_78">78</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;1<span class="diff_chg">27</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x1<span class="diff_add">27&gt;&nbsp;&nbsp;12</span>3:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;_ZdlPv-0x4</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_84">84</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x50(%r<span class="diff_chg">bx</span>),%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_79">79</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x50(%r<span class="diff_chg">14</span>),%rdi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_85">85</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_80">80</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3__16">n</a></td><td class="diff_header" id="from3_86">86</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1<span class="diff_chg">56</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x1<span class="diff_chg">56</span>&gt;</td><td class="diff_next"><a href="#difflib_chg_to3__16">n</a></td><td class="diff_header" id="to3_81">81</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1<span class="diff_chg">39</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x1<span class="diff_chg">39</span>&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_87">87</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rdi,0x58(%r<span class="diff_chg">bx</span>)</td><td class="diff_next"></td><td class="diff_header" id="to3_82">82</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rdi,0x58(%r<span class="diff_chg">14</span>)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_88">88</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;0x60(%rbx),%rsi</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_89">89</td><td nowrap="nowrap"><span class="diff_sub">sub&nbsp;&nbsp;&nbsp;&nbsp;%rdi,%rsi</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_90">90</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;1<span class="diff_chg">56</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x15<span class="diff_sub">6&gt;&nbsp;&nbsp;152</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;_ZdlPv<span class="diff_sub">m</span>-0x4</td><td class="diff_next"></td><td class="diff_header" id="to3_83">83</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;1<span class="diff_chg">39</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x1<span class="diff_add">39&gt;&nbsp;&nbsp;13</span>5:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;_ZdlPv-0x4</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_91">91</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x38(%r<span class="diff_chg">bx</span>),%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_84">84</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x38(%r<span class="diff_chg">14</span>),%rdi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_92">92</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_85">85</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3__17">n</a></td><td class="diff_header" id="from3_93">93</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1<span class="diff_chg">6f</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x1<span class="diff_chg">6f</span>&gt;</td><td class="diff_next"><a href="#difflib_chg_to3__17">n</a></td><td class="diff_header" id="to3_86">86</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1<span class="diff_chg">4b</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x1<span class="diff_chg">4b</span>&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_94">94</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rdi,0x40(%r<span class="diff_chg">bx</span>)</td><td class="diff_next"></td><td class="diff_header" id="to3_87">87</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rdi,0x40(%r<span class="diff_chg">14</span>)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_95">95</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;0x48(%rbx),%rsi</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_96">96</td><td nowrap="nowrap"><span class="diff_sub">sub&nbsp;&nbsp;&nbsp;&nbsp;%rdi,%rsi</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_97">97</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;1<span class="diff_chg">6f</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x1<span class="diff_chg">6f</span>&gt;&nbsp;&nbsp;1<span class="diff_chg">6b</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;_ZdlPv<span class="diff_sub">m</span>-0x4</td><td class="diff_next"></td><td class="diff_header" id="to3_88">88</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;1<span class="diff_chg">4b</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x1<span class="diff_chg">4b</span>&gt;&nbsp;&nbsp;1<span class="diff_chg">47</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;_ZdlPv-0x4</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_98">98</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x20(%r<span class="diff_chg">bx</span>),%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_89">89</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x20(%r<span class="diff_chg">14</span>),%rdi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_99">99</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td><td class="diff_next"></td><td class="diff_header" id="to3_90">90</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%rdi,%rdi</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3__18">n</a></td><td class="diff_header" id="from3_100">100</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1<span class="diff_chg">8c</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x1<span class="diff_chg">8c</span>&gt;</td><td class="diff_next"><a href="#difflib_chg_to3__18">n</a></td><td class="diff_header" id="to3_91">91</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1<span class="diff_chg">61</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x1<span class="diff_chg">61</span>&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_101">101</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rdi,0x28(%r<span class="diff_chg">bx</span>)</td><td class="diff_next"></td><td class="diff_header" id="to3_92">92</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rdi,0x28(%r<span class="diff_chg">14</span>)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_102">102</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;0x30(%rbx),%rsi</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_103">103</td><td nowrap="nowrap"><span class="diff_sub">sub&nbsp;&nbsp;&nbsp;&nbsp;%rdi,%rsi</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_104">104</td><td nowrap="nowrap">pop&nbsp;&nbsp;&nbsp;&nbsp;%rbx</td><td class="diff_next"></td><td class="diff_header" id="to3_93">93</td><td nowrap="nowrap">pop&nbsp;&nbsp;&nbsp;&nbsp;%rbx</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_105">105</td><td nowrap="nowrap">pop&nbsp;&nbsp;&nbsp;&nbsp;%r14</td><td class="diff_next"></td><td class="diff_header" id="to3_94">94</td><td nowrap="nowrap">pop&nbsp;&nbsp;&nbsp;&nbsp;%r14</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_106">106</td><td nowrap="nowrap">pop&nbsp;&nbsp;&nbsp;&nbsp;%rbp</td><td class="diff_next"></td><td class="diff_header" id="to3_95">95</td><td nowrap="nowrap">pop&nbsp;&nbsp;&nbsp;&nbsp;%rbp</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to3__top">t</a></td><td class="diff_header" id="from3_107">107</td><td nowrap="nowrap">jmp&nbsp;&nbsp;&nbsp;&nbsp;1<span class="diff_chg">8c</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x1<span class="diff_chg">8c</span>&gt;&nbsp;&nbsp;1<span class="diff_chg">88</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;_ZdlPv<span class="diff_sub">m</span>-0x4</td><td class="diff_next"><a href="#difflib_chg_to3__top">t</a></td><td class="diff_header" id="to3_96">96</td><td nowrap="nowrap">jmp&nbsp;&nbsp;&nbsp;&nbsp;1<span class="diff_chg">61</span>&nbsp;&lt;_ZN3gpl3FFTD1Ev+0x1<span class="diff_chg">61</span>&gt;&nbsp;&nbsp;1<span class="diff_chg">5d</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;_ZdlPv-0x4</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_108">108</td><td nowrap="nowrap">pop&nbsp;&nbsp;&nbsp;&nbsp;%rbx</td><td class="diff_next"></td><td class="diff_header" id="to3_97">97</td><td nowrap="nowrap">pop&nbsp;&nbsp;&nbsp;&nbsp;%rbx</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_109">109</td><td nowrap="nowrap">pop&nbsp;&nbsp;&nbsp;&nbsp;%r14</td><td class="diff_next"></td><td class="diff_header" id="to3_98">98</td><td nowrap="nowrap">pop&nbsp;&nbsp;&nbsp;&nbsp;%r14</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_110">110</td><td nowrap="nowrap">pop&nbsp;&nbsp;&nbsp;&nbsp;%rbp</td><td class="diff_next"></td><td class="diff_header" id="to3_99">99</td><td nowrap="nowrap">pop&nbsp;&nbsp;&nbsp;&nbsp;%rbp</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_111">111</td><td nowrap="nowrap">ret</td><td class="diff_next"></td><td class="diff_header" id="to3_100">100</td><td nowrap="nowrap">ret</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from3_112">112</td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to3_101">101</td><td nowrap="nowrap"></td></tr>
+        </tbody>
+    </table>
+
+
+
+<H4>Tree Representation</H4>
+<pre>
+persisting_symbol
+├── display_info [Information that configures how things are displayed]
+│   ├── anchor_id = &#39;6&#39; &lt;str&gt; [Unique string identifier token that can be used to generate a HTML anchor for cross references]
+│   ├── display_symbol_details = &#39;True&#39; &lt;bool&gt; [True if symbol details are supposed to be displayed]
+│   └── symbol_class = &#39;persisting&#39; &lt;str&gt; [The class of symbol old/new/appeared/disappeared/persisting/similar]
+└── related_symbols [A relation between two symbols]
+    ├── new_symbol
+    │   ├── id = &#39;21&#39; &lt;int&gt; [Unique symbol identifier]
+    │   ├── instructions = &#39;push   %rbp
+mov    %rsp,%rbp
+push   %r14
+push   %rbx
+mov    %rdi,%r14
+cmpl   $0x0,0xb0(%rdi)
+mov    (%rdi),%rdi
+jle    79 &lt;_ZN3gpl3FFTD1Ev+0x79&gt;
+xor    %ebx,%ebx
+jmp    33 &lt;_ZN3gpl3FFTD1Ev+0x33&gt;
+nopw   0x0(%rax,%rax,1)
+add    $0x1,%rbx
+movslq 0xb0(%r14),%rax
+mov    (%r14),%rdi
+cmp    %rax,%rbx
+jge    79 &lt;_ZN3gpl3FFTD1Ev+0x79&gt;
+mov    (%rdi,%rbx,8),%rdi
+test   %rdi,%rdi
+je     41 &lt;_ZN3gpl3FFTD1Ev+0x41&gt;
+call   41 &lt;_ZN3gpl3FFTD1Ev+0x41&gt;	3d: R_X86_64_PLT32	_ZdaPv-0x4
+mov    0x8(%r14),%rax
+mov    (%rax,%rbx,8),%rdi
+test   %rdi,%rdi
+je     53 &lt;_ZN3gpl3FFTD1Ev+0x53&gt;
+call   53 &lt;_ZN3gpl3FFTD1Ev+0x53&gt;	4f: R_X86_64_PLT32	_ZdaPv-0x4
+mov    0x10(%r14),%rax
+mov    (%rax,%rbx,8),%rdi
+test   %rdi,%rdi
+je     65 &lt;_ZN3gpl3FFTD1Ev+0x65&gt;
+call   65 &lt;_ZN3gpl3FFTD1Ev+0x65&gt;	61: R_X86_64_PLT32	_ZdaPv-0x4
+mov    0x18(%r14),%rax
+mov    (%rax,%rbx,8),%rdi
+test   %rdi,%rdi
+je     20 &lt;_ZN3gpl3FFTD1Ev+0x20&gt;
+call   77 &lt;_ZN3gpl3FFTD1Ev+0x77&gt;	73: R_X86_64_PLT32	_ZdaPv-0x4
+jmp    20 &lt;_ZN3gpl3FFTD1Ev+0x20&gt;
+test   %rdi,%rdi
+je     83 &lt;_ZN3gpl3FFTD1Ev+0x83&gt;
+call   83 &lt;_ZN3gpl3FFTD1Ev+0x83&gt;	7f: R_X86_64_PLT32	_ZdaPv-0x4
+mov    0x8(%r14),%rdi
+test   %rdi,%rdi
+je     91 &lt;_ZN3gpl3FFTD1Ev+0x91&gt;
+call   91 &lt;_ZN3gpl3FFTD1Ev+0x91&gt;	8d: R_X86_64_PLT32	_ZdaPv-0x4
+mov    0x10(%r14),%rdi
+test   %rdi,%rdi
+je     9f &lt;_ZN3gpl3FFTD1Ev+0x9f&gt;
+call   9f &lt;_ZN3gpl3FFTD1Ev+0x9f&gt;	9b: R_X86_64_PLT32	_ZdaPv-0x4
+mov    0x18(%r14),%rdi
+test   %rdi,%rdi
+je     ad &lt;_ZN3gpl3FFTD1Ev+0xad&gt;
+call   ad &lt;_ZN3gpl3FFTD1Ev+0xad&gt;	a9: R_X86_64_PLT32	_ZdaPv-0x4
+mov    0x20(%r14),%rax
+mov    0x38(%r14),%rcx
+mov    %rax,0x28(%r14)
+mov    %rcx,0x40(%r14)
+mov    0x50(%r14),%rax
+mov    %rax,0x58(%r14)
+mov    0x68(%r14),%rax
+mov    %rax,0x70(%r14)
+mov    0x80(%r14),%rdi
+mov    %rdi,0x88(%r14)
+mov    0x98(%r14),%rax
+mov    %rax,0xa0(%r14)
+test   %rax,%rax
+je     104 &lt;_ZN3gpl3FFTD1Ev+0x104&gt;
+mov    %rax,0xa0(%r14)
+mov    %rax,%rdi
+call   fd &lt;_ZN3gpl3FFTD1Ev+0xfd&gt;	f9: R_X86_64_PLT32	_ZdlPv-0x4
+mov    0x80(%r14),%rdi
+test   %rdi,%rdi
+je     115 &lt;_ZN3gpl3FFTD1Ev+0x115&gt;
+mov    %rdi,0x88(%r14)
+call   115 &lt;_ZN3gpl3FFTD1Ev+0x115&gt;	111: R_X86_64_PLT32	_ZdlPv-0x4
+mov    0x68(%r14),%rdi
+test   %rdi,%rdi
+je     127 &lt;_ZN3gpl3FFTD1Ev+0x127&gt;
+mov    %rdi,0x70(%r14)
+call   127 &lt;_ZN3gpl3FFTD1Ev+0x127&gt;	123: R_X86_64_PLT32	_ZdlPv-0x4
+mov    0x50(%r14),%rdi
+test   %rdi,%rdi
+je     139 &lt;_ZN3gpl3FFTD1Ev+0x139&gt;
+mov    %rdi,0x58(%r14)
+call   139 &lt;_ZN3gpl3FFTD1Ev+0x139&gt;	135: R_X86_64_PLT32	_ZdlPv-0x4
+mov    0x38(%r14),%rdi
+test   %rdi,%rdi
+je     14b &lt;_ZN3gpl3FFTD1Ev+0x14b&gt;
+mov    %rdi,0x40(%r14)
+call   14b &lt;_ZN3gpl3FFTD1Ev+0x14b&gt;	147: R_X86_64_PLT32	_ZdlPv-0x4
+mov    0x20(%r14),%rdi
+test   %rdi,%rdi
+je     161 &lt;_ZN3gpl3FFTD1Ev+0x161&gt;
+mov    %rdi,0x28(%r14)
+pop    %rbx
+pop    %r14
+pop    %rbp
+jmp    161 &lt;_ZN3gpl3FFTD1Ev+0x161&gt;	15d: R_X86_64_PLT32	_ZdlPv-0x4
+pop    %rbx
+pop    %r14
+pop    %rbp
+ret
+&#39; &lt;str&gt; [Code instructions (assembly with possibly high level language code intermixed)]
+    │   ├── is_demangled = &#39;True&#39; &lt;bool&gt; [True if the symbol name is demangled]
+    │   ├── is_stored_in_program_memory = &#39;True&#39; &lt;bool&gt; [True if the symbol is stored in program memory]
+    │   ├── name = &#39;gpl::FFT::~FFT()&#39; &lt;str&gt; [The symbol name (demangled if supported)]
+    │   ├── name_mangled = &#39;_ZN3gpl3FFTD1Ev&#39; &lt;str&gt; [The mangled symbol name]
+    │   ├── size = &#39;358&#39; &lt;int&gt; [Number of bytes occupied by the symbol]
+    │   ├── source
+    │   │   ├── file_id = &#39;None&#39; &lt;NoneType&gt; [The id of the source file]
+    │   │   └── line = &#39;None&#39; &lt;NoneType&gt; [The line number in the source file where the symbol is defined]
+    │   └── type = &#39;T&#39; &lt;str&gt; [Type character matching the characters used by the nm binutils tool]
+    ├── old_symbol
+    │   ├── id = &#39;6&#39; &lt;int&gt; [Unique symbol identifier]
+    │   ├── instructions = &#39;push   %rbp
+mov    %rsp,%rbp
+push   %r14
+push   %rbx
+mov    %rdi,%rbx
+cmpl   $0x0,0xb0(%rdi)
+jle    78 &lt;_ZN3gpl3FFTD1Ev+0x78&gt;
+xor    %r14d,%r14d
+jmp    2f &lt;_ZN3gpl3FFTD1Ev+0x2f&gt;
+nopl   0x0(%rax,%rax,1)
+inc    %r14
+movslq 0xb0(%rbx),%rax
+cmp    %rax,%r14
+jge    78 &lt;_ZN3gpl3FFTD1Ev+0x78&gt;
+mov    (%rbx),%rax
+mov    (%rax,%r14,8),%rdi
+test   %rdi,%rdi
+je     40 &lt;_ZN3gpl3FFTD1Ev+0x40&gt;
+call   40 &lt;_ZN3gpl3FFTD1Ev+0x40&gt;	3c: R_X86_64_PLT32	_ZdaPv-0x4
+mov    0x8(%rbx),%rax
+mov    (%rax,%r14,8),%rdi
+test   %rdi,%rdi
+je     52 &lt;_ZN3gpl3FFTD1Ev+0x52&gt;
+call   52 &lt;_ZN3gpl3FFTD1Ev+0x52&gt;	4e: R_X86_64_PLT32	_ZdaPv-0x4
+mov    0x10(%rbx),%rax
+mov    (%rax,%r14,8),%rdi
+test   %rdi,%rdi
+je     64 &lt;_ZN3gpl3FFTD1Ev+0x64&gt;
+call   64 &lt;_ZN3gpl3FFTD1Ev+0x64&gt;	60: R_X86_64_PLT32	_ZdaPv-0x4
+mov    0x18(%rbx),%rax
+mov    (%rax,%r14,8),%rdi
+test   %rdi,%rdi
+je     20 &lt;_ZN3gpl3FFTD1Ev+0x20&gt;
+call   76 &lt;_ZN3gpl3FFTD1Ev+0x76&gt;	72: R_X86_64_PLT32	_ZdaPv-0x4
+jmp    20 &lt;_ZN3gpl3FFTD1Ev+0x20&gt;
+mov    (%rbx),%rdi
+test   %rdi,%rdi
+je     85 &lt;_ZN3gpl3FFTD1Ev+0x85&gt;
+call   85 &lt;_ZN3gpl3FFTD1Ev+0x85&gt;	81: R_X86_64_PLT32	_ZdaPv-0x4
+mov    0x8(%rbx),%rdi
+test   %rdi,%rdi
+je     93 &lt;_ZN3gpl3FFTD1Ev+0x93&gt;
+call   93 &lt;_ZN3gpl3FFTD1Ev+0x93&gt;	8f: R_X86_64_PLT32	_ZdaPv-0x4
+mov    0x10(%rbx),%rdi
+test   %rdi,%rdi
+je     a1 &lt;_ZN3gpl3FFTD1Ev+0xa1&gt;
+call   a1 &lt;_ZN3gpl3FFTD1Ev+0xa1&gt;	9d: R_X86_64_PLT32	_ZdaPv-0x4
+mov    0x18(%rbx),%rdi
+test   %rdi,%rdi
+je     af &lt;_ZN3gpl3FFTD1Ev+0xaf&gt;
+call   af &lt;_ZN3gpl3FFTD1Ev+0xaf&gt;	ab: R_X86_64_PLT32	_ZdaPv-0x4
+mov    0x20(%rbx),%rax
+mov    0x38(%rbx),%rcx
+mov    %rax,0x28(%rbx)
+mov    %rcx,0x40(%rbx)
+mov    0x50(%rbx),%rax
+mov    %rax,0x58(%rbx)
+mov    0x68(%rbx),%rax
+mov    %rax,0x70(%rbx)
+mov    0x80(%rbx),%rdi
+mov    %rdi,0x88(%rbx)
+mov    0x98(%rbx),%rax
+mov    %rax,0xa0(%rbx)
+test   %rax,%rax
+je     109 &lt;_ZN3gpl3FFTD1Ev+0x109&gt;
+mov    0xa8(%rbx),%rsi
+sub    %rax,%rsi
+mov    %rax,%rdi
+call   102 &lt;_ZN3gpl3FFTD1Ev+0x102&gt;	fe: R_X86_64_PLT32	_ZdlPvm-0x4
+mov    0x80(%rbx),%rdi
+test   %rdi,%rdi
+je     124 &lt;_ZN3gpl3FFTD1Ev+0x124&gt;
+mov    %rdi,0x88(%rbx)
+mov    0x90(%rbx),%rsi
+sub    %rdi,%rsi
+call   124 &lt;_ZN3gpl3FFTD1Ev+0x124&gt;	120: R_X86_64_PLT32	_ZdlPvm-0x4
+mov    0x68(%rbx),%rdi
+test   %rdi,%rdi
+je     13d &lt;_ZN3gpl3FFTD1Ev+0x13d&gt;
+mov    %rdi,0x70(%rbx)
+mov    0x78(%rbx),%rsi
+sub    %rdi,%rsi
+call   13d &lt;_ZN3gpl3FFTD1Ev+0x13d&gt;	139: R_X86_64_PLT32	_ZdlPvm-0x4
+mov    0x50(%rbx),%rdi
+test   %rdi,%rdi
+je     156 &lt;_ZN3gpl3FFTD1Ev+0x156&gt;
+mov    %rdi,0x58(%rbx)
+mov    0x60(%rbx),%rsi
+sub    %rdi,%rsi
+call   156 &lt;_ZN3gpl3FFTD1Ev+0x156&gt;	152: R_X86_64_PLT32	_ZdlPvm-0x4
+mov    0x38(%rbx),%rdi
+test   %rdi,%rdi
+je     16f &lt;_ZN3gpl3FFTD1Ev+0x16f&gt;
+mov    %rdi,0x40(%rbx)
+mov    0x48(%rbx),%rsi
+sub    %rdi,%rsi
+call   16f &lt;_ZN3gpl3FFTD1Ev+0x16f&gt;	16b: R_X86_64_PLT32	_ZdlPvm-0x4
+mov    0x20(%rbx),%rdi
+test   %rdi,%rdi
+je     18c &lt;_ZN3gpl3FFTD1Ev+0x18c&gt;
+mov    %rdi,0x28(%rbx)
+mov    0x30(%rbx),%rsi
+sub    %rdi,%rsi
+pop    %rbx
+pop    %r14
+pop    %rbp
+jmp    18c &lt;_ZN3gpl3FFTD1Ev+0x18c&gt;	188: R_X86_64_PLT32	_ZdlPvm-0x4
+pop    %rbx
+pop    %r14
+pop    %rbp
+ret
+&#39; &lt;str&gt; [Code instructions (assembly with possibly high level language code intermixed)]
+    │   ├── is_demangled = &#39;True&#39; &lt;bool&gt; [True if the symbol name is demangled]
+    │   ├── is_stored_in_program_memory = &#39;True&#39; &lt;bool&gt; [True if the symbol is stored in program memory]
+    │   ├── name = &#39;gpl::FFT::~FFT()&#39; &lt;str&gt; [The symbol name (demangled if supported)]
+    │   ├── name_mangled = &#39;_ZN3gpl3FFTD1Ev&#39; &lt;str&gt; [The mangled symbol name]
+    │   ├── size = &#39;401&#39; &lt;int&gt; [Number of bytes occupied by the symbol]
+    │   ├── source
+    │   │   ├── file_id = &#39;None&#39; &lt;NoneType&gt; [The id of the source file]
+    │   │   └── line = &#39;None&#39; &lt;NoneType&gt; [The line number in the source file where the symbol is defined]
+    │   └── type = &#39;T&#39; &lt;str&gt; [Type character matching the characters used by the nm binutils tool]
+    └── size_delta = &#39;-43&#39; &lt;int&gt; [Difference in bytes between the resource occupation of the two symbols]
+</pre>
+
+</body>
+</html>

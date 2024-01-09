@@ -1,0 +1,937 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset=utf-8>
+
+  <meta name="robots" content="noindex">
+  <title>Persisting Symbol gpl::FFT::doFFT()</title>
+  <link rel="stylesheet" href="../../css/elf_diff_general.css">
+  <script src="../../js/sorttable.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<H4><span class="monospace"><a name="persisting_symbol_details_3"></a>Persisting symbol
+
+gpl::FFT::doFFT()
+
+: old size: 671 bytes, new size: 1278 bytes, delta: <span class="deterioration number">607</span> bytes</span></H4>
+<span class="monospace">
+<p>
+Old source: ?<br>
+New source: ?
+</p>
+</span>
+
+
+    <table class="diff" id="difflib_chg_to1__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Old</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">New</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to1__20"><a href="#difflib_chg_to1__0">f</a></td><td class="diff_header" id="from1_1">1</td><td nowrap="nowrap">push&nbsp;&nbsp;&nbsp;%rbp</td><td class="diff_next"><a href="#difflib_chg_to1__0">f</a></td><td class="diff_header" id="to1_1">1</td><td nowrap="nowrap">push&nbsp;&nbsp;&nbsp;%rbp</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_2">2</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rsp,%rbp</td><td class="diff_next"></td><td class="diff_header" id="to1_2">2</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rsp,%rbp</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__1">n</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to1__1">n</a></td><td class="diff_header" id="to1_3">3</td><td nowrap="nowrap"><span class="diff_add">push&nbsp;&nbsp;&nbsp;%r15</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_4">4</td><td nowrap="nowrap"><span class="diff_add">push&nbsp;&nbsp;&nbsp;%r14</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_5">5</td><td nowrap="nowrap"><span class="diff_add">push&nbsp;&nbsp;&nbsp;%r12</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_3">3</td><td nowrap="nowrap">push&nbsp;&nbsp;&nbsp;%rbx</td><td class="diff_next"></td><td class="diff_header" id="to1_6">6</td><td nowrap="nowrap">push&nbsp;&nbsp;&nbsp;%rbx</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__2">n</a></td><td class="diff_header" id="from1_4">4</td><td nowrap="nowrap"><span class="diff_sub">push&nbsp;&nbsp;&nbsp;%rax</span></td><td class="diff_next"><a href="#difflib_chg_to1__2">n</a></td><td class="diff_header" id="to1_7">7</td><td nowrap="nowrap"><span class="diff_add">sub&nbsp;&nbsp;&nbsp;&nbsp;$0x10,%rsp</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_5">5</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rdi,%r<span class="diff_chg">bx</span></td><td class="diff_next"></td><td class="diff_header" id="to1_8">8</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rdi,%r<span class="diff_chg">15</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_6">6</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0xb0(%rdi),%edi</td><td class="diff_next"></td><td class="diff_header" id="to1_9">9</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0xb0(%rdi),%edi</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__3">n</a></td><td class="diff_header" id="from1_7">7</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0xb4(%r<span class="diff_chg">bx</span>),%esi</td><td class="diff_next"><a href="#difflib_chg_to1__3">n</a></td><td class="diff_header" id="to1_10">10</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0xb4(%r<span class="diff_chg">15</span>),%esi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_8">8</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x98(%r<span class="diff_chg">bx</span>),%r9</td><td class="diff_next"></td><td class="diff_header" id="to1_11">11</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x98(%r<span class="diff_chg">15</span>),%r9</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_9">9</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;(%r<span class="diff_chg">bx</span>),%rcx</td><td class="diff_next"></td><td class="diff_header" id="to1_12">12</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;(%r<span class="diff_chg">15</span>),%rcx</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_10">10</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x20(%r<span class="diff_chg">bx</span>),%rax</td><td class="diff_next"></td><td class="diff_header" id="to1_13">13</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x20(%r<span class="diff_chg">15</span>),%rax</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_11">11</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rax,(%rsp)</td><td class="diff_next"></td><td class="diff_header" id="to1_14">14</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rax,(%rsp)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_12">12</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;$0xffffffff,%edx</td><td class="diff_next"></td><td class="diff_header" id="to1_15">15</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;$0xffffffff,%edx</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_13">13</td><td nowrap="nowrap">xor&nbsp;&nbsp;&nbsp;&nbsp;%r8d,%r8d</td><td class="diff_next"></td><td class="diff_header" id="to1_16">16</td><td nowrap="nowrap">xor&nbsp;&nbsp;&nbsp;&nbsp;%r8d,%r8d</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__4">n</a></td><td class="diff_header" id="from1_14">14</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;3<span class="diff_chg">4</span>&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x3<span class="diff_chg">4</span>&gt;&nbsp;&nbsp;&nbsp;3<span class="diff_chg">0</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;&nbsp;_ZN3gpl6ddct2dEiiiPPfS0_PiS0_-0x4</td><td class="diff_next"><a href="#difflib_chg_to1__4">n</a></td><td class="diff_header" id="to1_17">17</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;3<span class="diff_chg">e</span>&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x3<span class="diff_chg">e</span>&gt;&nbsp;&nbsp;&nbsp;3<span class="diff_chg">a</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;&nbsp;_ZN3gpl6ddct2dEiiiPPfS0_PiS0_-0x4</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_15">15</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0xb0(%r<span class="diff_chg">bx</span>),%edi</td><td class="diff_next"></td><td class="diff_header" id="to1_18">18</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0xb0(%r<span class="diff_chg">15</span>),%edi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_16">16</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%edi,%edi</td><td class="diff_next"></td><td class="diff_header" id="to1_19">19</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%edi,%edi</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__5">n</a></td><td class="diff_header" id="from1_17">17</td><td nowrap="nowrap">jle&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">72</span>&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">72</span>&gt;</td><td class="diff_next"><a href="#difflib_chg_to1__5">n</a></td><td class="diff_header" id="to1_20">20</td><td nowrap="nowrap">jle&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">f9</span>&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">f9</span>&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_21">21</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;(%r15),%rcx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_22">22</td><td nowrap="nowrap"><span class="diff_add">lea&nbsp;&nbsp;&nbsp;&nbsp;-0x1(%rdi),%rdx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_23">23</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;%edi,%eax</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_24">24</td><td nowrap="nowrap"><span class="diff_add">and&nbsp;&nbsp;&nbsp;&nbsp;$0x3,%eax</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_25">25</td><td nowrap="nowrap"><span class="diff_add">cmp&nbsp;&nbsp;&nbsp;&nbsp;$0x3,%rdx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_26">26</td><td nowrap="nowrap"><span class="diff_add">jae&nbsp;&nbsp;&nbsp;&nbsp;63&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x63&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_18">18</td><td nowrap="nowrap">xor&nbsp;&nbsp;&nbsp;&nbsp;%e<span class="diff_chg">a</span>x,%e<span class="diff_chg">a</span>x</td><td class="diff_next"></td><td class="diff_header" id="to1_27">27</td><td nowrap="nowrap">xor&nbsp;&nbsp;&nbsp;&nbsp;%e<span class="diff_chg">d</span>x,%e<span class="diff_chg">d</span>x</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_28">28</td><td nowrap="nowrap"><span class="diff_add">jmp&nbsp;&nbsp;&nbsp;&nbsp;cc&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0xcc&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_29">29</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;%rdi,%rsi</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_30">30</td><td nowrap="nowrap"><span class="diff_add">sub&nbsp;&nbsp;&nbsp;&nbsp;%rax,%rsi</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_31">31</td><td nowrap="nowrap"><span class="diff_add">xor&nbsp;&nbsp;&nbsp;&nbsp;%edx,%edx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_19">19</td><td nowrap="nowrap">movss&nbsp;&nbsp;0x0(%rip),%xmm0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;<span class="diff_chg">48</span>&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">48</span>&gt;&nbsp;&nbsp;<span class="diff_chg">44</span>:&nbsp;R_X86_64_PC32&nbsp;.LCPI5_0-0x4</td><td class="diff_next"></td><td class="diff_header" id="to1_32">32</td><td nowrap="nowrap">movss&nbsp;&nbsp;0x0(%rip),%xmm0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;<span class="diff_chg">73</span>&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">73</span>&gt;&nbsp;&nbsp;<span class="diff_chg">6f</span>:&nbsp;R_X86_64_PC32&nbsp;.LCPI5_0-0x4</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_20">20</td><td nowrap="nowrap">nop<span class="diff_chg">l&nbsp;&nbsp;</span>&nbsp;0x0(%rax,%rax,1)</td><td class="diff_next"></td><td class="diff_header" id="to1_33">33</td><td nowrap="nowrap"><span class="diff_add">cs&nbsp;</span>nop<span class="diff_chg">w</span>&nbsp;0x0(%rax,%rax,1)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_21">21</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rbx),%rcx</span></td><td class="diff_next"></td><td class="diff_header" id="to1_34">34</td><td nowrap="nowrap"><span class="diff_add">nopl&nbsp;&nbsp;&nbsp;(%rax)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_22">22</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rcx,%r<span class="diff_chg">a</span>x,8),%r<span class="diff_chg">c</span>x</td><td class="diff_next"></td><td class="diff_header" id="to1_35">35</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rcx,%r<span class="diff_chg">d</span>x,8),%r<span class="diff_chg">b</span>x</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_23">23</td><td nowrap="nowrap">movss&nbsp;&nbsp;(%r<span class="diff_chg">c</span>x),%xmm1</td><td class="diff_next"></td><td class="diff_header" id="to1_36">36</td><td nowrap="nowrap">movss&nbsp;&nbsp;(%r<span class="diff_chg">b</span>x),%xmm1</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_24">24</td><td nowrap="nowrap">mulss&nbsp;&nbsp;%xmm0,%xmm1</td><td class="diff_next"></td><td class="diff_header" id="to1_37">37</td><td nowrap="nowrap">mulss&nbsp;&nbsp;%xmm0,%xmm1</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__6">n</a></td><td class="diff_header" id="from1_25">25</td><td nowrap="nowrap">movss&nbsp;&nbsp;%xmm1,(%r<span class="diff_chg">c</span>x)</td><td class="diff_next"><a href="#difflib_chg_to1__6">n</a></td><td class="diff_header" id="to1_38">38</td><td nowrap="nowrap">movss&nbsp;&nbsp;%xmm1,(%r<span class="diff_chg">b</span>x)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_26">26</td><td nowrap="nowrap"><span class="diff_sub">inc&nbsp;&nbsp;&nbsp;&nbsp;%rax</span></td><td class="diff_next"></td><td class="diff_header" id="to1_39">39</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;0x8(%rcx,%rdx,8),%rbx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_27">27</td><td nowrap="nowrap"><span class="diff_sub">movslq&nbsp;0xb0(%rbx),%rdi</span></td><td class="diff_next"></td><td class="diff_header" id="to1_40">40</td><td nowrap="nowrap"><span class="diff_add">movss&nbsp;&nbsp;(%rbx),%xmm1</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_41">41</td><td nowrap="nowrap"><span class="diff_add">mulss&nbsp;&nbsp;%xmm0,%xmm1</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_42">42</td><td nowrap="nowrap"><span class="diff_add">movss&nbsp;&nbsp;%xmm1,(%rbx)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_43">43</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;0x10(%rcx,%rdx,8),%rbx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_44">44</td><td nowrap="nowrap"><span class="diff_add">movss&nbsp;&nbsp;(%rbx),%xmm1</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_45">45</td><td nowrap="nowrap"><span class="diff_add">mulss&nbsp;&nbsp;%xmm0,%xmm1</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_46">46</td><td nowrap="nowrap"><span class="diff_add">movss&nbsp;&nbsp;%xmm1,(%rbx)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_47">47</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;0x18(%rcx,%rdx,8),%rbx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_48">48</td><td nowrap="nowrap"><span class="diff_add">movss&nbsp;&nbsp;(%rbx),%xmm1</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_49">49</td><td nowrap="nowrap"><span class="diff_add">mulss&nbsp;&nbsp;%xmm0,%xmm1</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_50">50</td><td nowrap="nowrap"><span class="diff_add">movss&nbsp;&nbsp;%xmm1,(%rbx)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_51">51</td><td nowrap="nowrap"><span class="diff_add">add&nbsp;&nbsp;&nbsp;&nbsp;$0x4,%rdx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_52">52</td><td nowrap="nowrap"><span class="diff_add">cmp&nbsp;&nbsp;&nbsp;&nbsp;%rdx,%rsi</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_53">53</td><td nowrap="nowrap"><span class="diff_add">jne&nbsp;&nbsp;&nbsp;&nbsp;80&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x80&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_54">54</td><td nowrap="nowrap"><span class="diff_add">test&nbsp;&nbsp;&nbsp;%rax,%rax</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_55">55</td><td nowrap="nowrap"><span class="diff_add">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f9&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0xf9&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_56">56</td><td nowrap="nowrap"><span class="diff_add">lea&nbsp;&nbsp;&nbsp;&nbsp;(%rcx,%rdx,8),%rcx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_57">57</td><td nowrap="nowrap"><span class="diff_add">xor&nbsp;&nbsp;&nbsp;&nbsp;%edx,%edx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_58">58</td><td nowrap="nowrap"><span class="diff_add">movss&nbsp;&nbsp;0x0(%rip),%xmm0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;df&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0xdf&gt;&nbsp;&nbsp;db:&nbsp;R_X86_64_PC32&nbsp;.LCPI5_0-0x4</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_59">59</td><td nowrap="nowrap"><span class="diff_add">nop</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_60">60</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rcx,%rdx,8),%rsi</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_61">61</td><td nowrap="nowrap"><span class="diff_add">movss&nbsp;&nbsp;(%rsi),%xmm1</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_62">62</td><td nowrap="nowrap"><span class="diff_add">mulss&nbsp;&nbsp;%xmm0,%xmm1</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_63">63</td><td nowrap="nowrap"><span class="diff_add">movss&nbsp;&nbsp;%xmm1,(%rsi)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_64">64</td><td nowrap="nowrap"><span class="diff_add">add&nbsp;&nbsp;&nbsp;&nbsp;$0x1,%rdx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_28">28</td><td nowrap="nowrap">cmp&nbsp;&nbsp;&nbsp;&nbsp;%rd<span class="diff_chg">i</span>,%rax</td><td class="diff_next"></td><td class="diff_header" id="to1_65">65</td><td nowrap="nowrap">cmp&nbsp;&nbsp;&nbsp;&nbsp;%rd<span class="diff_chg">x</span>,%rax</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_29">29</td><td nowrap="nowrap">j<span class="diff_chg">l&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5</span>0&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">5</span>0&gt;</td><td class="diff_next"></td><td class="diff_header" id="to1_66">66</td><td nowrap="nowrap">j<span class="diff_chg">ne&nbsp;&nbsp;&nbsp;&nbsp;e</span>0&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">e</span>0&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_30">30</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0xb4(%r<span class="diff_chg">bx</span>),%esi</td><td class="diff_next"></td><td class="diff_header" id="to1_67">67</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0xb4(%r<span class="diff_chg">15</span>),%esi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_31">31</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%esi,%esi</td><td class="diff_next"></td><td class="diff_header" id="to1_68">68</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%esi,%esi</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__7">n</a></td><td class="diff_header" id="from1_32">32</td><td nowrap="nowrap">jle&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">b9</span>&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">b9</span>&gt;</td><td class="diff_next"><a href="#difflib_chg_to1__7">n</a></td><td class="diff_header" id="to1_69">69</td><td nowrap="nowrap">jle&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">1d7</span>&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">1d7</span>&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_33">33</td><td nowrap="nowrap"><span class="diff_sub">xor&nbsp;&nbsp;&nbsp;&nbsp;%eax,%eax</span></td><td class="diff_next"></td><td class="diff_header" id="to1_70">70</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;(%r15),%rax</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_34">34</td><td nowrap="nowrap"><span class="diff_sub">movss&nbsp;&nbsp;0x0(%rip),%xmm0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;86&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x86&gt;&nbsp;&nbsp;82:&nbsp;R_X86_64_PC32&nbsp;.LCPI5_0-0x4</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_35">35</td><td nowrap="nowrap"><span class="diff_sub">cs&nbsp;nopw&nbsp;0x0(%rax,%rax,1)</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_36">36</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;(%r<span class="diff_chg">b</span>x),%r<span class="diff_chg">c</span>x</td><td class="diff_next"></td><td class="diff_header" id="to1_71">71</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;(%r<span class="diff_chg">a</span>x),%r<span class="diff_chg">a</span>x</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_72">72</td><td nowrap="nowrap"><span class="diff_add">cmp&nbsp;&nbsp;&nbsp;&nbsp;$0x7,%esi</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_73">73</td><td nowrap="nowrap"><span class="diff_add">ja&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11a&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x11a&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_74">74</td><td nowrap="nowrap"><span class="diff_add">xor&nbsp;&nbsp;&nbsp;&nbsp;%ecx,%ecx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_75">75</td><td nowrap="nowrap"><span class="diff_add">jmp&nbsp;&nbsp;&nbsp;&nbsp;1b5&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x1b5&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_76">76</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;%esi,%ecx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_77">77</td><td nowrap="nowrap"><span class="diff_add">and&nbsp;&nbsp;&nbsp;&nbsp;$0xfffffff8,%ecx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_78">78</td><td nowrap="nowrap"><span class="diff_add">lea&nbsp;&nbsp;&nbsp;&nbsp;-0x8(%rcx),%rbx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_37">37</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_sub">(</span>%r<span class="diff_chg">c</span>x<span class="diff_sub">)</span>,%r<span class="diff_chg">c</span>x</td><td class="diff_next"></td><td class="diff_header" id="to1_79">79</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%r<span class="diff_chg">b</span>x,%r<span class="diff_chg">d</span>x</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_80">80</td><td nowrap="nowrap"><span class="diff_add">shr&nbsp;&nbsp;&nbsp;&nbsp;$0x3,%rdx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_81">81</td><td nowrap="nowrap"><span class="diff_add">add&nbsp;&nbsp;&nbsp;&nbsp;$0x1,%rdx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_82">82</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;%edx,%r8d</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_83">83</td><td nowrap="nowrap"><span class="diff_add">and&nbsp;&nbsp;&nbsp;&nbsp;$0x1,%r8d</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_84">84</td><td nowrap="nowrap"><span class="diff_add">test&nbsp;&nbsp;&nbsp;%rbx,%rbx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_85">85</td><td nowrap="nowrap"><span class="diff_add">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4ee&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x4ee&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_86">86</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;%r8,%rbx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_87">87</td><td nowrap="nowrap"><span class="diff_add">sub&nbsp;&nbsp;&nbsp;&nbsp;%rdx,%rbx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_88">88</td><td nowrap="nowrap"><span class="diff_add">xor&nbsp;&nbsp;&nbsp;&nbsp;%edx,%edx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_89">89</td><td nowrap="nowrap"><span class="diff_add">movaps&nbsp;0x0(%rip),%xmm0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;14d&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x14d&gt;&nbsp;&nbsp;&nbsp;149:&nbsp;R_X86_64_PC32&nbsp;&nbsp;&nbsp;.LCPI5_1-0x4</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_90">90</td><td nowrap="nowrap"><span class="diff_add">nopl&nbsp;&nbsp;&nbsp;(%rax)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_38">38</td><td nowrap="nowrap">movs<span class="diff_sub">s&nbsp;</span>&nbsp;(%r<span class="diff_chg">c</span>x,%r<span class="diff_chg">a</span>x,4),%xmm1</td><td class="diff_next"></td><td class="diff_header" id="to1_91">91</td><td nowrap="nowrap">mov<span class="diff_add">up</span>s&nbsp;(%r<span class="diff_chg">a</span>x,%r<span class="diff_chg">d</span>x,4),%xmm1</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_92">92</td><td nowrap="nowrap"><span class="diff_add">movups&nbsp;0x10(%rax,%rdx,4),%xmm2</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_93">93</td><td nowrap="nowrap"><span class="diff_add">movups&nbsp;0x20(%rax,%rdx,4),%xmm3</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_94">94</td><td nowrap="nowrap"><span class="diff_add">movups&nbsp;0x30(%rax,%rdx,4),%xmm4</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_39">39</td><td nowrap="nowrap">muls<span class="diff_sub">s</span>&nbsp;&nbsp;%xmm0,%xmm1</td><td class="diff_next"></td><td class="diff_header" id="to1_95">95</td><td nowrap="nowrap">mul<span class="diff_add">p</span>s&nbsp;&nbsp;%xmm0,%xmm1</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_96">96</td><td nowrap="nowrap"><span class="diff_add">mulps&nbsp;&nbsp;%xmm0,%xmm2</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_40">40</td><td nowrap="nowrap">movs<span class="diff_sub">s&nbsp;</span>&nbsp;%xmm1,(%r<span class="diff_chg">c</span>x,%r<span class="diff_chg">a</span>x,4)</td><td class="diff_next"></td><td class="diff_header" id="to1_97">97</td><td nowrap="nowrap">mov<span class="diff_add">up</span>s&nbsp;%xmm1,(%r<span class="diff_chg">a</span>x,%r<span class="diff_chg">d</span>x,4)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_41">41</td><td nowrap="nowrap"><span class="diff_sub">inc&nbsp;&nbsp;&nbsp;&nbsp;%rax</span></td><td class="diff_next"></td><td class="diff_header" id="to1_98">98</td><td nowrap="nowrap"><span class="diff_add">movups&nbsp;%xmm2,0x10(%rax,%rdx,4)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_42">42</td><td nowrap="nowrap"><span class="diff_sub">movslq&nbsp;0xb4(%rbx),%rsi</span></td><td class="diff_next"></td><td class="diff_header" id="to1_99">99</td><td nowrap="nowrap"><span class="diff_add">mulps&nbsp;&nbsp;%xmm0,%xmm3</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_100">100</td><td nowrap="nowrap"><span class="diff_add">mulps&nbsp;&nbsp;%xmm0,%xmm4</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_101">101</td><td nowrap="nowrap"><span class="diff_add">movups&nbsp;%xmm3,0x20(%rax,%rdx,4)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_102">102</td><td nowrap="nowrap"><span class="diff_add">movups&nbsp;%xmm4,0x30(%rax,%rdx,4)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_103">103</td><td nowrap="nowrap"><span class="diff_add">add&nbsp;&nbsp;&nbsp;&nbsp;$0x10,%rdx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_104">104</td><td nowrap="nowrap"><span class="diff_add">add&nbsp;&nbsp;&nbsp;&nbsp;$0x2,%rbx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_105">105</td><td nowrap="nowrap"><span class="diff_add">jne&nbsp;&nbsp;&nbsp;&nbsp;150&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x150&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_106">106</td><td nowrap="nowrap"><span class="diff_add">test&nbsp;&nbsp;&nbsp;%r8,%r8</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_107">107</td><td nowrap="nowrap"><span class="diff_add">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1b0&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x1b0&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_108">108</td><td nowrap="nowrap"><span class="diff_add">movups&nbsp;(%rax,%rdx,4),%xmm0</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_109">109</td><td nowrap="nowrap"><span class="diff_add">movups&nbsp;0x10(%rax,%rdx,4),%xmm1</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_110">110</td><td nowrap="nowrap"><span class="diff_add">movaps&nbsp;0x0(%rip),%xmm2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;1a1&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x1a1&gt;&nbsp;&nbsp;&nbsp;19d:&nbsp;R_X86_64_PC32&nbsp;&nbsp;&nbsp;.LCPI5_1-0x4</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_111">111</td><td nowrap="nowrap"><span class="diff_add">mulps&nbsp;&nbsp;%xmm2,%xmm0</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_112">112</td><td nowrap="nowrap"><span class="diff_add">mulps&nbsp;&nbsp;%xmm2,%xmm1</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_113">113</td><td nowrap="nowrap"><span class="diff_add">movups&nbsp;%xmm0,(%rax,%rdx,4)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_114">114</td><td nowrap="nowrap"><span class="diff_add">movups&nbsp;%xmm1,0x10(%rax,%rdx,4)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_43">43</td><td nowrap="nowrap">cmp&nbsp;&nbsp;&nbsp;&nbsp;%rsi,%r<span class="diff_chg">a</span>x</td><td class="diff_next"></td><td class="diff_header" id="to1_115">115</td><td nowrap="nowrap">cmp&nbsp;&nbsp;&nbsp;&nbsp;%rsi,%r<span class="diff_chg">c</span>x</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_116">116</td><td nowrap="nowrap"><span class="diff_add">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1d7&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x1d7&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_117">117</td><td nowrap="nowrap"><span class="diff_add">movss&nbsp;&nbsp;0x0(%rip),%xmm0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;1bd&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x1bd&gt;&nbsp;&nbsp;&nbsp;1b9:&nbsp;R_X86_64_PC32&nbsp;&nbsp;&nbsp;.LCPI5_0-0x4</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_118">118</td><td nowrap="nowrap"><span class="diff_add">nopl&nbsp;&nbsp;&nbsp;(%rax)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_119">119</td><td nowrap="nowrap"><span class="diff_add">movss&nbsp;&nbsp;(%rax,%rcx,4),%xmm1</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_120">120</td><td nowrap="nowrap"><span class="diff_add">mulss&nbsp;&nbsp;%xmm0,%xmm1</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_121">121</td><td nowrap="nowrap"><span class="diff_add">movss&nbsp;&nbsp;%xmm1,(%rax,%rcx,4)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_122">122</td><td nowrap="nowrap"><span class="diff_add">add&nbsp;&nbsp;&nbsp;&nbsp;$0x1,%rcx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_123">123</td><td nowrap="nowrap"><span class="diff_add">cmp&nbsp;&nbsp;&nbsp;&nbsp;%rsi,%rcx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_44">44</td><td nowrap="nowrap">j<span class="diff_chg">l&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9</span>0&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">9</span>0&gt;</td><td class="diff_next"></td><td class="diff_header" id="to1_124">124</td><td nowrap="nowrap">j<span class="diff_chg">b&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1c</span>0&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">1c</span>0&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_45">45</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;0xb0(%rbx),%edi</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_46">46</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%edi,%edi</td><td class="diff_next"></td><td class="diff_header" id="to1_125">125</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%edi,%edi</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__8">n</a></td><td class="diff_header" id="from1_47">47</td><td nowrap="nowrap"><span class="diff_sub">jle&nbsp;&nbsp;&nbsp;&nbsp;220&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x220&gt;</span></td><td class="diff_next"><a href="#difflib_chg_to1__8">n</a></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_48">48</td><td nowrap="nowrap"><span class="diff_sub">test&nbsp;&nbsp;&nbsp;%esi,%esi</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_49">49</td><td nowrap="nowrap"><span class="diff_sub">jle&nbsp;&nbsp;&nbsp;&nbsp;220&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x220&gt;</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_50">50</td><td nowrap="nowrap"><span class="diff_sub">xor&nbsp;&nbsp;&nbsp;&nbsp;%eax,%eax</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_51">51</td><td nowrap="nowrap"><span class="diff_sub">movsd&nbsp;&nbsp;0x0(%rip),%xmm0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;d3&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0xd3&gt;&nbsp;&nbsp;cf:&nbsp;R_X86_64_PC32&nbsp;.LCPI5_1-0x4</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_52">52</td><td nowrap="nowrap"><span class="diff_sub">jmp&nbsp;&nbsp;&nbsp;&nbsp;eb&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0xeb&gt;</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_53">53</td><td nowrap="nowrap"><span class="diff_sub">data16&nbsp;cs&nbsp;nopw&nbsp;0x0(%rax,%rax,1)</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_54">54</td><td nowrap="nowrap"><span class="diff_sub">inc&nbsp;&nbsp;&nbsp;&nbsp;%rax</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_55">55</td><td nowrap="nowrap"><span class="diff_sub">movslq&nbsp;%edi,%rcx</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_56">56</td><td nowrap="nowrap"><span class="diff_sub">cmp&nbsp;&nbsp;&nbsp;&nbsp;%rcx,%rax</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_57">57</td><td nowrap="nowrap">j<span class="diff_chg">g</span>e&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">1</span>5<span class="diff_sub">2</span>&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">1</span>5<span class="diff_sub">2</span>&gt;</td><td class="diff_next"></td><td class="diff_header" id="to1_126">126</td><td nowrap="nowrap">j<span class="diff_chg">l</span>e&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">46</span>5&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">46</span>5&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_58">58</td><td nowrap="nowrap"><span class="diff_sub">test&nbsp;&nbsp;&nbsp;%esi,%esi</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_59">59</td><td nowrap="nowrap"><span class="diff_sub">jle&nbsp;&nbsp;&nbsp;&nbsp;e0&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0xe0&gt;</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_60">60</td><td nowrap="nowrap"><span class="diff_sub">xor&nbsp;&nbsp;&nbsp;&nbsp;%ecx,%ecx</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_61">61</td><td nowrap="nowrap"><span class="diff_sub">data16&nbsp;data16&nbsp;data16&nbsp;data16&nbsp;data16&nbsp;cs&nbsp;nopw&nbsp;0x0(%rax,%rax,1)</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_62">62</td><td nowrap="nowrap">xorps&nbsp;&nbsp;%xmm1,%xmm1</td><td class="diff_next"></td><td class="diff_header" id="to1_127">127</td><td nowrap="nowrap">xorps&nbsp;&nbsp;%xmm1,%xmm1</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__9">n</a></td><td class="diff_header" id="from1_63">63</td><td nowrap="nowrap"><span class="diff_sub">cvtsi2sdl&nbsp;0xb0(%rbx),%xmm1</span></td><td class="diff_next"><a href="#difflib_chg_to1__9">n</a></td><td class="diff_header" id="to1_128">128</td><td nowrap="nowrap"><span class="diff_add">cvtsi2sd&nbsp;%edi,%xmm1</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_64">64</td><td nowrap="nowrap"><span class="diff_sub">movapd&nbsp;%xmm0,%xmm2</span></td><td class="diff_next"></td><td class="diff_header" id="to1_129">129</td><td nowrap="nowrap"><span class="diff_add">movsd&nbsp;&nbsp;0x0(%rip),%xmm0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;1ee&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x1ee&gt;&nbsp;&nbsp;&nbsp;1ea:&nbsp;R_X86_64_PC32&nbsp;&nbsp;&nbsp;.LCPI5_2-0x4</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_65">65</td><td nowrap="nowrap">divsd&nbsp;&nbsp;%xmm1,%xmm<span class="diff_chg">2</span></td><td class="diff_next"></td><td class="diff_header" id="to1_130">130</td><td nowrap="nowrap">divsd&nbsp;&nbsp;%xmm1,%xmm<span class="diff_chg">0</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_66">66</td><td nowrap="nowrap">xorps&nbsp;&nbsp;%xmm1,%xmm1</td><td class="diff_next"></td><td class="diff_header" id="to1_131">131</td><td nowrap="nowrap">xorps&nbsp;&nbsp;%xmm1,%xmm1</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_67">67</td><td nowrap="nowrap">cvtsi2sd&nbsp;%esi,%xmm1</td><td class="diff_next"></td><td class="diff_header" id="to1_132">132</td><td nowrap="nowrap">cvtsi2sd&nbsp;%esi,%xmm1</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__10">n</a></td><td class="diff_header" id="from1_68">68</td><td nowrap="nowrap">divsd&nbsp;&nbsp;%xmm1,%xmm<span class="diff_chg">2</span></td><td class="diff_next"><a href="#difflib_chg_to1__10">n</a></td><td class="diff_header" id="to1_133">133</td><td nowrap="nowrap">divsd&nbsp;&nbsp;%xmm1,%xmm<span class="diff_chg">0</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_134">134</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;%esi,%r11d</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_135">135</td><td nowrap="nowrap"><span class="diff_add">and&nbsp;&nbsp;&nbsp;&nbsp;$0xfffffff8,%r11d</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_136">136</td><td nowrap="nowrap"><span class="diff_add">lea&nbsp;&nbsp;&nbsp;&nbsp;-0x8(%r11),%r9</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_137">137</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;%r9,%rax</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_138">138</td><td nowrap="nowrap"><span class="diff_add">shr&nbsp;&nbsp;&nbsp;&nbsp;$0x3,%rax</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_139">139</td><td nowrap="nowrap"><span class="diff_add">add&nbsp;&nbsp;&nbsp;&nbsp;$0x1,%rax</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_140">140</td><td nowrap="nowrap"><span class="diff_add">movddup&nbsp;%xmm0,%xmm1</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_141">141</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;%eax,%r10d</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_142">142</td><td nowrap="nowrap"><span class="diff_add">and&nbsp;&nbsp;&nbsp;&nbsp;$0x1,%r10d</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_143">143</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;%r10,%r8</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_144">144</td><td nowrap="nowrap"><span class="diff_add">sub&nbsp;&nbsp;&nbsp;&nbsp;%rax,%r8</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_145">145</td><td nowrap="nowrap"><span class="diff_add">xor&nbsp;&nbsp;&nbsp;&nbsp;%r14d,%r14d</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_146">146</td><td nowrap="nowrap"><span class="diff_add">jmp&nbsp;&nbsp;&nbsp;&nbsp;23d&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x23d&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_147">147</td><td nowrap="nowrap"><span class="diff_add">nopl&nbsp;&nbsp;&nbsp;0x0(%rax)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_148">148</td><td nowrap="nowrap"><span class="diff_add">add&nbsp;&nbsp;&nbsp;&nbsp;$0x1,%r14</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_149">149</td><td nowrap="nowrap"><span class="diff_add">cmp&nbsp;&nbsp;&nbsp;&nbsp;%rdi,%r14</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_150">150</td><td nowrap="nowrap"><span class="diff_add">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3a1&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x3a1&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_151">151</td><td nowrap="nowrap"><span class="diff_add">test&nbsp;&nbsp;&nbsp;%esi,%esi</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_152">152</td><td nowrap="nowrap"><span class="diff_add">jle&nbsp;&nbsp;&nbsp;&nbsp;230&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x230&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_69">69</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;(%r<span class="diff_chg">bx</span>),%r<span class="diff_chg">d</span>x</td><td class="diff_next"></td><td class="diff_header" id="to1_153">153</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;(%r<span class="diff_chg">15</span>),%r<span class="diff_chg">a</span>x</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_70">70</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;(%r<span class="diff_chg">d</span>x,%r<span class="diff_chg">ax</span>,8),%rdx</td><td class="diff_next"></td><td class="diff_header" id="to1_154">154</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;(%r<span class="diff_chg">a</span>x,%r<span class="diff_chg">14</span>,8),%rdx</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_155">155</td><td nowrap="nowrap"><span class="diff_add">cmp&nbsp;&nbsp;&nbsp;&nbsp;$0x7,%esi</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_156">156</td><td nowrap="nowrap"><span class="diff_add">ja&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;260&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x260&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_157">157</td><td nowrap="nowrap"><span class="diff_add">xor&nbsp;&nbsp;&nbsp;&nbsp;%eax,%eax</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_158">158</td><td nowrap="nowrap"><span class="diff_add">jmp&nbsp;&nbsp;&nbsp;&nbsp;370&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x370&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_159">159</td><td nowrap="nowrap"><span class="diff_add">cs&nbsp;nopw&nbsp;0x0(%rax,%rax,1)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_160">160</td><td nowrap="nowrap"><span class="diff_add">xchg&nbsp;&nbsp;&nbsp;%ax,%ax</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_161">161</td><td nowrap="nowrap"><span class="diff_add">test&nbsp;&nbsp;&nbsp;%r9,%r9</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_162">162</td><td nowrap="nowrap"><span class="diff_add">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;394&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x394&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_163">163</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;%r8,%rcx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_164">164</td><td nowrap="nowrap"><span class="diff_add">xor&nbsp;&nbsp;&nbsp;&nbsp;%eax,%eax</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_165">165</td><td nowrap="nowrap"><span class="diff_add">xchg&nbsp;&nbsp;&nbsp;%ax,%ax</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_166">166</td><td nowrap="nowrap"><span class="diff_add">cvtps2pd&nbsp;0x8(%rdx,%rax,4),%xmm2</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_167">167</td><td nowrap="nowrap"><span class="diff_add">cvtps2pd&nbsp;(%rdx,%rax,4),%xmm3</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_168">168</td><td nowrap="nowrap"><span class="diff_add">cvtps2pd&nbsp;0x18(%rdx,%rax,4),%xmm4</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_169">169</td><td nowrap="nowrap"><span class="diff_add">cvtps2pd&nbsp;0x10(%rdx,%rax,4),%xmm5</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_170">170</td><td nowrap="nowrap"><span class="diff_add">mulpd&nbsp;&nbsp;%xmm1,%xmm3</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_171">171</td><td nowrap="nowrap"><span class="diff_add">mulpd&nbsp;&nbsp;%xmm1,%xmm2</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_172">172</td><td nowrap="nowrap"><span class="diff_add">mulpd&nbsp;&nbsp;%xmm1,%xmm5</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_173">173</td><td nowrap="nowrap"><span class="diff_add">mulpd&nbsp;&nbsp;%xmm1,%xmm4</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_174">174</td><td nowrap="nowrap"><span class="diff_add">cvtpd2ps&nbsp;%xmm2,%xmm2</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_175">175</td><td nowrap="nowrap"><span class="diff_add">cvtpd2ps&nbsp;%xmm3,%xmm3</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_176">176</td><td nowrap="nowrap"><span class="diff_add">cvtpd2ps&nbsp;%xmm4,%xmm4</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_177">177</td><td nowrap="nowrap"><span class="diff_add">unpcklpd&nbsp;%xmm2,%xmm3</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_178">178</td><td nowrap="nowrap"><span class="diff_add">cvtpd2ps&nbsp;%xmm5,%xmm2</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_179">179</td><td nowrap="nowrap"><span class="diff_add">unpcklpd&nbsp;%xmm4,%xmm2</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_180">180</td><td nowrap="nowrap"><span class="diff_add">movupd&nbsp;%xmm3,(%rdx,%rax,4)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_181">181</td><td nowrap="nowrap"><span class="diff_add">movupd&nbsp;%xmm2,0x10(%rdx,%rax,4)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_182">182</td><td nowrap="nowrap"><span class="diff_add">cvtps2pd&nbsp;0x28(%rdx,%rax,4),%xmm2</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_183">183</td><td nowrap="nowrap"><span class="diff_add">cvtps2pd&nbsp;0x20(%rdx,%rax,4),%xmm3</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_184">184</td><td nowrap="nowrap"><span class="diff_add">cvtps2pd&nbsp;0x38(%rdx,%rax,4),%xmm4</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_185">185</td><td nowrap="nowrap"><span class="diff_add">cvtps2pd&nbsp;0x30(%rdx,%rax,4),%xmm5</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_186">186</td><td nowrap="nowrap"><span class="diff_add">mulpd&nbsp;&nbsp;%xmm1,%xmm3</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_187">187</td><td nowrap="nowrap"><span class="diff_add">mulpd&nbsp;&nbsp;%xmm1,%xmm2</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_188">188</td><td nowrap="nowrap"><span class="diff_add">mulpd&nbsp;&nbsp;%xmm1,%xmm5</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_189">189</td><td nowrap="nowrap"><span class="diff_add">mulpd&nbsp;&nbsp;%xmm1,%xmm4</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_190">190</td><td nowrap="nowrap"><span class="diff_add">cvtpd2ps&nbsp;%xmm2,%xmm2</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_191">191</td><td nowrap="nowrap"><span class="diff_add">cvtpd2ps&nbsp;%xmm3,%xmm3</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_192">192</td><td nowrap="nowrap"><span class="diff_add">cvtpd2ps&nbsp;%xmm4,%xmm4</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_193">193</td><td nowrap="nowrap"><span class="diff_add">unpcklpd&nbsp;%xmm2,%xmm3</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_194">194</td><td nowrap="nowrap"><span class="diff_add">cvtpd2ps&nbsp;%xmm5,%xmm2</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_195">195</td><td nowrap="nowrap"><span class="diff_add">unpcklpd&nbsp;%xmm4,%xmm2</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_196">196</td><td nowrap="nowrap"><span class="diff_add">movupd&nbsp;%xmm3,0x20(%rdx,%rax,4)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_197">197</td><td nowrap="nowrap"><span class="diff_add">movupd&nbsp;%xmm2,0x30(%rdx,%rax,4)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_198">198</td><td nowrap="nowrap"><span class="diff_add">add&nbsp;&nbsp;&nbsp;&nbsp;$0x10,%rax</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_199">199</td><td nowrap="nowrap"><span class="diff_add">add&nbsp;&nbsp;&nbsp;&nbsp;$0x2,%rcx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_200">200</td><td nowrap="nowrap"><span class="diff_add">jne&nbsp;&nbsp;&nbsp;&nbsp;270&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x270&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_201">201</td><td nowrap="nowrap"><span class="diff_add">test&nbsp;&nbsp;&nbsp;%r10,%r10</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_202">202</td><td nowrap="nowrap"><span class="diff_add">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;357&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x357&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_203">203</td><td nowrap="nowrap"><span class="diff_add">cvtps2pd&nbsp;0x8(%rdx,%rax,4),%xmm2</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_204">204</td><td nowrap="nowrap"><span class="diff_add">cvtps2pd&nbsp;(%rdx,%rax,4),%xmm3</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_205">205</td><td nowrap="nowrap"><span class="diff_add">cvtps2pd&nbsp;0x18(%rdx,%rax,4),%xmm4</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_206">206</td><td nowrap="nowrap"><span class="diff_add">cvtps2pd&nbsp;0x10(%rdx,%rax,4),%xmm5</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_207">207</td><td nowrap="nowrap"><span class="diff_add">mulpd&nbsp;&nbsp;%xmm1,%xmm3</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_208">208</td><td nowrap="nowrap"><span class="diff_add">mulpd&nbsp;&nbsp;%xmm1,%xmm2</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_209">209</td><td nowrap="nowrap"><span class="diff_add">mulpd&nbsp;&nbsp;%xmm1,%xmm5</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_210">210</td><td nowrap="nowrap"><span class="diff_add">mulpd&nbsp;&nbsp;%xmm1,%xmm4</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_211">211</td><td nowrap="nowrap"><span class="diff_add">cvtpd2ps&nbsp;%xmm2,%xmm2</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_212">212</td><td nowrap="nowrap"><span class="diff_add">cvtpd2ps&nbsp;%xmm3,%xmm3</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_213">213</td><td nowrap="nowrap"><span class="diff_add">cvtpd2ps&nbsp;%xmm4,%xmm4</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_214">214</td><td nowrap="nowrap"><span class="diff_add">cvtpd2ps&nbsp;%xmm5,%xmm5</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_215">215</td><td nowrap="nowrap"><span class="diff_add">unpcklpd&nbsp;%xmm2,%xmm3</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_216">216</td><td nowrap="nowrap"><span class="diff_add">unpcklpd&nbsp;%xmm4,%xmm5</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_217">217</td><td nowrap="nowrap"><span class="diff_add">movupd&nbsp;%xmm3,(%rdx,%rax,4)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_218">218</td><td nowrap="nowrap"><span class="diff_add">movupd&nbsp;%xmm5,0x10(%rdx,%rax,4)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_219">219</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;%r11,%rax</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_220">220</td><td nowrap="nowrap"><span class="diff_add">cmp&nbsp;&nbsp;&nbsp;&nbsp;%rsi,%r11</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_221">221</td><td nowrap="nowrap"><span class="diff_add">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;230&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x230&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_222">222</td><td nowrap="nowrap"><span class="diff_add">cs&nbsp;nopw&nbsp;0x0(%rax,%rax,1)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_223">223</td><td nowrap="nowrap"><span class="diff_add">nopl&nbsp;&nbsp;&nbsp;(%rax)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_71">71</td><td nowrap="nowrap">movss&nbsp;&nbsp;(%rdx,%r<span class="diff_chg">c</span>x,4),%xmm<span class="diff_chg">1</span></td><td class="diff_next"></td><td class="diff_header" id="to1_224">224</td><td nowrap="nowrap">movss&nbsp;&nbsp;(%rdx,%r<span class="diff_chg">a</span>x,4),%xmm<span class="diff_chg">2</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_72">72</td><td nowrap="nowrap">cvtss2sd&nbsp;%xmm<span class="diff_chg">1</span>,%xmm<span class="diff_chg">1</span></td><td class="diff_next"></td><td class="diff_header" id="to1_225">225</td><td nowrap="nowrap">cvtss2sd&nbsp;%xmm<span class="diff_chg">2</span>,%xmm<span class="diff_chg">2</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_73">73</td><td nowrap="nowrap"><span class="diff_sub">mulsd&nbsp;&nbsp;%xmm2,%xmm1</span></td><td class="diff_next"></td><td class="diff_header" id="to1_226">226</td><td nowrap="nowrap"><span class="diff_add">mulsd&nbsp;&nbsp;%xmm0,%xmm2</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_74">74</td><td nowrap="nowrap">cvtsd2ss&nbsp;%xmm<span class="diff_chg">1</span>,%xmm<span class="diff_chg">1</span></td><td class="diff_next"></td><td class="diff_header" id="to1_227">227</td><td nowrap="nowrap">cvtsd2ss&nbsp;%xmm<span class="diff_chg">2</span>,%xmm<span class="diff_chg">2</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_75">75</td><td nowrap="nowrap">movss&nbsp;&nbsp;%xmm<span class="diff_chg">1</span>,(%rdx,%r<span class="diff_chg">c</span>x,4)</td><td class="diff_next"></td><td class="diff_header" id="to1_228">228</td><td nowrap="nowrap">movss&nbsp;&nbsp;%xmm<span class="diff_chg">2</span>,(%rdx,%r<span class="diff_chg">a</span>x,4)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_76">76</td><td nowrap="nowrap"><span class="diff_sub">inc&nbsp;&nbsp;&nbsp;&nbsp;%rcx</span></td><td class="diff_next"></td><td class="diff_header" id="to1_229">229</td><td nowrap="nowrap"><span class="diff_add">add&nbsp;&nbsp;&nbsp;&nbsp;$0x1,%rax</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_77">77</td><td nowrap="nowrap"><span class="diff_sub">movslq&nbsp;0xb4(%rbx),%rsi</span></td><td class="diff_next"></td><td class="diff_header" id="to1_230">230</td><td nowrap="nowrap"><span class="diff_add">cmp&nbsp;&nbsp;&nbsp;&nbsp;%rax,%rsi</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_78">78</td><td nowrap="nowrap"><span class="diff_sub">cmp&nbsp;&nbsp;&nbsp;&nbsp;%rsi,%rcx</span></td><td class="diff_next"></td><td class="diff_header" id="to1_231">231</td><td nowrap="nowrap"><span class="diff_add">jne&nbsp;&nbsp;&nbsp;&nbsp;370&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x370&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_79">79</td><td nowrap="nowrap"><span class="diff_sub">jl&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x100&gt;</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_80">80</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;0xb0(%rbx),%edi</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_81">81</td><td nowrap="nowrap">jmp&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">e</span>0&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">e</span>0&gt;</td><td class="diff_next"></td><td class="diff_header" id="to1_232">232</td><td nowrap="nowrap">jmp&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">23</span>0&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">23</span>0&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_233">233</td><td nowrap="nowrap"><span class="diff_add">xor&nbsp;&nbsp;&nbsp;&nbsp;%eax,%eax</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_234">234</td><td nowrap="nowrap"><span class="diff_add">test&nbsp;&nbsp;&nbsp;%r10,%r10</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_235">235</td><td nowrap="nowrap"><span class="diff_add">jne&nbsp;&nbsp;&nbsp;&nbsp;311&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x311&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_236">236</td><td nowrap="nowrap"><span class="diff_add">jmp&nbsp;&nbsp;&nbsp;&nbsp;357&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x357&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_82">82</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%edi,%edi</td><td class="diff_next"></td><td class="diff_header" id="to1_237">237</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%edi,%edi</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__11">n</a></td><td class="diff_header" id="from1_83">83</td><td nowrap="nowrap">jle&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">220</span>&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">220</span>&gt;</td><td class="diff_next"><a href="#difflib_chg_to1__11">n</a></td><td class="diff_header" id="to1_238">238</td><td nowrap="nowrap">jle&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">465</span>&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">465</span>&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_239">239</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;0x38(%r15),%r8</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_240">240</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;0x50(%r15),%r9</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_241">241</td><td nowrap="nowrap"><span class="diff_add">xor&nbsp;&nbsp;&nbsp;&nbsp;%r12d,%r12d</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_242">242</td><td nowrap="nowrap"><span class="diff_add">jmp&nbsp;&nbsp;&nbsp;&nbsp;3cd&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x3cd&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_243">243</td><td nowrap="nowrap"><span class="diff_add">cs&nbsp;nopw&nbsp;0x0(%rax,%rax,1)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_244">244</td><td nowrap="nowrap"><span class="diff_add">add&nbsp;&nbsp;&nbsp;&nbsp;$0x1,%r12</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_245">245</td><td nowrap="nowrap"><span class="diff_add">cmp&nbsp;&nbsp;&nbsp;&nbsp;%rdi,%r12</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_246">246</td><td nowrap="nowrap"><span class="diff_add">je&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;465&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x465&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_84">84</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%esi,%esi</td><td class="diff_next"></td><td class="diff_header" id="to1_247">247</td><td nowrap="nowrap">test&nbsp;&nbsp;&nbsp;%esi,%esi</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__12">n</a></td><td class="diff_header" id="from1_85">85</td><td nowrap="nowrap">jle&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">22</span>0&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">22</span>0&gt;</td><td class="diff_next"><a href="#difflib_chg_to1__12">n</a></td><td class="diff_header" id="to1_248">248</td><td nowrap="nowrap">jle&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">3c</span>0&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">3c</span>0&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_249">249</td><td nowrap="nowrap"><span class="diff_add">movss&nbsp;&nbsp;(%r8,%r12,4),%xmm0</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_250">250</td><td nowrap="nowrap"><span class="diff_add">movss&nbsp;&nbsp;(%r9,%r12,4),%xmm1</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_251">251</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;0x8(%r15),%rax</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_252">252</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;0x10(%r15),%rcx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_253">253</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rax,%r12,8),%r10</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_254">254</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rcx,%r12,8),%r11</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_255">255</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;0x18(%r15),%rax</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_256">256</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rax,%r12,8),%r14</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_86">86</td><td nowrap="nowrap">xor&nbsp;&nbsp;&nbsp;&nbsp;%eax,%eax</td><td class="diff_next"></td><td class="diff_header" id="to1_257">257</td><td nowrap="nowrap">xor&nbsp;&nbsp;&nbsp;&nbsp;%eax,%eax</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__13">n</a></td><td class="diff_header" id="from1_87">87</td><td nowrap="nowrap">jmp&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">18</span>5&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">18</span>5&gt;</td><td class="diff_next"><a href="#difflib_chg_to1__13">n</a></td><td class="diff_header" id="to1_258">258</td><td nowrap="nowrap">jmp&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">4</span>5<span class="diff_add">3</span>&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">4</span>5<span class="diff_add">3</span>&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_88">88</td><td nowrap="nowrap"><span class="diff_sub">cs&nbsp;nopw&nbsp;0x0(%rax,%rax,1)</span></td><td class="diff_next"></td><td class="diff_header" id="to1_259">259</td><td nowrap="nowrap"><span class="diff_add">nopl&nbsp;&nbsp;&nbsp;0x0(%rax)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_89">89</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;0xb0(%rbx),%edi</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_90">90</td><td nowrap="nowrap"><span class="diff_sub">inc&nbsp;&nbsp;&nbsp;&nbsp;%rax</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_91">91</td><td nowrap="nowrap"><span class="diff_sub">movslq&nbsp;%edi,%rcx</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_92">92</td><td nowrap="nowrap"><span class="diff_sub">cmp&nbsp;&nbsp;&nbsp;&nbsp;%rcx,%rax</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_93">93</td><td nowrap="nowrap"><span class="diff_sub">jge&nbsp;&nbsp;&nbsp;&nbsp;220&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x220&gt;</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_94">94</td><td nowrap="nowrap"><span class="diff_sub">test&nbsp;&nbsp;&nbsp;%esi,%esi</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_95">95</td><td nowrap="nowrap"><span class="diff_sub">jle&nbsp;&nbsp;&nbsp;&nbsp;176&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x176&gt;</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_96">96</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x<span class="diff_sub">3</span>8(%r<span class="diff_chg">bx</span>),%rcx</td><td class="diff_next"></td><td class="diff_header" id="to1_260">260</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x8<span class="diff_add">0</span>(%r<span class="diff_chg">15</span>),%rcx</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_261">261</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;(%r15),%rbx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_97">97</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x<span class="diff_chg">50</span>(%r<span class="diff_chg">bx</span>),%rdx</td><td class="diff_next"></td><td class="diff_header" id="to1_262">262</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x<span class="diff_chg">68</span>(%r<span class="diff_chg">15</span>),%rdx</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_263">263</td><td nowrap="nowrap"><span class="diff_add">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rbx,%r12,8),%rbx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_264">264</td><td nowrap="nowrap"><span class="diff_add">movss&nbsp;&nbsp;(%rbx,%rax,4),%xmm2</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_98">98</td><td nowrap="nowrap">movss&nbsp;&nbsp;(%rcx,%rax,4),%xmm<span class="diff_chg">0</span></td><td class="diff_next"></td><td class="diff_header" id="to1_265">265</td><td nowrap="nowrap">movss&nbsp;&nbsp;(%rcx,%rax,4),%xmm<span class="diff_chg">3</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_99">99</td><td nowrap="nowrap"><span class="diff_sub">movss&nbsp;&nbsp;(%rdx,%rax,4),%xmm1</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_100">100</td><td nowrap="nowrap"><span class="diff_sub">xor&nbsp;&nbsp;&nbsp;&nbsp;%ecx,%ecx</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_101">101</td><td nowrap="nowrap"><span class="diff_sub">jmp&nbsp;&nbsp;&nbsp;&nbsp;20e&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x20e&gt;</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_102">102</td><td nowrap="nowrap"><span class="diff_sub">nop</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_103">103</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;0x80(%rbx),%rdx</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_104">104</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rbx),%rsi</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_105">105</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;0x68(%rbx),%rdi</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_106">106</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rsi,%rax,8),%rsi</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_107">107</td><td nowrap="nowrap"><span class="diff_sub">movss&nbsp;&nbsp;(%rsi,%rcx,4),%xmm2</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_108">108</td><td nowrap="nowrap"><span class="diff_sub">movss&nbsp;&nbsp;(%rdx,%rcx,4),%xmm3</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_109">109</td><td nowrap="nowrap">addss&nbsp;&nbsp;%xmm1,%xmm3</td><td class="diff_next"></td><td class="diff_header" id="to1_266">266</td><td nowrap="nowrap">addss&nbsp;&nbsp;%xmm1,%xmm3</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_110">110</td><td nowrap="nowrap">divss&nbsp;&nbsp;%xmm3,%xmm2</td><td class="diff_next"></td><td class="diff_header" id="to1_267">267</td><td nowrap="nowrap">divss&nbsp;&nbsp;%xmm3,%xmm2</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_111">111</td><td nowrap="nowrap">movaps&nbsp;%xmm0,%xmm3</td><td class="diff_next"></td><td class="diff_header" id="to1_268">268</td><td nowrap="nowrap">movaps&nbsp;%xmm0,%xmm3</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_112">112</td><td nowrap="nowrap">mulss&nbsp;&nbsp;%xmm2,%xmm3</td><td class="diff_next"></td><td class="diff_header" id="to1_269">269</td><td nowrap="nowrap">mulss&nbsp;&nbsp;%xmm2,%xmm3</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__14">n</a></td><td class="diff_header" id="from1_113">113</td><td nowrap="nowrap">movss&nbsp;&nbsp;(%rd<span class="diff_chg">i</span>,%r<span class="diff_chg">c</span>x,4),%xmm4</td><td class="diff_next"><a href="#difflib_chg_to1__14">n</a></td><td class="diff_header" id="to1_270">270</td><td nowrap="nowrap">movss&nbsp;&nbsp;(%rd<span class="diff_chg">x</span>,%r<span class="diff_chg">a</span>x,4),%xmm4</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_114">114</td><td nowrap="nowrap">mulss&nbsp;&nbsp;%xmm2,%xmm4</td><td class="diff_next"></td><td class="diff_header" id="to1_271">271</td><td nowrap="nowrap">mulss&nbsp;&nbsp;%xmm2,%xmm4</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__15">n</a></td><td class="diff_header" id="from1_115">115</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;0x8(%rbx),%rdx</span></td><td class="diff_next"><a href="#difflib_chg_to1__15">n</a></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_116">116</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rdx,%rax,8),%rdx</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_117">117</td><td nowrap="nowrap">movss&nbsp;&nbsp;%xmm2,(%r<span class="diff_chg">dx</span>,%r<span class="diff_chg">c</span>x,4)</td><td class="diff_next"></td><td class="diff_header" id="to1_272">272</td><td nowrap="nowrap">movss&nbsp;&nbsp;%xmm2,(%r<span class="diff_chg">10</span>,%r<span class="diff_chg">a</span>x,4)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_118">118</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;0x10(%rbx),%rdx</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_119">119</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rdx,%rax,8),%rdx</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_120">120</td><td nowrap="nowrap">movss&nbsp;&nbsp;%xmm3,(%r<span class="diff_chg">dx</span>,%r<span class="diff_chg">c</span>x,4)</td><td class="diff_next"></td><td class="diff_header" id="to1_273">273</td><td nowrap="nowrap">movss&nbsp;&nbsp;%xmm3,(%r<span class="diff_chg">11</span>,%r<span class="diff_chg">a</span>x,4)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_121">121</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;0x18(%rbx),%rdx</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_122">122</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;(%rdx,%rax,8),%rdx</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_123">123</td><td nowrap="nowrap">movss&nbsp;&nbsp;%xmm4,(%r<span class="diff_chg">dx</span>,%r<span class="diff_chg">c</span>x,4)</td><td class="diff_next"></td><td class="diff_header" id="to1_274">274</td><td nowrap="nowrap">movss&nbsp;&nbsp;%xmm4,(%r<span class="diff_chg">14</span>,%r<span class="diff_chg">a</span>x,4)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_124">124</td><td nowrap="nowrap"><span class="diff_sub">inc&nbsp;&nbsp;&nbsp;&nbsp;%rcx</span></td><td class="diff_next"></td><td class="diff_header" id="to1_275">275</td><td nowrap="nowrap"><span class="diff_add">add&nbsp;&nbsp;&nbsp;&nbsp;$0x1,%rax</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_125">125</td><td nowrap="nowrap"><span class="diff_sub">movslq&nbsp;0xb4(%rbx),%rsi</span></td><td class="diff_next"></td><td class="diff_header" id="to1_276">276</td><td nowrap="nowrap"><span class="diff_add">cmp&nbsp;&nbsp;&nbsp;&nbsp;%rax,%rsi</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_126">126</td><td nowrap="nowrap"><span class="diff_sub">cmp&nbsp;&nbsp;&nbsp;&nbsp;%rsi,%rcx</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_127">127</td><td nowrap="nowrap">j<span class="diff_sub">g</span>e&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">17</span>0&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">17</span>0&gt;</td><td class="diff_next"></td><td class="diff_header" id="to1_277">277</td><td nowrap="nowrap">je&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">&nbsp;3c</span>0&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">3c</span>0&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_128">128</td><td nowrap="nowrap"><span class="diff_sub">mov&nbsp;&nbsp;&nbsp;&nbsp;%ecx,%edx</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_129">129</td><td nowrap="nowrap">o<span class="diff_chg">r&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;%eax,%e<span class="diff_chg">d</span>x</td><td class="diff_next"></td><td class="diff_header" id="to1_278">278</td><td nowrap="nowrap"><span class="diff_add">m</span>o<span class="diff_chg">v</span>&nbsp;&nbsp;&nbsp;&nbsp;%eax,%e<span class="diff_chg">c</span>x</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_279">279</td><td nowrap="nowrap"><span class="diff_add">or&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;%r12d,%ecx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_130">130</td><td nowrap="nowrap">jne&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">1a</span>0&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">1a</span>0&gt;</td><td class="diff_next"></td><td class="diff_header" id="to1_280">280</td><td nowrap="nowrap">jne&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">4</span>0<span class="diff_add">0</span>&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">40</span>0&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_131">131</td><td nowrap="nowrap">xorp<span class="diff_chg">d</span>&nbsp;&nbsp;%xmm2,%xmm2</td><td class="diff_next"></td><td class="diff_header" id="to1_281">281</td><td nowrap="nowrap">xorp<span class="diff_chg">s</span>&nbsp;&nbsp;%xmm2,%xmm2</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_132">132</td><td nowrap="nowrap">xorps&nbsp;&nbsp;%xmm3,%xmm3</td><td class="diff_next"></td><td class="diff_header" id="to1_282">282</td><td nowrap="nowrap">xorps&nbsp;&nbsp;%xmm3,%xmm3</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_133">133</td><td nowrap="nowrap">xorps&nbsp;&nbsp;%xmm4,%xmm4</td><td class="diff_next"></td><td class="diff_header" id="to1_283">283</td><td nowrap="nowrap">xorps&nbsp;&nbsp;%xmm4,%xmm4</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__16">n</a></td><td class="diff_header" id="from1_134">134</td><td nowrap="nowrap">jmp&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_sub">1d</span>4&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">1d</span>4&gt;</td><td class="diff_next"><a href="#difflib_chg_to1__16">n</a></td><td class="diff_header" id="to1_284">284</td><td nowrap="nowrap">jmp&nbsp;&nbsp;&nbsp;&nbsp;4<span class="diff_add">34</span>&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">43</span>4&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_135">135</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x98(%r<span class="diff_chg">bx</span>),%r9</td><td class="diff_next"></td><td class="diff_header" id="to1_285">285</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x98(%r<span class="diff_chg">15</span>),%r9</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_136">136</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x8(%r<span class="diff_chg">bx</span>),%rcx</td><td class="diff_next"></td><td class="diff_header" id="to1_286">286</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x8(%r<span class="diff_chg">15</span>),%rcx</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_137">137</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x20(%r<span class="diff_chg">bx</span>),%rax</td><td class="diff_next"></td><td class="diff_header" id="to1_287">287</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x20(%r<span class="diff_chg">15</span>),%rax</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_138">138</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rax,(%rsp)</td><td class="diff_next"></td><td class="diff_header" id="to1_288">288</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rax,(%rsp)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_139">139</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;$0x1,%edx</td><td class="diff_next"></td><td class="diff_header" id="to1_289">289</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;$0x1,%edx</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_140">140</td><td nowrap="nowrap">xor&nbsp;&nbsp;&nbsp;&nbsp;%r8d,%r8d</td><td class="diff_next"></td><td class="diff_header" id="to1_290">290</td><td nowrap="nowrap">xor&nbsp;&nbsp;&nbsp;&nbsp;%r8d,%r8d</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__17">n</a></td><td class="diff_header" id="from1_141">141</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;<span class="diff_sub">2</span>4<span class="diff_chg">0</span>&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_sub">2</span>4<span class="diff_chg">0</span>&gt;&nbsp;<span class="diff_chg">23c</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;_ZN3gpl6ddct2dEiiiPPfS0_PiS0_-0x4</td><td class="diff_next"><a href="#difflib_chg_to1__17">n</a></td><td class="diff_header" id="to1_291">291</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;4<span class="diff_chg">85</span>&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x4<span class="diff_chg">85</span>&gt;&nbsp;<span class="diff_chg">481</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;_ZN3gpl6ddct2dEiiiPPfS0_PiS0_-0x4</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_142">142</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0xb0(%r<span class="diff_chg">bx</span>),%edi</td><td class="diff_next"></td><td class="diff_header" id="to1_292">292</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0xb0(%r<span class="diff_chg">15</span>),%edi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_143">143</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0xb4(%r<span class="diff_chg">bx</span>),%esi</td><td class="diff_next"></td><td class="diff_header" id="to1_293">293</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0xb4(%r<span class="diff_chg">15</span>),%esi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_144">144</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x98(%r<span class="diff_chg">bx</span>),%r9</td><td class="diff_next"></td><td class="diff_header" id="to1_294">294</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x98(%r<span class="diff_chg">15</span>),%r9</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_145">145</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x10(%r<span class="diff_chg">bx</span>),%rcx</td><td class="diff_next"></td><td class="diff_header" id="to1_295">295</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x10(%r<span class="diff_chg">15</span>),%rcx</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_146">146</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x20(%r<span class="diff_chg">bx</span>),%rax</td><td class="diff_next"></td><td class="diff_header" id="to1_296">296</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x20(%r<span class="diff_chg">15</span>),%rax</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_147">147</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rax,(%rsp)</td><td class="diff_next"></td><td class="diff_header" id="to1_297">297</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rax,(%rsp)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_148">148</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;$0x1,%edx</td><td class="diff_next"></td><td class="diff_header" id="to1_298">298</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;$0x1,%edx</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_149">149</td><td nowrap="nowrap">xor&nbsp;&nbsp;&nbsp;&nbsp;%r8d,%r8d</td><td class="diff_next"></td><td class="diff_header" id="to1_299">299</td><td nowrap="nowrap">xor&nbsp;&nbsp;&nbsp;&nbsp;%r8d,%r8d</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__18">n</a></td><td class="diff_header" id="from1_150">150</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;<span class="diff_chg">26c</span>&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">26c</span>&gt;&nbsp;<span class="diff_chg">268</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;_ZN3gpl7ddsct2dEiiiPPfS0_PiS0_-0x4</td><td class="diff_next"><a href="#difflib_chg_to1__18">n</a></td><td class="diff_header" id="to1_300">300</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;<span class="diff_chg">4b3</span>&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">4b3</span>&gt;&nbsp;<span class="diff_chg">4af</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;_ZN3gpl7ddsct2dEiiiPPfS0_PiS0_-0x4</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_151">151</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0xb0(%r<span class="diff_chg">bx</span>),%edi</td><td class="diff_next"></td><td class="diff_header" id="to1_301">301</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0xb0(%r<span class="diff_chg">15</span>),%edi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_152">152</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0xb4(%r<span class="diff_chg">bx</span>),%esi</td><td class="diff_next"></td><td class="diff_header" id="to1_302">302</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0xb4(%r<span class="diff_chg">15</span>),%esi</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_153">153</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x98(%r<span class="diff_chg">bx</span>),%r9</td><td class="diff_next"></td><td class="diff_header" id="to1_303">303</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x98(%r<span class="diff_chg">15</span>),%r9</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_154">154</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x18(%r<span class="diff_chg">bx</span>),%rcx</td><td class="diff_next"></td><td class="diff_header" id="to1_304">304</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x18(%r<span class="diff_chg">15</span>),%rcx</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_155">155</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x20(%r<span class="diff_chg">bx</span>),%rax</td><td class="diff_next"></td><td class="diff_header" id="to1_305">305</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;0x20(%r<span class="diff_chg">15</span>),%rax</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_156">156</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rax,(%rsp)</td><td class="diff_next"></td><td class="diff_header" id="to1_306">306</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;%rax,(%rsp)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_157">157</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;$0x1,%edx</td><td class="diff_next"></td><td class="diff_header" id="to1_307">307</td><td nowrap="nowrap">mov&nbsp;&nbsp;&nbsp;&nbsp;$0x1,%edx</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_158">158</td><td nowrap="nowrap">xor&nbsp;&nbsp;&nbsp;&nbsp;%r8d,%r8d</td><td class="diff_next"></td><td class="diff_header" id="to1_308">308</td><td nowrap="nowrap">xor&nbsp;&nbsp;&nbsp;&nbsp;%r8d,%r8d</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__19">n</a></td><td class="diff_header" id="from1_159">159</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;<span class="diff_chg">298</span>&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">298</span>&gt;&nbsp;<span class="diff_sub">29</span>4:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;_ZN3gpl7ddcst2dEiiiPPfS0_PiS0_-0x4</td><td class="diff_next"><a href="#difflib_chg_to1__19">n</a></td><td class="diff_header" id="to1_309">309</td><td nowrap="nowrap">call&nbsp;&nbsp;&nbsp;<span class="diff_chg">4e1</span>&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x<span class="diff_chg">4e1</span>&gt;&nbsp;4<span class="diff_add">dd</span>:&nbsp;R_X86_64_PLT32&nbsp;&nbsp;_ZN3gpl7ddcst2dEiiiPPfS0_PiS0_-0x4</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_160">160</td><td nowrap="nowrap">add&nbsp;&nbsp;&nbsp;&nbsp;$0x<span class="diff_chg">8</span>,%rsp</td><td class="diff_next"></td><td class="diff_header" id="to1_310">310</td><td nowrap="nowrap">add&nbsp;&nbsp;&nbsp;&nbsp;$0x<span class="diff_chg">10</span>,%rsp</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_161">161</td><td nowrap="nowrap">pop&nbsp;&nbsp;&nbsp;&nbsp;%rbx</td><td class="diff_next"></td><td class="diff_header" id="to1_311">311</td><td nowrap="nowrap">pop&nbsp;&nbsp;&nbsp;&nbsp;%rbx</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__20">n</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to1__20">n</a></td><td class="diff_header" id="to1_312">312</td><td nowrap="nowrap"><span class="diff_add">pop&nbsp;&nbsp;&nbsp;&nbsp;%r12</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_313">313</td><td nowrap="nowrap"><span class="diff_add">pop&nbsp;&nbsp;&nbsp;&nbsp;%r14</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_314">314</td><td nowrap="nowrap"><span class="diff_add">pop&nbsp;&nbsp;&nbsp;&nbsp;%r15</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_162">162</td><td nowrap="nowrap">pop&nbsp;&nbsp;&nbsp;&nbsp;%rbp</td><td class="diff_next"></td><td class="diff_header" id="to1_315">315</td><td nowrap="nowrap">pop&nbsp;&nbsp;&nbsp;&nbsp;%rbp</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_163">163</td><td nowrap="nowrap">ret</td><td class="diff_next"></td><td class="diff_header" id="to1_316">316</td><td nowrap="nowrap">ret</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to1__top">t</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to1__top">t</a></td><td class="diff_header" id="to1_317">317</td><td nowrap="nowrap"><span class="diff_add">xor&nbsp;&nbsp;&nbsp;&nbsp;%edx,%edx</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_318">318</td><td nowrap="nowrap"><span class="diff_add">test&nbsp;&nbsp;&nbsp;%r8,%r8</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_319">319</td><td nowrap="nowrap"><span class="diff_add">jne&nbsp;&nbsp;&nbsp;&nbsp;191&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x191&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_320">320</td><td nowrap="nowrap"><span class="diff_add">jmp&nbsp;&nbsp;&nbsp;&nbsp;1b0&nbsp;&lt;_ZN3gpl3FFT5doFFTEv+0x1b0&gt;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from1_164">164</td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to1_321">321</td><td nowrap="nowrap"></td></tr>
+        </tbody>
+    </table>
+
+
+
+<H4>Tree Representation</H4>
+<pre>
+persisting_symbol
+├── display_info [Information that configures how things are displayed]
+│   ├── anchor_id = &#39;3&#39; &lt;str&gt; [Unique string identifier token that can be used to generate a HTML anchor for cross references]
+│   ├── display_symbol_details = &#39;True&#39; &lt;bool&gt; [True if symbol details are supposed to be displayed]
+│   └── symbol_class = &#39;persisting&#39; &lt;str&gt; [The class of symbol old/new/appeared/disappeared/persisting/similar]
+└── related_symbols [A relation between two symbols]
+    ├── new_symbol
+    │   ├── id = &#39;18&#39; &lt;int&gt; [Unique symbol identifier]
+    │   ├── instructions = &#39;push   %rbp
+mov    %rsp,%rbp
+push   %r15
+push   %r14
+push   %r12
+push   %rbx
+sub    $0x10,%rsp
+mov    %rdi,%r15
+mov    0xb0(%rdi),%edi
+mov    0xb4(%r15),%esi
+mov    0x98(%r15),%r9
+mov    (%r15),%rcx
+mov    0x20(%r15),%rax
+mov    %rax,(%rsp)
+mov    $0xffffffff,%edx
+xor    %r8d,%r8d
+call   3e &lt;_ZN3gpl3FFT5doFFTEv+0x3e&gt;	3a: R_X86_64_PLT32	_ZN3gpl6ddct2dEiiiPPfS0_PiS0_-0x4
+mov    0xb0(%r15),%edi
+test   %edi,%edi
+jle    f9 &lt;_ZN3gpl3FFT5doFFTEv+0xf9&gt;
+mov    (%r15),%rcx
+lea    -0x1(%rdi),%rdx
+mov    %edi,%eax
+and    $0x3,%eax
+cmp    $0x3,%rdx
+jae    63 &lt;_ZN3gpl3FFT5doFFTEv+0x63&gt;
+xor    %edx,%edx
+jmp    cc &lt;_ZN3gpl3FFT5doFFTEv+0xcc&gt;
+mov    %rdi,%rsi
+sub    %rax,%rsi
+xor    %edx,%edx
+movss  0x0(%rip),%xmm0        # 73 &lt;_ZN3gpl3FFT5doFFTEv+0x73&gt;	6f: R_X86_64_PC32	.LCPI5_0-0x4
+cs nopw 0x0(%rax,%rax,1)
+nopl   (%rax)
+mov    (%rcx,%rdx,8),%rbx
+movss  (%rbx),%xmm1
+mulss  %xmm0,%xmm1
+movss  %xmm1,(%rbx)
+mov    0x8(%rcx,%rdx,8),%rbx
+movss  (%rbx),%xmm1
+mulss  %xmm0,%xmm1
+movss  %xmm1,(%rbx)
+mov    0x10(%rcx,%rdx,8),%rbx
+movss  (%rbx),%xmm1
+mulss  %xmm0,%xmm1
+movss  %xmm1,(%rbx)
+mov    0x18(%rcx,%rdx,8),%rbx
+movss  (%rbx),%xmm1
+mulss  %xmm0,%xmm1
+movss  %xmm1,(%rbx)
+add    $0x4,%rdx
+cmp    %rdx,%rsi
+jne    80 &lt;_ZN3gpl3FFT5doFFTEv+0x80&gt;
+test   %rax,%rax
+je     f9 &lt;_ZN3gpl3FFT5doFFTEv+0xf9&gt;
+lea    (%rcx,%rdx,8),%rcx
+xor    %edx,%edx
+movss  0x0(%rip),%xmm0        # df &lt;_ZN3gpl3FFT5doFFTEv+0xdf&gt;	db: R_X86_64_PC32	.LCPI5_0-0x4
+nop
+mov    (%rcx,%rdx,8),%rsi
+movss  (%rsi),%xmm1
+mulss  %xmm0,%xmm1
+movss  %xmm1,(%rsi)
+add    $0x1,%rdx
+cmp    %rdx,%rax
+jne    e0 &lt;_ZN3gpl3FFT5doFFTEv+0xe0&gt;
+mov    0xb4(%r15),%esi
+test   %esi,%esi
+jle    1d7 &lt;_ZN3gpl3FFT5doFFTEv+0x1d7&gt;
+mov    (%r15),%rax
+mov    (%rax),%rax
+cmp    $0x7,%esi
+ja     11a &lt;_ZN3gpl3FFT5doFFTEv+0x11a&gt;
+xor    %ecx,%ecx
+jmp    1b5 &lt;_ZN3gpl3FFT5doFFTEv+0x1b5&gt;
+mov    %esi,%ecx
+and    $0xfffffff8,%ecx
+lea    -0x8(%rcx),%rbx
+mov    %rbx,%rdx
+shr    $0x3,%rdx
+add    $0x1,%rdx
+mov    %edx,%r8d
+and    $0x1,%r8d
+test   %rbx,%rbx
+je     4ee &lt;_ZN3gpl3FFT5doFFTEv+0x4ee&gt;
+mov    %r8,%rbx
+sub    %rdx,%rbx
+xor    %edx,%edx
+movaps 0x0(%rip),%xmm0        # 14d &lt;_ZN3gpl3FFT5doFFTEv+0x14d&gt;	149: R_X86_64_PC32	.LCPI5_1-0x4
+nopl   (%rax)
+movups (%rax,%rdx,4),%xmm1
+movups 0x10(%rax,%rdx,4),%xmm2
+movups 0x20(%rax,%rdx,4),%xmm3
+movups 0x30(%rax,%rdx,4),%xmm4
+mulps  %xmm0,%xmm1
+mulps  %xmm0,%xmm2
+movups %xmm1,(%rax,%rdx,4)
+movups %xmm2,0x10(%rax,%rdx,4)
+mulps  %xmm0,%xmm3
+mulps  %xmm0,%xmm4
+movups %xmm3,0x20(%rax,%rdx,4)
+movups %xmm4,0x30(%rax,%rdx,4)
+add    $0x10,%rdx
+add    $0x2,%rbx
+jne    150 &lt;_ZN3gpl3FFT5doFFTEv+0x150&gt;
+test   %r8,%r8
+je     1b0 &lt;_ZN3gpl3FFT5doFFTEv+0x1b0&gt;
+movups (%rax,%rdx,4),%xmm0
+movups 0x10(%rax,%rdx,4),%xmm1
+movaps 0x0(%rip),%xmm2        # 1a1 &lt;_ZN3gpl3FFT5doFFTEv+0x1a1&gt;	19d: R_X86_64_PC32	.LCPI5_1-0x4
+mulps  %xmm2,%xmm0
+mulps  %xmm2,%xmm1
+movups %xmm0,(%rax,%rdx,4)
+movups %xmm1,0x10(%rax,%rdx,4)
+cmp    %rsi,%rcx
+je     1d7 &lt;_ZN3gpl3FFT5doFFTEv+0x1d7&gt;
+movss  0x0(%rip),%xmm0        # 1bd &lt;_ZN3gpl3FFT5doFFTEv+0x1bd&gt;	1b9: R_X86_64_PC32	.LCPI5_0-0x4
+nopl   (%rax)
+movss  (%rax,%rcx,4),%xmm1
+mulss  %xmm0,%xmm1
+movss  %xmm1,(%rax,%rcx,4)
+add    $0x1,%rcx
+cmp    %rsi,%rcx
+jb     1c0 &lt;_ZN3gpl3FFT5doFFTEv+0x1c0&gt;
+test   %edi,%edi
+jle    465 &lt;_ZN3gpl3FFT5doFFTEv+0x465&gt;
+xorps  %xmm1,%xmm1
+cvtsi2sd %edi,%xmm1
+movsd  0x0(%rip),%xmm0        # 1ee &lt;_ZN3gpl3FFT5doFFTEv+0x1ee&gt;	1ea: R_X86_64_PC32	.LCPI5_2-0x4
+divsd  %xmm1,%xmm0
+xorps  %xmm1,%xmm1
+cvtsi2sd %esi,%xmm1
+divsd  %xmm1,%xmm0
+mov    %esi,%r11d
+and    $0xfffffff8,%r11d
+lea    -0x8(%r11),%r9
+mov    %r9,%rax
+shr    $0x3,%rax
+add    $0x1,%rax
+movddup %xmm0,%xmm1
+mov    %eax,%r10d
+and    $0x1,%r10d
+mov    %r10,%r8
+sub    %rax,%r8
+xor    %r14d,%r14d
+jmp    23d &lt;_ZN3gpl3FFT5doFFTEv+0x23d&gt;
+nopl   0x0(%rax)
+add    $0x1,%r14
+cmp    %rdi,%r14
+je     3a1 &lt;_ZN3gpl3FFT5doFFTEv+0x3a1&gt;
+test   %esi,%esi
+jle    230 &lt;_ZN3gpl3FFT5doFFTEv+0x230&gt;
+mov    (%r15),%rax
+mov    (%rax,%r14,8),%rdx
+cmp    $0x7,%esi
+ja     260 &lt;_ZN3gpl3FFT5doFFTEv+0x260&gt;
+xor    %eax,%eax
+jmp    370 &lt;_ZN3gpl3FFT5doFFTEv+0x370&gt;
+cs nopw 0x0(%rax,%rax,1)
+xchg   %ax,%ax
+test   %r9,%r9
+je     394 &lt;_ZN3gpl3FFT5doFFTEv+0x394&gt;
+mov    %r8,%rcx
+xor    %eax,%eax
+xchg   %ax,%ax
+cvtps2pd 0x8(%rdx,%rax,4),%xmm2
+cvtps2pd (%rdx,%rax,4),%xmm3
+cvtps2pd 0x18(%rdx,%rax,4),%xmm4
+cvtps2pd 0x10(%rdx,%rax,4),%xmm5
+mulpd  %xmm1,%xmm3
+mulpd  %xmm1,%xmm2
+mulpd  %xmm1,%xmm5
+mulpd  %xmm1,%xmm4
+cvtpd2ps %xmm2,%xmm2
+cvtpd2ps %xmm3,%xmm3
+cvtpd2ps %xmm4,%xmm4
+unpcklpd %xmm2,%xmm3
+cvtpd2ps %xmm5,%xmm2
+unpcklpd %xmm4,%xmm2
+movupd %xmm3,(%rdx,%rax,4)
+movupd %xmm2,0x10(%rdx,%rax,4)
+cvtps2pd 0x28(%rdx,%rax,4),%xmm2
+cvtps2pd 0x20(%rdx,%rax,4),%xmm3
+cvtps2pd 0x38(%rdx,%rax,4),%xmm4
+cvtps2pd 0x30(%rdx,%rax,4),%xmm5
+mulpd  %xmm1,%xmm3
+mulpd  %xmm1,%xmm2
+mulpd  %xmm1,%xmm5
+mulpd  %xmm1,%xmm4
+cvtpd2ps %xmm2,%xmm2
+cvtpd2ps %xmm3,%xmm3
+cvtpd2ps %xmm4,%xmm4
+unpcklpd %xmm2,%xmm3
+cvtpd2ps %xmm5,%xmm2
+unpcklpd %xmm4,%xmm2
+movupd %xmm3,0x20(%rdx,%rax,4)
+movupd %xmm2,0x30(%rdx,%rax,4)
+add    $0x10,%rax
+add    $0x2,%rcx
+jne    270 &lt;_ZN3gpl3FFT5doFFTEv+0x270&gt;
+test   %r10,%r10
+je     357 &lt;_ZN3gpl3FFT5doFFTEv+0x357&gt;
+cvtps2pd 0x8(%rdx,%rax,4),%xmm2
+cvtps2pd (%rdx,%rax,4),%xmm3
+cvtps2pd 0x18(%rdx,%rax,4),%xmm4
+cvtps2pd 0x10(%rdx,%rax,4),%xmm5
+mulpd  %xmm1,%xmm3
+mulpd  %xmm1,%xmm2
+mulpd  %xmm1,%xmm5
+mulpd  %xmm1,%xmm4
+cvtpd2ps %xmm2,%xmm2
+cvtpd2ps %xmm3,%xmm3
+cvtpd2ps %xmm4,%xmm4
+cvtpd2ps %xmm5,%xmm5
+unpcklpd %xmm2,%xmm3
+unpcklpd %xmm4,%xmm5
+movupd %xmm3,(%rdx,%rax,4)
+movupd %xmm5,0x10(%rdx,%rax,4)
+mov    %r11,%rax
+cmp    %rsi,%r11
+je     230 &lt;_ZN3gpl3FFT5doFFTEv+0x230&gt;
+cs nopw 0x0(%rax,%rax,1)
+nopl   (%rax)
+movss  (%rdx,%rax,4),%xmm2
+cvtss2sd %xmm2,%xmm2
+mulsd  %xmm0,%xmm2
+cvtsd2ss %xmm2,%xmm2
+movss  %xmm2,(%rdx,%rax,4)
+add    $0x1,%rax
+cmp    %rax,%rsi
+jne    370 &lt;_ZN3gpl3FFT5doFFTEv+0x370&gt;
+jmp    230 &lt;_ZN3gpl3FFT5doFFTEv+0x230&gt;
+xor    %eax,%eax
+test   %r10,%r10
+jne    311 &lt;_ZN3gpl3FFT5doFFTEv+0x311&gt;
+jmp    357 &lt;_ZN3gpl3FFT5doFFTEv+0x357&gt;
+test   %edi,%edi
+jle    465 &lt;_ZN3gpl3FFT5doFFTEv+0x465&gt;
+mov    0x38(%r15),%r8
+mov    0x50(%r15),%r9
+xor    %r12d,%r12d
+jmp    3cd &lt;_ZN3gpl3FFT5doFFTEv+0x3cd&gt;
+cs nopw 0x0(%rax,%rax,1)
+add    $0x1,%r12
+cmp    %rdi,%r12
+je     465 &lt;_ZN3gpl3FFT5doFFTEv+0x465&gt;
+test   %esi,%esi
+jle    3c0 &lt;_ZN3gpl3FFT5doFFTEv+0x3c0&gt;
+movss  (%r8,%r12,4),%xmm0
+movss  (%r9,%r12,4),%xmm1
+mov    0x8(%r15),%rax
+mov    0x10(%r15),%rcx
+mov    (%rax,%r12,8),%r10
+mov    (%rcx,%r12,8),%r11
+mov    0x18(%r15),%rax
+mov    (%rax,%r12,8),%r14
+xor    %eax,%eax
+jmp    453 &lt;_ZN3gpl3FFT5doFFTEv+0x453&gt;
+nopl   0x0(%rax)
+mov    0x80(%r15),%rcx
+mov    (%r15),%rbx
+mov    0x68(%r15),%rdx
+mov    (%rbx,%r12,8),%rbx
+movss  (%rbx,%rax,4),%xmm2
+movss  (%rcx,%rax,4),%xmm3
+addss  %xmm1,%xmm3
+divss  %xmm3,%xmm2
+movaps %xmm0,%xmm3
+mulss  %xmm2,%xmm3
+movss  (%rdx,%rax,4),%xmm4
+mulss  %xmm2,%xmm4
+movss  %xmm2,(%r10,%rax,4)
+movss  %xmm3,(%r11,%rax,4)
+movss  %xmm4,(%r14,%rax,4)
+add    $0x1,%rax
+cmp    %rax,%rsi
+je     3c0 &lt;_ZN3gpl3FFT5doFFTEv+0x3c0&gt;
+mov    %eax,%ecx
+or     %r12d,%ecx
+jne    400 &lt;_ZN3gpl3FFT5doFFTEv+0x400&gt;
+xorps  %xmm2,%xmm2
+xorps  %xmm3,%xmm3
+xorps  %xmm4,%xmm4
+jmp    434 &lt;_ZN3gpl3FFT5doFFTEv+0x434&gt;
+mov    0x98(%r15),%r9
+mov    0x8(%r15),%rcx
+mov    0x20(%r15),%rax
+mov    %rax,(%rsp)
+mov    $0x1,%edx
+xor    %r8d,%r8d
+call   485 &lt;_ZN3gpl3FFT5doFFTEv+0x485&gt;	481: R_X86_64_PLT32	_ZN3gpl6ddct2dEiiiPPfS0_PiS0_-0x4
+mov    0xb0(%r15),%edi
+mov    0xb4(%r15),%esi
+mov    0x98(%r15),%r9
+mov    0x10(%r15),%rcx
+mov    0x20(%r15),%rax
+mov    %rax,(%rsp)
+mov    $0x1,%edx
+xor    %r8d,%r8d
+call   4b3 &lt;_ZN3gpl3FFT5doFFTEv+0x4b3&gt;	4af: R_X86_64_PLT32	_ZN3gpl7ddsct2dEiiiPPfS0_PiS0_-0x4
+mov    0xb0(%r15),%edi
+mov    0xb4(%r15),%esi
+mov    0x98(%r15),%r9
+mov    0x18(%r15),%rcx
+mov    0x20(%r15),%rax
+mov    %rax,(%rsp)
+mov    $0x1,%edx
+xor    %r8d,%r8d
+call   4e1 &lt;_ZN3gpl3FFT5doFFTEv+0x4e1&gt;	4dd: R_X86_64_PLT32	_ZN3gpl7ddcst2dEiiiPPfS0_PiS0_-0x4
+add    $0x10,%rsp
+pop    %rbx
+pop    %r12
+pop    %r14
+pop    %r15
+pop    %rbp
+ret
+xor    %edx,%edx
+test   %r8,%r8
+jne    191 &lt;_ZN3gpl3FFT5doFFTEv+0x191&gt;
+jmp    1b0 &lt;_ZN3gpl3FFT5doFFTEv+0x1b0&gt;
+&#39; &lt;str&gt; [Code instructions (assembly with possibly high level language code intermixed)]
+    │   ├── is_demangled = &#39;True&#39; &lt;bool&gt; [True if the symbol name is demangled]
+    │   ├── is_stored_in_program_memory = &#39;True&#39; &lt;bool&gt; [True if the symbol is stored in program memory]
+    │   ├── name = &#39;gpl::FFT::doFFT()&#39; &lt;str&gt; [The symbol name (demangled if supported)]
+    │   ├── name_mangled = &#39;_ZN3gpl3FFT5doFFTEv&#39; &lt;str&gt; [The mangled symbol name]
+    │   ├── size = &#39;1278&#39; &lt;int&gt; [Number of bytes occupied by the symbol]
+    │   ├── source
+    │   │   ├── file_id = &#39;None&#39; &lt;NoneType&gt; [The id of the source file]
+    │   │   └── line = &#39;None&#39; &lt;NoneType&gt; [The line number in the source file where the symbol is defined]
+    │   └── type = &#39;T&#39; &lt;str&gt; [Type character matching the characters used by the nm binutils tool]
+    ├── old_symbol
+    │   ├── id = &#39;3&#39; &lt;int&gt; [Unique symbol identifier]
+    │   ├── instructions = &#39;push   %rbp
+mov    %rsp,%rbp
+push   %rbx
+push   %rax
+mov    %rdi,%rbx
+mov    0xb0(%rdi),%edi
+mov    0xb4(%rbx),%esi
+mov    0x98(%rbx),%r9
+mov    (%rbx),%rcx
+mov    0x20(%rbx),%rax
+mov    %rax,(%rsp)
+mov    $0xffffffff,%edx
+xor    %r8d,%r8d
+call   34 &lt;_ZN3gpl3FFT5doFFTEv+0x34&gt;	30: R_X86_64_PLT32	_ZN3gpl6ddct2dEiiiPPfS0_PiS0_-0x4
+mov    0xb0(%rbx),%edi
+test   %edi,%edi
+jle    72 &lt;_ZN3gpl3FFT5doFFTEv+0x72&gt;
+xor    %eax,%eax
+movss  0x0(%rip),%xmm0        # 48 &lt;_ZN3gpl3FFT5doFFTEv+0x48&gt;	44: R_X86_64_PC32	.LCPI5_0-0x4
+nopl   0x0(%rax,%rax,1)
+mov    (%rbx),%rcx
+mov    (%rcx,%rax,8),%rcx
+movss  (%rcx),%xmm1
+mulss  %xmm0,%xmm1
+movss  %xmm1,(%rcx)
+inc    %rax
+movslq 0xb0(%rbx),%rdi
+cmp    %rdi,%rax
+jl     50 &lt;_ZN3gpl3FFT5doFFTEv+0x50&gt;
+mov    0xb4(%rbx),%esi
+test   %esi,%esi
+jle    b9 &lt;_ZN3gpl3FFT5doFFTEv+0xb9&gt;
+xor    %eax,%eax
+movss  0x0(%rip),%xmm0        # 86 &lt;_ZN3gpl3FFT5doFFTEv+0x86&gt;	82: R_X86_64_PC32	.LCPI5_0-0x4
+cs nopw 0x0(%rax,%rax,1)
+mov    (%rbx),%rcx
+mov    (%rcx),%rcx
+movss  (%rcx,%rax,4),%xmm1
+mulss  %xmm0,%xmm1
+movss  %xmm1,(%rcx,%rax,4)
+inc    %rax
+movslq 0xb4(%rbx),%rsi
+cmp    %rsi,%rax
+jl     90 &lt;_ZN3gpl3FFT5doFFTEv+0x90&gt;
+mov    0xb0(%rbx),%edi
+test   %edi,%edi
+jle    220 &lt;_ZN3gpl3FFT5doFFTEv+0x220&gt;
+test   %esi,%esi
+jle    220 &lt;_ZN3gpl3FFT5doFFTEv+0x220&gt;
+xor    %eax,%eax
+movsd  0x0(%rip),%xmm0        # d3 &lt;_ZN3gpl3FFT5doFFTEv+0xd3&gt;	cf: R_X86_64_PC32	.LCPI5_1-0x4
+jmp    eb &lt;_ZN3gpl3FFT5doFFTEv+0xeb&gt;
+data16 cs nopw 0x0(%rax,%rax,1)
+inc    %rax
+movslq %edi,%rcx
+cmp    %rcx,%rax
+jge    152 &lt;_ZN3gpl3FFT5doFFTEv+0x152&gt;
+test   %esi,%esi
+jle    e0 &lt;_ZN3gpl3FFT5doFFTEv+0xe0&gt;
+xor    %ecx,%ecx
+data16 data16 data16 data16 data16 cs nopw 0x0(%rax,%rax,1)
+xorps  %xmm1,%xmm1
+cvtsi2sdl 0xb0(%rbx),%xmm1
+movapd %xmm0,%xmm2
+divsd  %xmm1,%xmm2
+xorps  %xmm1,%xmm1
+cvtsi2sd %esi,%xmm1
+divsd  %xmm1,%xmm2
+mov    (%rbx),%rdx
+mov    (%rdx,%rax,8),%rdx
+movss  (%rdx,%rcx,4),%xmm1
+cvtss2sd %xmm1,%xmm1
+mulsd  %xmm2,%xmm1
+cvtsd2ss %xmm1,%xmm1
+movss  %xmm1,(%rdx,%rcx,4)
+inc    %rcx
+movslq 0xb4(%rbx),%rsi
+cmp    %rsi,%rcx
+jl     100 &lt;_ZN3gpl3FFT5doFFTEv+0x100&gt;
+mov    0xb0(%rbx),%edi
+jmp    e0 &lt;_ZN3gpl3FFT5doFFTEv+0xe0&gt;
+test   %edi,%edi
+jle    220 &lt;_ZN3gpl3FFT5doFFTEv+0x220&gt;
+test   %esi,%esi
+jle    220 &lt;_ZN3gpl3FFT5doFFTEv+0x220&gt;
+xor    %eax,%eax
+jmp    185 &lt;_ZN3gpl3FFT5doFFTEv+0x185&gt;
+cs nopw 0x0(%rax,%rax,1)
+mov    0xb0(%rbx),%edi
+inc    %rax
+movslq %edi,%rcx
+cmp    %rcx,%rax
+jge    220 &lt;_ZN3gpl3FFT5doFFTEv+0x220&gt;
+test   %esi,%esi
+jle    176 &lt;_ZN3gpl3FFT5doFFTEv+0x176&gt;
+mov    0x38(%rbx),%rcx
+mov    0x50(%rbx),%rdx
+movss  (%rcx,%rax,4),%xmm0
+movss  (%rdx,%rax,4),%xmm1
+xor    %ecx,%ecx
+jmp    20e &lt;_ZN3gpl3FFT5doFFTEv+0x20e&gt;
+nop
+mov    0x80(%rbx),%rdx
+mov    (%rbx),%rsi
+mov    0x68(%rbx),%rdi
+mov    (%rsi,%rax,8),%rsi
+movss  (%rsi,%rcx,4),%xmm2
+movss  (%rdx,%rcx,4),%xmm3
+addss  %xmm1,%xmm3
+divss  %xmm3,%xmm2
+movaps %xmm0,%xmm3
+mulss  %xmm2,%xmm3
+movss  (%rdi,%rcx,4),%xmm4
+mulss  %xmm2,%xmm4
+mov    0x8(%rbx),%rdx
+mov    (%rdx,%rax,8),%rdx
+movss  %xmm2,(%rdx,%rcx,4)
+mov    0x10(%rbx),%rdx
+mov    (%rdx,%rax,8),%rdx
+movss  %xmm3,(%rdx,%rcx,4)
+mov    0x18(%rbx),%rdx
+mov    (%rdx,%rax,8),%rdx
+movss  %xmm4,(%rdx,%rcx,4)
+inc    %rcx
+movslq 0xb4(%rbx),%rsi
+cmp    %rsi,%rcx
+jge    170 &lt;_ZN3gpl3FFT5doFFTEv+0x170&gt;
+mov    %ecx,%edx
+or     %eax,%edx
+jne    1a0 &lt;_ZN3gpl3FFT5doFFTEv+0x1a0&gt;
+xorpd  %xmm2,%xmm2
+xorps  %xmm3,%xmm3
+xorps  %xmm4,%xmm4
+jmp    1d4 &lt;_ZN3gpl3FFT5doFFTEv+0x1d4&gt;
+mov    0x98(%rbx),%r9
+mov    0x8(%rbx),%rcx
+mov    0x20(%rbx),%rax
+mov    %rax,(%rsp)
+mov    $0x1,%edx
+xor    %r8d,%r8d
+call   240 &lt;_ZN3gpl3FFT5doFFTEv+0x240&gt;	23c: R_X86_64_PLT32	_ZN3gpl6ddct2dEiiiPPfS0_PiS0_-0x4
+mov    0xb0(%rbx),%edi
+mov    0xb4(%rbx),%esi
+mov    0x98(%rbx),%r9
+mov    0x10(%rbx),%rcx
+mov    0x20(%rbx),%rax
+mov    %rax,(%rsp)
+mov    $0x1,%edx
+xor    %r8d,%r8d
+call   26c &lt;_ZN3gpl3FFT5doFFTEv+0x26c&gt;	268: R_X86_64_PLT32	_ZN3gpl7ddsct2dEiiiPPfS0_PiS0_-0x4
+mov    0xb0(%rbx),%edi
+mov    0xb4(%rbx),%esi
+mov    0x98(%rbx),%r9
+mov    0x18(%rbx),%rcx
+mov    0x20(%rbx),%rax
+mov    %rax,(%rsp)
+mov    $0x1,%edx
+xor    %r8d,%r8d
+call   298 &lt;_ZN3gpl3FFT5doFFTEv+0x298&gt;	294: R_X86_64_PLT32	_ZN3gpl7ddcst2dEiiiPPfS0_PiS0_-0x4
+add    $0x8,%rsp
+pop    %rbx
+pop    %rbp
+ret
+&#39; &lt;str&gt; [Code instructions (assembly with possibly high level language code intermixed)]
+    │   ├── is_demangled = &#39;True&#39; &lt;bool&gt; [True if the symbol name is demangled]
+    │   ├── is_stored_in_program_memory = &#39;True&#39; &lt;bool&gt; [True if the symbol is stored in program memory]
+    │   ├── name = &#39;gpl::FFT::doFFT()&#39; &lt;str&gt; [The symbol name (demangled if supported)]
+    │   ├── name_mangled = &#39;_ZN3gpl3FFT5doFFTEv&#39; &lt;str&gt; [The mangled symbol name]
+    │   ├── size = &#39;671&#39; &lt;int&gt; [Number of bytes occupied by the symbol]
+    │   ├── source
+    │   │   ├── file_id = &#39;None&#39; &lt;NoneType&gt; [The id of the source file]
+    │   │   └── line = &#39;None&#39; &lt;NoneType&gt; [The line number in the source file where the symbol is defined]
+    │   └── type = &#39;T&#39; &lt;str&gt; [Type character matching the characters used by the nm binutils tool]
+    └── size_delta = &#39;607&#39; &lt;int&gt; [Difference in bytes between the resource occupation of the two symbols]
+</pre>
+
+</body>
+</html>
